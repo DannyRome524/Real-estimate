@@ -1,0 +1,5405 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Real Estate Manager Pro\n"
+"POT-Creation-Date: 2019-03-17 20:01+0500\n"
+"PO-Revision-Date: 2019-03-17 20:01+0500\n"
+"Last-Translator: \n"
+"Language-Team: rameez7759@gmail.com\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: rem.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/blocks.class.php:90 inc/admin/register-property.php:3
+#: shortcodes/page-builders/vc-settings.php:6
+#: shortcodes/page-builders/vc-settings.php:14
+#: shortcodes/page-builders/vc-settings.php:22
+#: shortcodes/page-builders/vc-settings.php:30
+#: shortcodes/page-builders/vc-settings.php:38
+#: shortcodes/page-builders/vc-settings.php:46
+#: shortcodes/page-builders/vc-settings.php:54
+#: shortcodes/page-builders/vc-settings.php:62
+#: shortcodes/page-builders/vc-settings.php:70
+#: shortcodes/page-builders/vc-settings.php:78
+#: shortcodes/page-builders/vc-settings.php:86
+#: shortcodes/page-builders/vc-settings.php:94
+#: shortcodes/page-builders/vc-settings.php:102
+#: shortcodes/page-builders/vc-settings.php:110
+#: shortcodes/page-builders/vc-settings.php:118
+#: shortcodes/page-builders/vc-settings.php:126
+#: shortcodes/page-builders/vc-settings.php:134
+#: shortcodes/page-builders/vc-settings.php:142
+msgid "Real Estate Manager"
+msgstr "مدیر املاک و مستغلات"
+
+#: classes/emails.class.php:36
+msgid "New Agent Registered "
+msgstr "جدید عامل ثبت نام"
+
+#: classes/emails.class.php:47
+#, fuzzy
+#| msgid "Registration Successfull "
+msgid "Registration Successful "
+msgstr "ثبت نام با موفقیت انجام شد."
+
+#: classes/emails.class.php:63
+msgid "Approved "
+msgstr "تایید کرد"
+
+#: classes/emails.class.php:79
+msgid "Rejected "
+msgstr "رد"
+
+#: classes/emails.class.php:101
+#, fuzzy
+#| msgid "Property submitted."
+msgid "New Property Submitted "
+msgstr "املاک ارائه شده است."
+
+#: classes/emails.class.php:107
+#, fuzzy
+#| msgid "Property submitted."
+msgid "Property Submitted "
+msgstr "املاک ارائه شده است."
+
+#: classes/emails.class.php:120
+#, fuzzy
+#| msgid "Property Area - "
+msgid "Property Approved "
+msgstr "محدوده ی آگهی"
+
+#: classes/hooks.class.php:131 classes/hooks.class.php:135
+#: core.functions.php:557 inc/menu/page-agents.php:91
+#: inc/menu/page-agents.php:133
+msgid "Details"
+msgstr "جزئیات"
+
+#: classes/hooks.class.php:206
+msgid "Beds"
+msgstr "تخت"
+
+#: classes/hooks.class.php:211
+msgid "Baths"
+msgstr "حمام ها"
+
+#: classes/hooks.class.php:216 inc/arrays/property-fields.php:145
+msgid "Area"
+msgstr "منطقه"
+
+#: classes/hooks.class.php:638 core.functions.php:559
+msgid "Features"
+msgstr "امکانات"
+
+#: classes/hooks.class.php:667 core.functions.php:1232
+#: shortcodes/create-property.php:76 shortcodes/edit-property.php:99
+#: shortcodes/page-builders/all-setting-fields.php:247
+msgid "Tags"
+msgstr "برچسب ها"
+
+#: classes/hooks.class.php:704 inc/admin/register-property.php:14
+#: shortcodes/page-builders/divi-settings.php:163
+#: shortcodes/page-builders/vc-settings.php:44
+msgid "Edit Property"
+msgstr "ویرایش املاک"
+
+#: classes/hooks.class.php:710
+msgid "Find on Map"
+msgstr "جستجوی مکان بر روی نقشه"
+
+#: classes/hooks.class.php:788
+msgid "Name"
+msgstr "نام"
+
+#: classes/hooks.class.php:791 inc/arrays/agent-fields.php:34
+#: inc/menu/page-agents.php:73 inc/menu/page-agents.php:115
+msgid "Email"
+msgstr "پست الکترونیک"
+
+#: classes/hooks.class.php:794
+msgid "Subject"
+msgstr "موضوع"
+
+#: classes/hooks.class.php:797
+msgid "Your Message"
+msgstr "پیغام تو"
+
+#: classes/hooks.class.php:803
+msgid "SEND MESSAGE"
+msgstr "پیام فرستادن"
+
+#: classes/hooks.class.php:810 inc/sidebar-agent-contact.php:35
+msgid "Sending Email, Please Wait..."
+msgstr "ارسال ایمیل، لطفا صبر کنید ..."
+
+#: classes/hooks.class.php:833
+msgid "«"
+msgstr "«"
+
+#: classes/hooks.class.php:834
+msgid "»"
+msgstr "»"
+
+#: classes/hooks.class.php:842
+msgid "Tag:"
+msgstr "برچسب:"
+
+#: classes/hooks.class.php:845
+#, fuzzy
+#| msgid "Properties"
+msgid "Properties:"
+msgstr "خواص"
+
+#: classes/hooks.class.php:864 classes/setup.class.php:624
+#: shortcodes/page-builders/all-setting-fields.php:735
+#: shortcodes/page-builders/all-setting-fields.php:742
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: classes/hooks.class.php:865
+msgid "Request for Customize"
+msgstr "درخواست سفارشی"
+
+#: classes/hooks.class.php:1013
+msgid "You can add more features"
+msgstr ""
+
+#: classes/hooks.class.php:1014 inc/menu/admin-settings-arr.php:658
+#: inc/menu/admin-settings-arr.php:664 inc/menu/admin-settings-arr.php:763
+#: inc/menu/render-admin-settings.php:50
+msgid "here"
+msgstr "اینجا"
+
+#: classes/hooks.class.php:1039 classes/widgets/search-properties.php:89
+#: classes/widgets/search-properties.php:183 core.functions.php:695
+#: core.functions.php:1231 shortcodes/page-builders/all-setting-fields.php:393
+msgid "Property ID"
+msgstr "شناسه ملک"
+
+#: classes/hooks.class.php:1040
+msgid "Featured Image"
+msgstr "تصویر ویژه"
+
+#: classes/setup.class.php:99
+msgid "Property Information"
+msgstr "اطلاعات املاک"
+
+#: classes/setup.class.php:100
+#, fuzzy
+#| msgid "Location Icon URL"
+msgid "Location on Map"
+msgstr "محل سکونت اینترنتی نماد"
+
+#: classes/setup.class.php:101
+msgid "Gallery Images"
+msgstr "اضافه کردن گالری تصاویر"
+
+#: classes/setup.class.php:402 classes/setup.class.php:704
+msgid "Property Agent"
+msgstr "آژانس املاک"
+
+#: classes/setup.class.php:465
+msgid "Attic"
+msgstr "زیرشیروانی"
+
+#: classes/setup.class.php:466
+msgid "Gas Heat"
+msgstr "گرمایش گاز"
+
+#: classes/setup.class.php:467
+msgid "Balcony"
+msgstr "بالکن"
+
+#: classes/setup.class.php:468
+msgid "Wine Cellar"
+msgstr "انبار شراب ."
+
+#: classes/setup.class.php:469
+msgid "Basketball Court"
+msgstr "زمین بسکتبال"
+
+#: classes/setup.class.php:470
+msgid "Trash Compactors"
+msgstr "سطل زباله"
+
+#: classes/setup.class.php:471
+msgid "Fireplace"
+msgstr "شومینه"
+
+#: classes/setup.class.php:472
+msgid "Pool"
+msgstr "بازی"
+
+#: classes/setup.class.php:473
+msgid "Lake View"
+msgstr "نمایش دریاچه"
+
+#: classes/setup.class.php:474
+msgid "Solar Heat"
+msgstr "گرمای خورشیدی"
+
+#: classes/setup.class.php:475
+msgid "Separate Shower"
+msgstr "دوش جداگانه"
+
+#: classes/setup.class.php:476
+msgid "Wet Bar"
+msgstr "نوار خیس"
+
+#: classes/setup.class.php:477
+msgid "Remodeled"
+msgstr "بازسازی شده"
+
+#: classes/setup.class.php:478
+msgid "Skylights"
+msgstr "پنجره های سقف"
+
+#: classes/setup.class.php:479
+msgid "Stone Surfaces"
+msgstr "سطوح سنگی"
+
+#: classes/setup.class.php:480
+msgid "Golf Course"
+msgstr "زمین گلف"
+
+#: classes/setup.class.php:481
+msgid "Health Club"
+msgstr "باشگاه سلامت"
+
+#: classes/setup.class.php:482
+msgid "Backyard"
+msgstr "حیاط خلوت"
+
+#: classes/setup.class.php:483
+msgid "Pet Allowed"
+msgstr "حیوان خانگی مجاز است"
+
+#: classes/setup.class.php:484
+msgid "Office/Den"
+msgstr "دفتر / دون"
+
+#: classes/setup.class.php:485
+msgid "Laundry"
+msgstr "رخت‌شویی"
+
+#: classes/setup.class.php:498
+msgid "Duplex"
+msgstr "مضاعف"
+
+#: classes/setup.class.php:499
+msgid "House"
+msgstr "خانه"
+
+#: classes/setup.class.php:500
+msgid "Office"
+msgstr "شماره تماس"
+
+#: classes/setup.class.php:501
+msgid "Retail"
+msgstr "خرده فروشی"
+
+#: classes/setup.class.php:502
+msgid "Vila"
+msgstr "ویلا"
+
+#: classes/setup.class.php:515
+msgid "Rent"
+msgstr "اجاره"
+
+#: classes/setup.class.php:516
+msgid "Sell"
+msgstr "فروش"
+
+#: classes/setup.class.php:529
+msgid "Normal"
+msgstr "نرمال"
+
+#: classes/setup.class.php:530
+msgid "Available"
+msgstr "در دسترس"
+
+#: classes/setup.class.php:531
+msgid "Not Available"
+msgstr "در دسترس نیست"
+
+#: classes/setup.class.php:532
+msgid "Sold"
+msgstr "فروش رفته"
+
+#: classes/setup.class.php:533
+msgid "Open House"
+msgstr "بازدید تمام وقت"
+
+#: classes/setup.class.php:548 classes/shortcodes.class.php:1305
+#: classes/shortcodes.class.php:1544
+msgid "Please check the captcha form."
+msgstr ""
+
+#: classes/setup.class.php:557 classes/shortcodes.class.php:1314
+msgid "There was an error. Please try again after reloading page"
+msgstr ""
+
+#: classes/setup.class.php:611
+msgid "Email Sent Successfully"
+msgstr "ایمیل با موفقیت ارسال شد"
+
+#: classes/setup.class.php:613
+msgid "There is some problem, please try later"
+msgstr "برخی از مشکل وجود دارد، لطفا بعدا امتحان کنید"
+
+#: classes/setup.class.php:621
+msgid "Agents"
+msgstr "عوامل"
+
+#: classes/setup.class.php:622
+#, fuzzy
+#| msgid "Properties"
+msgid "Property Fields"
+msgstr "خواص"
+
+#: classes/setup.class.php:623
+#, fuzzy
+#| msgid "Reset Fields"
+msgid "Registration Fields"
+msgstr "ریست کردن فیلدها"
+
+#: classes/setup.class.php:625
+msgid "Extensions"
+msgstr ""
+
+#: classes/setup.class.php:626
+msgid "Help/Support"
+msgstr ""
+
+#: classes/setup.class.php:787 classes/setup.class.php:818
+#: classes/setup.class.php:1074
+#, fuzzy
+#| msgid "Settings Saved"
+msgid "Settings Saved!"
+msgstr "تنظیمات ذخیره شد! "
+
+#: classes/setup.class.php:788 classes/setup.class.php:819
+#: classes/setup.class.php:1075
+msgid "Settings are saved in the database successfully."
+msgstr ""
+
+#: classes/setup.class.php:799 classes/setup.class.php:822
+#: classes/setup.class.php:1078
+msgid "Failed!"
+msgstr ""
+
+#: classes/setup.class.php:800 classes/setup.class.php:823
+#: classes/setup.class.php:1079
+msgid "There is some error or you did not make any change."
+msgstr ""
+
+#: classes/setup.class.php:845 classes/setup.class.php:848
+msgid "Property updated."
+msgstr "املاک روز شده است."
+
+#: classes/setup.class.php:846
+msgid "Custom field updated."
+msgstr "زمینه های سفارشی به روز شد."
+
+#: classes/setup.class.php:847
+msgid "Custom field deleted."
+msgstr "زمینه های سفارشی حذف شده است."
+
+#. translators: %s: date and time of the revision
+#: classes/setup.class.php:850
+#, fuzzy
+#| msgid "Property restored to revision from %s"
+msgid "Property restored to revision"
+msgstr "املاک به تجدید نظر از٪ s ترمیم"
+
+#: classes/setup.class.php:851
+msgid "Property published."
+msgstr "املاک منتشر شده است."
+
+#: classes/setup.class.php:852
+msgid "Property saved."
+msgstr "املاک نجات داد."
+
+#: classes/setup.class.php:853
+msgid "Property submitted."
+msgstr "املاک ارائه شده است."
+
+#: classes/setup.class.php:855
+#, fuzzy
+#| msgid "Property saved."
+msgid "Property scheduled."
+msgstr "املاک نجات داد."
+
+#. translators: Publish box date format, see http://php.net/date
+#: classes/setup.class.php:857
+msgid "M j, Y @ G:i"
+msgstr "M J، Y @ G: من"
+
+#: classes/setup.class.php:859
+msgid "Property draft updated."
+msgstr "پیش نویس املاک به روز شد."
+
+#: classes/setup.class.php:865 inc/admin/register-property.php:16
+msgid "View Property"
+msgstr "نمایش املاک"
+
+#: classes/setup.class.php:871
+msgid "Preview Property"
+msgstr "پیش نمایش املاک"
+
+#: classes/setup.class.php:936
+msgid "Property Page Base"
+msgstr "صفحه املاک صفحه"
+
+#: classes/setup.class.php:961 shortcodes/manage-properties.php:44
+#: shortcodes/my-properties.php:37
+msgid "Type"
+msgstr "نوع"
+
+#: classes/setup.class.php:962 inc/arrays/property-fields.php:101
+#: shortcodes/manage-properties.php:46 shortcodes/my-properties.php:39
+msgid "Purpose"
+msgstr "هدف"
+
+#: classes/setup.class.php:963 inc/arrays/property-fields.php:112
+#: shortcodes/manage-properties.php:47 shortcodes/my-properties.php:40
+msgid "Status"
+msgstr "وضعیت"
+
+#: classes/setup.class.php:964
+#, fuzzy
+#| msgid "Features"
+msgid "Is Featured"
+msgstr "امکانات"
+
+#: classes/setup.class.php:992
+#, fuzzy
+#| msgid "Any Type"
+msgid "All Types"
+msgstr "هر نوعی"
+
+#: classes/setup.class.php:1004
+#, fuzzy
+#| msgid "Any Purpose"
+msgid "All Purpose"
+msgstr "هر هدف"
+
+#: classes/setup.class.php:1015
+#, fuzzy
+#| msgid "Any Status"
+msgid "All Status"
+msgstr "هر وضعیت"
+
+#: classes/shortcodes.class.php:85
+msgid "Passwords did not match!"
+msgstr ""
+
+#: classes/shortcodes.class.php:103 classes/shortcodes.class.php:448
+#: classes/shortcodes.class.php:899
+msgid ""
+"Live Preview is not available in Elementor edit mode but will work when "
+"visiting this page."
+msgstr ""
+
+#: classes/shortcodes.class.php:109 classes/widgets/search-properties.php:104
+#: shortcodes/manage-properties.php:23 shortcodes/my-properties.php:22
+msgid "Search"
+msgstr "جستجو کردن"
+
+#: classes/shortcodes.class.php:110
+msgid "More Filters"
+msgstr "فیلترهای بیشتر"
+
+#: classes/shortcodes.class.php:195
+#, fuzzy
+#| msgid "Sending Email, Please Wait..."
+msgid "Logging In, Please Wait..."
+msgstr "ارسال ایمیل، لطفا صبر کنید ..."
+
+#: classes/shortcodes.class.php:387 classes/shortcodes.class.php:422
+msgid "Are you sure to delete this property?"
+msgstr ""
+
+#: classes/shortcodes.class.php:388 classes/shortcodes.class.php:423
+#: inc/arrays/property-fields.php:226
+msgid "Yes"
+msgstr ""
+
+#: classes/shortcodes.class.php:389 classes/shortcodes.class.php:424
+#: inc/arrays/property-fields.php:225
+msgid "No"
+msgstr ""
+
+#: classes/shortcodes.class.php:390 classes/shortcodes.class.php:425
+#: classes/shortcodes.class.php:1457
+msgid "Done"
+msgstr ""
+
+#: classes/shortcodes.class.php:1106 shortcodes/edit-agent.php:45
+msgid "Logout"
+msgstr "خروج "
+
+#: classes/shortcodes.class.php:1297
+msgid "There is no property having ID "
+msgstr ""
+
+#: classes/shortcodes.class.php:1336
+msgid "Successful!"
+msgstr ""
+
+#: classes/shortcodes.class.php:1482
+msgid "Changes Saved!"
+msgstr "تغییرات ذخیره شد!"
+
+#: classes/shortcodes.class.php:1553
+msgid "There was an error. Please try again after reloading page."
+msgstr ""
+
+#: classes/shortcodes.class.php:1561 classes/shortcodes.class.php:1597
+msgid "Username or Email already exists"
+msgstr "نام کاربری یا پست قبلا وجود داشته"
+
+#: classes/shortcodes.class.php:1569 classes/shortcodes.class.php:1610
+msgid "Registered Successfully, please wait until admin approves."
+msgstr "با موفقیت ثبت نام، لطفا صبر کنید تا مدیر را تصویب کرد."
+
+#: classes/shortcodes.class.php:1571 classes/shortcodes.class.php:1612
+msgid "Error, please try later"
+msgstr "خطا، لطفا بعدا امتحان کنید"
+
+#: classes/shortcodes.class.php:1631
+#, fuzzy
+#| msgid "Delete"
+msgid "Deleted"
+msgstr "حذف"
+
+#: classes/shortcodes.class.php:1691
+msgid "Choose Picture"
+msgstr ""
+
+#: classes/shortcodes.class.php:1691 classes/shortcodes.class.php:1734
+#: core.functions.php:639
+#, fuzzy
+#| msgid "Added"
+msgid "Add"
+msgstr "اضافه"
+
+#: classes/shortcodes.class.php:1734 core.functions.php:639
+#, fuzzy
+#| msgid "Provide heading text for attachments on property pages"
+msgid "Select attachments for property"
+msgstr "متن عنوان را برای پیوست ها در صفحات املاک قرار دهید"
+
+#: classes/shortcodes.class.php:1734 core.functions.php:639
+msgid "Upload"
+msgstr "آپلود"
+
+#: classes/shortcodes.class.php:1746 core.functions.php:626
+#: core.functions.php:740 core.functions.php:759 core.functions.php:797
+msgid "Any"
+msgstr "محدودیت طول متن (در صورت وجود)"
+
+#: classes/shortcodes.class.php:1804
+msgid "Sort By Date"
+msgstr ""
+
+#: classes/shortcodes.class.php:1808
+#, fuzzy
+#| msgid "Property Title"
+msgid "Sort By Title"
+msgstr "عنوان ملک در"
+
+#: classes/shortcodes.class.php:1812
+msgid "Sort By Price : High to Low"
+msgstr ""
+
+#: classes/shortcodes.class.php:1816
+msgid "Sort By Price : Low to High"
+msgstr ""
+
+#: classes/widgets/mortgage-calculator.php:13
+msgid "REM - Mortgage Calculator"
+msgstr "REM - ماشین حساب وام"
+
+#: classes/widgets/mortgage-calculator.php:14
+msgid "Displays Mortgage Calculator"
+msgstr "نمایش ماشین حساب وام"
+
+#: classes/widgets/mortgage-calculator.php:41
+msgid "Sale price"
+msgstr "قیمت فروش"
+
+#: classes/widgets/mortgage-calculator.php:45
+msgid "Down payment"
+msgstr "پيش پرداخت"
+
+#: classes/widgets/mortgage-calculator.php:49
+msgid "Interest Rate"
+msgstr "نرخ بهره"
+
+#: classes/widgets/mortgage-calculator.php:53
+msgid "Term"
+msgstr "ترم"
+
+#: classes/widgets/mortgage-calculator.php:53
+msgid "years"
+msgstr "سال‌"
+
+#: classes/widgets/mortgage-calculator.php:56
+msgid "Calculate"
+msgstr "محاسبه کنید"
+
+#: classes/widgets/mortgage-calculator.php:68
+#: classes/widgets/search-properties.php:121 classes/widgets/tags-cloud.php:34
+#: core.functions.php:700 shortcodes/manage-properties.php:43
+#: shortcodes/my-properties.php:36
+msgid "Title"
+msgstr "عنوان"
+
+#: classes/widgets/search-properties.php:15
+msgid "REM - Search Property"
+msgstr "REM - املاک جستجو"
+
+#: classes/widgets/search-properties.php:16
+msgid "Search Properties"
+msgstr "جستجوی ملک"
+
+#: classes/widgets/search-properties.php:74 shortcodes/search-property.php:43
+msgid "Keywords"
+msgstr "کلید واژه ها"
+
+#: classes/widgets/search-properties.php:86
+#: classes/widgets/search-properties.php:156 core.functions.php:678
+#: core.functions.php:1228 shortcodes/page-builders/all-setting-fields.php:15
+#: shortcodes/page-builders/all-setting-fields.php:206
+#: shortcodes/page-builders/all-setting-fields.php:551
+#: shortcodes/page-builders/all-setting-fields.php:598
+#: shortcodes/page-builders/all-setting-fields.php:931
+msgid "Order"
+msgstr "ترتیب"
+
+#: classes/widgets/search-properties.php:87
+#: classes/widgets/search-properties.php:165 core.functions.php:699
+#: core.functions.php:1229 shortcodes/page-builders/all-setting-fields.php:25
+#: shortcodes/page-builders/all-setting-fields.php:216
+#: shortcodes/page-builders/all-setting-fields.php:561
+#: shortcodes/page-builders/all-setting-fields.php:612
+#: shortcodes/page-builders/all-setting-fields.php:941
+msgid "Order By"
+msgstr "مرتب بر اساس"
+
+#: classes/widgets/search-properties.php:88
+#: classes/widgets/search-properties.php:174 core.functions.php:707
+#: core.functions.php:1230 shortcodes/manage-properties.php:48
+#: shortcodes/page-builders/all-setting-fields.php:30
+#: shortcodes/page-builders/all-setting-fields.php:220
+#: shortcodes/page-builders/all-setting-fields.php:259
+#: shortcodes/page-builders/all-setting-fields.php:445
+#: shortcodes/page-builders/all-setting-fields.php:565
+#: shortcodes/page-builders/all-setting-fields.php:616
+#: shortcodes/page-builders/all-setting-fields.php:727
+msgid "Agent"
+msgstr "عامل"
+
+#: classes/widgets/search-properties.php:136 core.functions.php:1222
+msgid "Search Field"
+msgstr "فیلد جستجو"
+
+#: classes/widgets/search-properties.php:192
+msgid "Enable Auto Complete Fields"
+msgstr ""
+
+#: classes/widgets/search-properties.php:194
+msgid "It will auto suggest words in text fields as user type in."
+msgstr ""
+
+#: classes/widgets/search-properties.php:197
+msgid "Search Results Page"
+msgstr "صفحه نتایج جستجو"
+
+#: classes/widgets/search-properties.php:218
+#: inc/menu/render-admin-settings.php:167
+msgid "No Pages Found!"
+msgstr "صفحات یافت نشد"
+
+#: classes/widgets/search-properties.php:221
+msgid "Paste following shortcode in selected page to display results"
+msgstr "برای نمایش نتایج، در پایین صفحه قرار دهید"
+
+#: classes/widgets/tags-cloud.php:13
+msgid "REM - Tags Cloud"
+msgstr ""
+
+#: classes/widgets/tags-cloud.php:14
+#, fuzzy
+#| msgid "Display Properties"
+msgid "Displays Properties Tags Cloud"
+msgstr "نمایش ملک ها"
+
+#: core.functions.php:124
+msgid "United Arab Emirates dirham"
+msgstr "درهم امارات"
+
+#: core.functions.php:125
+msgid "Afghan afghani"
+msgstr "افغانستانی"
+
+#: core.functions.php:126
+msgid "Albanian lek"
+msgstr "Albanian lek"
+
+#: core.functions.php:127
+msgid "Armenian dram"
+msgstr "Armenian dram"
+
+#: core.functions.php:128
+msgid "Netherlands Antillean guilder"
+msgstr "Netherlands Antillean guilder"
+
+#: core.functions.php:129
+msgid "Angolan kwanza"
+msgstr "Angolan kwanza"
+
+#: core.functions.php:130
+msgid "Argentine peso"
+msgstr "پزوی آرژانتین"
+
+#: core.functions.php:131
+msgid "Australian dollar"
+msgstr "دلار استرالیا"
+
+#: core.functions.php:132
+msgid "Aruban florin"
+msgstr "Aruban florin"
+
+#: core.functions.php:133
+msgid "Azerbaijani manat"
+msgstr "Azerbaijani manat"
+
+#: core.functions.php:134
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr "Azerbaijani manat"
+
+#: core.functions.php:135
+msgid "Barbadian dollar"
+msgstr "Barbadian dollar"
+
+#: core.functions.php:136
+msgid "Bangladeshi taka"
+msgstr "تاکا بنگلادش"
+
+#: core.functions.php:137
+msgid "Bulgarian lev"
+msgstr "لو بلغارستان"
+
+#: core.functions.php:138
+msgid "Bahraini dinar"
+msgstr "Bahraini dinar"
+
+#: core.functions.php:139
+msgid "Burundian franc"
+msgstr "Burundian franc"
+
+#: core.functions.php:140
+msgid "Bermudian dollar"
+msgstr "Bermudian dollar"
+
+#: core.functions.php:141
+msgid "Brunei dollar"
+msgstr "Brunei dollar"
+
+#: core.functions.php:142
+msgid "Bolivian boliviano"
+msgstr "Bolivian boliviano"
+
+#: core.functions.php:143
+msgid "Brazilian real"
+msgstr "رئال برزیل"
+
+#: core.functions.php:144
+msgid "Bahamian dollar"
+msgstr "Bahamian dollar"
+
+#: core.functions.php:145
+msgid "Bitcoin"
+msgstr "بیت کوین"
+
+#: core.functions.php:146
+msgid "Bhutanese ngultrum"
+msgstr "Bhutanese ngultrum"
+
+#: core.functions.php:147
+msgid "Botswana pula"
+msgstr "Botswana pula"
+
+#: core.functions.php:148
+msgid "Belarusian ruble"
+msgstr "Belarusian ruble"
+
+#: core.functions.php:149
+msgid "Belize dollar"
+msgstr "Belize dollar"
+
+#: core.functions.php:150
+msgid "Canadian dollar"
+msgstr "دلار کانادا"
+
+#: core.functions.php:151
+msgid "Congolese franc"
+msgstr "Congolese franc"
+
+#: core.functions.php:152
+msgid "Swiss franc"
+msgstr "فرانک سوئیس"
+
+#: core.functions.php:153
+msgid "Chilean peso"
+msgstr "پزو شیلی"
+
+#: core.functions.php:154
+msgid "Chinese yuan"
+msgstr "یوان چین"
+
+#: core.functions.php:155
+msgid "Colombian peso"
+msgstr "پزوی کلمبیا"
+
+#: core.functions.php:156
+msgid "Costa Rican col&oacute;n"
+msgstr "Costa Rican col&oacute;n"
+
+#: core.functions.php:157
+msgid "Cuban convertible peso"
+msgstr "Cuban convertible peso"
+
+#: core.functions.php:158
+msgid "Cuban peso"
+msgstr "Cuban peso"
+
+#: core.functions.php:159
+msgid "Cape Verdean escudo"
+msgstr "Cape Verdean escudo"
+
+#: core.functions.php:160
+msgid "Czech koruna"
+msgstr "کرونا چک"
+
+#: core.functions.php:161
+msgid "Djiboutian franc"
+msgstr "Djiboutian franc"
+
+#: core.functions.php:162
+msgid "Danish krone"
+msgstr "کرون دانمارک"
+
+#: core.functions.php:163
+msgid "Dominican peso"
+msgstr "پزو دومینیکن"
+
+#: core.functions.php:164
+msgid "Algerian dinar"
+msgstr "دینار الجزیره"
+
+#: core.functions.php:165
+msgid "Egyptian pound"
+msgstr "پوند مصر"
+
+#: core.functions.php:166
+msgid "Eritrean nakfa"
+msgstr "Eritrean nakfa"
+
+#: core.functions.php:167
+msgid "Ethiopian birr"
+msgstr "Ethiopian birr"
+
+#: core.functions.php:168
+msgid "Euro"
+msgstr "یورو"
+
+#: core.functions.php:169
+msgid "Fijian dollar"
+msgstr "Fijian dollar"
+
+#: core.functions.php:170
+msgid "Falkland Islands pound"
+msgstr "Falkland Islands pound"
+
+#: core.functions.php:171
+msgid "Pound sterling"
+msgstr "پوند استرلینگ"
+
+#: core.functions.php:172
+msgid "Georgian lari"
+msgstr "Georgian lari"
+
+#: core.functions.php:173
+msgid "Guernsey pound"
+msgstr "Guernsey pound"
+
+#: core.functions.php:174
+msgid "Ghana cedi"
+msgstr "Ghana cedi"
+
+#: core.functions.php:175
+msgid "Gibraltar pound"
+msgstr "Gibraltar pound"
+
+#: core.functions.php:176
+msgid "Gambian dalasi"
+msgstr "Gambian dalasi"
+
+#: core.functions.php:177
+msgid "Guinean franc"
+msgstr "Guinean franc"
+
+#: core.functions.php:178
+msgid "Guatemalan quetzal"
+msgstr "Guatemalan quetzal"
+
+#: core.functions.php:179
+msgid "Guyanese dollar"
+msgstr "Guyanese dollar"
+
+#: core.functions.php:180
+msgid "Hong Kong dollar"
+msgstr "دلار هنگ کنگ"
+
+#: core.functions.php:181
+msgid "Honduran lempira"
+msgstr "Honduran lempira"
+
+#: core.functions.php:182
+msgid "Croatian kuna"
+msgstr "کونا"
+
+#: core.functions.php:183
+msgid "Haitian gourde"
+msgstr "Haitian gourde"
+
+#: core.functions.php:184
+msgid "Hungarian forint"
+msgstr "فورینت مجارستان"
+
+#: core.functions.php:185
+msgid "Indonesian rupiah"
+msgstr "روپیه اندونزی"
+
+#: core.functions.php:186
+msgid "Israeli new shekel"
+msgstr "Israeli new shekel"
+
+#: core.functions.php:187
+msgid "Manx pound"
+msgstr "Manx pound"
+
+#: core.functions.php:188
+msgid "Indian rupee"
+msgstr "روپیه هند"
+
+#: core.functions.php:189
+msgid "Iraqi dinar"
+msgstr "Iraqi dinar"
+
+#: core.functions.php:190
+msgid "Iranian rial"
+msgstr "ریال ایران"
+
+#: core.functions.php:191
+msgid "Icelandic kr&oacute;na"
+msgstr "Icelandic kr&oacute;na"
+
+#: core.functions.php:192
+msgid "Jersey pound"
+msgstr "Jersey pound"
+
+#: core.functions.php:193
+msgid "Jamaican dollar"
+msgstr "Jamaican dollar"
+
+#: core.functions.php:194
+msgid "Jordanian dinar"
+msgstr "Jordanian dinar"
+
+#: core.functions.php:195
+msgid "Japanese yen"
+msgstr "ین"
+
+#: core.functions.php:196
+msgid "Kenyan shilling"
+msgstr "Kenyan Shilling"
+
+#: core.functions.php:197
+msgid "Kyrgyzstani som"
+msgstr "Kyrgyzstani som"
+
+#: core.functions.php:198
+msgid "Cambodian riel"
+msgstr "Cambodian riel"
+
+#: core.functions.php:199
+msgid "Comorian franc"
+msgstr "Comorian franc"
+
+#: core.functions.php:200
+msgid "North Korean won"
+msgstr "North Korean won"
+
+#: core.functions.php:201
+msgid "South Korean won"
+msgstr "وون کره جنوبی"
+
+#: core.functions.php:202
+msgid "Kuwaiti dinar"
+msgstr "Kuwaiti dinar"
+
+#: core.functions.php:203
+msgid "Cayman Islands dollar"
+msgstr "Cayman Islands dollar"
+
+#: core.functions.php:204
+msgid "Kazakhstani tenge"
+msgstr "Kazakhstani tenge"
+
+#: core.functions.php:205
+msgid "Lao kip"
+msgstr "کیپ لائوس"
+
+#: core.functions.php:206
+msgid "Lebanese pound"
+msgstr "Lebanese pound"
+
+#: core.functions.php:207
+msgid "Sri Lankan rupee"
+msgstr "Sri Lankan rupee"
+
+#: core.functions.php:208
+msgid "Liberian dollar"
+msgstr "Liberian dollar"
+
+#: core.functions.php:209
+msgid "Lesotho loti"
+msgstr "Lesotho loti"
+
+#: core.functions.php:210
+msgid "Libyan dinar"
+msgstr "Libyan dinar"
+
+#: core.functions.php:211
+msgid "Moroccan dirham"
+msgstr "درهم مراکش"
+
+#: core.functions.php:212
+msgid "Moldovan leu"
+msgstr "Moldovan leu"
+
+#: core.functions.php:213
+msgid "Malagasy ariary"
+msgstr "Malagasy ariary"
+
+#: core.functions.php:214
+msgid "Macedonian denar"
+msgstr "Macedonian denar"
+
+#: core.functions.php:215
+msgid "Burmese kyat"
+msgstr "Burmese kyat"
+
+#: core.functions.php:216
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr "Mongolian t&ouml;gr&ouml;g"
+
+#: core.functions.php:217
+msgid "Macanese pataca"
+msgstr "Macanese pataca"
+
+#: core.functions.php:218
+msgid "Mauritanian ouguiya"
+msgstr "Mauritanian ouguiya"
+
+#: core.functions.php:219
+msgid "Mauritian rupee"
+msgstr "Mauritian rupee"
+
+#: core.functions.php:220
+msgid "Maldivian rufiyaa"
+msgstr "Maldivian rufiyaa"
+
+#: core.functions.php:221
+msgid "Malawian kwacha"
+msgstr "Malawian kwacha"
+
+#: core.functions.php:222
+msgid "Mexican peso"
+msgstr "پزو مکزیک"
+
+#: core.functions.php:223
+msgid "Malaysian ringgit"
+msgstr "رینگیت"
+
+#: core.functions.php:224
+msgid "Mozambican metical"
+msgstr "Mozambican metical"
+
+#: core.functions.php:225
+msgid "Namibian dollar"
+msgstr "Namibian dollar"
+
+#: core.functions.php:226
+msgid "Nigerian naira"
+msgstr "نایرا نیجریه"
+
+#: core.functions.php:227
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr "Nicaraguan c&oacute;rdoba"
+
+#: core.functions.php:228
+msgid "Norwegian krone"
+msgstr "کرون نروژ"
+
+#: core.functions.php:229
+msgid "Nepalese rupee"
+msgstr "Nepalese rupee"
+
+#: core.functions.php:230
+msgid "New Zealand dollar"
+msgstr "دلار نیوزلند"
+
+#: core.functions.php:231
+msgid "Omani rial"
+msgstr "Omani rial"
+
+#: core.functions.php:232
+msgid "Panamanian balboa"
+msgstr "Panamanian balboa"
+
+#: core.functions.php:233
+msgid "Peruvian nuevo sol"
+msgstr "Peruvian nuevo sol"
+
+#: core.functions.php:234
+msgid "Papua New Guinean kina"
+msgstr "Papua New Guinean kina"
+
+#: core.functions.php:235
+msgid "Philippine peso"
+msgstr "پزو فیلیپین"
+
+#: core.functions.php:236
+msgid "Pakistani rupee"
+msgstr "روپیه پاکستان"
+
+#: core.functions.php:237
+msgid "Polish z&#x142;oty"
+msgstr "Polish z&#x142;oty"
+
+#: core.functions.php:238
+msgid "Transnistrian ruble"
+msgstr "Transnistrian ruble"
+
+#: core.functions.php:239
+msgid "Paraguayan guaran&iacute;"
+msgstr "Paraguayan guaran&iacute;"
+
+#: core.functions.php:240
+msgid "Qatari riyal"
+msgstr "Qatari riyal"
+
+#: core.functions.php:241
+msgid "Romanian leu"
+msgstr "لئوی رومانی"
+
+#: core.functions.php:242
+msgid "Serbian dinar"
+msgstr "Serbian dinar"
+
+#: core.functions.php:243
+msgid "Russian ruble"
+msgstr "روبل روسیه"
+
+#: core.functions.php:244
+msgid "Rwandan franc"
+msgstr "Rwandan franc"
+
+#: core.functions.php:245
+msgid "Saudi riyal"
+msgstr "ریال عربستان سعودی"
+
+#: core.functions.php:246
+msgid "Solomon Islands dollar"
+msgstr "دلار جزاير سليمان"
+
+#: core.functions.php:247
+msgid "Seychellois rupee"
+msgstr "Seychellois rupee"
+
+#: core.functions.php:248
+msgid "Sudanese pound"
+msgstr "Sudanese pound"
+
+#: core.functions.php:249
+msgid "Swedish krona"
+msgstr "کرون سوئد"
+
+#: core.functions.php:250
+msgid "Singapore dollar"
+msgstr "دلار سنگاپور"
+
+#: core.functions.php:251
+msgid "Saint Helena pound"
+msgstr "Saint Helena pound"
+
+#: core.functions.php:252
+msgid "Sierra Leonean leone"
+msgstr "Sierra Leonean leone"
+
+#: core.functions.php:253
+msgid "Somali shilling"
+msgstr "Somali shilling"
+
+#: core.functions.php:254
+msgid "Surinamese dollar"
+msgstr "Surinamese dollar"
+
+#: core.functions.php:255
+msgid "South Sudanese pound"
+msgstr "South Sudanese pound"
+
+#: core.functions.php:256
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+
+#: core.functions.php:257
+msgid "Syrian pound"
+msgstr "Syrian pound"
+
+#: core.functions.php:258
+msgid "Swazi lilangeni"
+msgstr "Swazi lilangeni"
+
+#: core.functions.php:259
+msgid "Thai baht"
+msgstr "بات"
+
+#: core.functions.php:260
+msgid "Tajikistani somoni"
+msgstr "Tajikistani somoni"
+
+#: core.functions.php:261
+msgid "Turkmenistan manat"
+msgstr "منات تركمنستان"
+
+#: core.functions.php:262
+msgid "Tunisian dinar"
+msgstr "Tunisian dinar"
+
+#: core.functions.php:263
+msgid "Tongan pa&#x2bb;anga"
+msgstr "Tongan pa&#x2bb;anga"
+
+#: core.functions.php:264
+msgid "Turkish lira"
+msgstr "لیره ترک"
+
+#: core.functions.php:265
+msgid "Trinidad and Tobago dollar"
+msgstr "Trinidad and Tobago dollar"
+
+#: core.functions.php:266
+msgid "New Taiwan dollar"
+msgstr "New Taiwan dollar"
+
+#: core.functions.php:267
+msgid "Tanzanian shilling"
+msgstr "Tanzanian shilling"
+
+#: core.functions.php:268
+msgid "Ukrainian hryvnia"
+msgstr "گریونا"
+
+#: core.functions.php:269
+msgid "Ugandan shilling"
+msgstr "Ugandan shilling"
+
+#: core.functions.php:270
+msgid "United States dollar"
+msgstr "United States dollar"
+
+#: core.functions.php:271
+msgid "Uruguayan peso"
+msgstr "Uruguayan peso"
+
+#: core.functions.php:272
+msgid "Uzbekistani som"
+msgstr "Uzbekistani som"
+
+#: core.functions.php:273
+msgid "Venezuelan bol&iacute;var"
+msgstr "Venezuelan bol&iacute;var"
+
+#: core.functions.php:274
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr "Vietnamese &#x111;&#x1ed3;ng"
+
+#: core.functions.php:275
+msgid "Vanuatu vatu"
+msgstr "Vanuatu vatu"
+
+#: core.functions.php:276
+msgid "Samoan t&#x101;l&#x101;"
+msgstr "Samoan t&#x101;l&#x101;"
+
+#: core.functions.php:277
+msgid "Central African CFA franc"
+msgstr "Central African CFA franc"
+
+#: core.functions.php:278
+msgid "East Caribbean dollar"
+msgstr "East Caribbean dollar"
+
+#: core.functions.php:279
+msgid "West African CFA franc"
+msgstr "West African CFA franc"
+
+#: core.functions.php:280
+msgid "CFP franc"
+msgstr "CFP franc"
+
+#: core.functions.php:281
+msgid "Yemeni rial"
+msgstr "Yemeni rial"
+
+#: core.functions.php:282
+msgid "South African rand"
+msgstr "رند آفریقای جنوبی"
+
+#: core.functions.php:283
+msgid "Zambian kwacha"
+msgstr "Zambian kwacha"
+
+#: core.functions.php:558
+msgid "Internal Structure"
+msgstr "ساختار داخلی"
+
+#: core.functions.php:560
+msgid "Attachments"
+msgstr "پیوست ها"
+
+#: core.functions.php:561
+msgid "Video"
+msgstr "تصویری"
+
+#: core.functions.php:562
+#, fuzzy
+#| msgid "Fixed Fields"
+msgid "Private Fields"
+msgstr "زمینه های ثابت"
+
+#: core.functions.php:574
+msgid "Personal Info"
+msgstr "اطلاعات شخصی"
+
+#: core.functions.php:575
+msgid "Social Profiles"
+msgstr "پروفایل های اجتماعی"
+
+#: core.functions.php:576
+msgid "Skills"
+msgstr "مهارت ها"
+
+#: core.functions.php:592
+msgid "Style 1 - Inline"
+msgstr ""
+
+#: core.functions.php:593
+msgid "Style 2 - Static Box"
+msgstr ""
+
+#: core.functions.php:594
+msgid "Style 3 - Hover Box"
+msgstr ""
+
+#: core.functions.php:595
+msgid "Style 4 - Mini Box"
+msgstr ""
+
+#: core.functions.php:596
+#, fuzzy
+#| msgid "Full Box"
+msgid "Style 5 - Full Box"
+msgstr "جعبه پر"
+
+#: core.functions.php:597
+msgid "Style 6 - Fade Thumbnails"
+msgstr ""
+
+#: core.functions.php:598
+#, fuzzy
+#| msgid "Full Box"
+msgid "Style 7 - Map Box"
+msgstr "جعبه پر"
+
+#: core.functions.php:662
+msgid "NO"
+msgstr "نه"
+
+#: core.functions.php:662
+msgid "YES"
+msgstr "بله"
+
+#: core.functions.php:679 shortcodes/page-builders/all-setting-fields.php:19
+#: shortcodes/page-builders/all-setting-fields.php:210
+#: shortcodes/page-builders/all-setting-fields.php:555
+#: shortcodes/page-builders/all-setting-fields.php:602
+#: shortcodes/page-builders/all-setting-fields.php:935
+msgid "Descending"
+msgstr "نزولی"
+
+#: core.functions.php:680 shortcodes/page-builders/all-setting-fields.php:18
+#: shortcodes/page-builders/all-setting-fields.php:209
+#: shortcodes/page-builders/all-setting-fields.php:554
+#: shortcodes/page-builders/all-setting-fields.php:601
+#: shortcodes/page-builders/all-setting-fields.php:934
+msgid "Ascending"
+msgstr "صعودی"
+
+#: core.functions.php:685
+#, fuzzy
+#| msgctxt "Tags"
+#| msgid "Tag"
+msgid "Tag"
+msgstr "برچسب"
+
+#: core.functions.php:701 shortcodes/page-builders/all-setting-fields.php:28
+#: shortcodes/page-builders/all-setting-fields.php:219
+#: shortcodes/page-builders/all-setting-fields.php:564
+#: shortcodes/page-builders/all-setting-fields.php:615
+msgid "Date"
+msgstr "تاریخ"
+
+#: core.functions.php:702 core.functions.php:840 core.functions.php:852
+#: inc/arrays/property-fields.php:8
+#: shortcodes/page-builders/all-setting-fields.php:568
+msgid "Price"
+msgstr "قیمت"
+
+#: core.functions.php:855
+msgid "Min"
+msgstr ""
+
+#: core.functions.php:857
+msgid "Max"
+msgstr ""
+
+#: inc/admin/property-images-metabox.php:1 shortcodes/create-property.php:27
+msgid "Select images for property gallery"
+msgstr ""
+
+#: inc/admin/property-images-metabox.php:1 shortcodes/create-property.php:27
+msgid "Insert"
+msgstr ""
+
+#: inc/admin/property-images-metabox.php:3
+msgid "Upload Images"
+msgstr "آپلود تصاویر"
+
+#: inc/admin/property-location-map.php:6 shortcodes/create-property.php:91
+#: shortcodes/edit-property.php:118
+msgid "Type to Search..."
+msgstr "برای شروع جستجو تایپ کنید ..."
+
+#: inc/admin/property-location-map.php:12
+msgid "Search the address on search bar. "
+msgstr ""
+
+#: inc/admin/property-location-map.php:13 shortcodes/create-property.php:96
+#: shortcodes/edit-property.php:122
+msgid "Drag the pin to the location on the map"
+msgstr "پین را بکشید به محل بر روی نقشه"
+
+#: inc/admin/property-location-map.php:20 inc/menu/admin-settings-arr.php:187
+#: inc/menu/admin-settings-arr.php:208 inc/menu/admin-settings-arr.php:230
+#: inc/menu/admin-settings-arr.php:250 inc/menu/admin-settings-arr.php:260
+#: inc/menu/admin-settings-arr.php:303 inc/menu/admin-settings-arr.php:314
+#: inc/menu/admin-settings-arr.php:447 inc/menu/admin-settings-arr.php:496
+#: inc/menu/admin-settings-arr.php:1019 inc/menu/admin-settings-arr.php:1029
+#: inc/menu/admin-settings-arr.php:1048 inc/menu/admin-settings-arr.php:1058
+#: inc/menu/render-admin-settings.php:126
+#: shortcodes/page-builders/all-setting-fields.php:68
+#: shortcodes/page-builders/all-setting-fields.php:85
+#: shortcodes/page-builders/all-setting-fields.php:125
+#: shortcodes/page-builders/all-setting-fields.php:135
+#: shortcodes/page-builders/all-setting-fields.php:146
+#: shortcodes/page-builders/all-setting-fields.php:268
+#: shortcodes/page-builders/all-setting-fields.php:300
+#: shortcodes/page-builders/all-setting-fields.php:318
+#: shortcodes/page-builders/all-setting-fields.php:329
+#: shortcodes/page-builders/all-setting-fields.php:544
+#: shortcodes/page-builders/all-setting-fields.php:650
+#: shortcodes/page-builders/all-setting-fields.php:714
+msgid "Disable"
+msgstr "غیرفعال"
+
+#: inc/admin/property-location-map.php:23
+msgid "Checking this will disable map for this listing"
+msgstr ""
+
+#: inc/admin/register-property.php:6 inc/admin/register-property.php:10
+#: inc/admin/register-property.php:22 inc/menu/page-agents.php:118
+msgid "Properties"
+msgstr "خواص"
+
+#: inc/admin/register-property.php:11
+msgid "Property"
+msgstr "ویژگی"
+
+#: inc/admin/register-property.php:12
+msgctxt "real-estate-manager"
+msgid "Add New Property"
+msgstr "اضافه کردن جدید املاک"
+
+#: inc/admin/register-property.php:13
+msgid "Add New Property"
+msgstr "اضافه کردن جدید املاک"
+
+#: inc/admin/register-property.php:15
+msgid "New Property"
+msgstr "املاک جدید"
+
+#: inc/admin/register-property.php:17
+#: shortcodes/page-builders/vc-settings.php:108
+msgid "Search Property"
+msgstr "جستجوی املاک و مستغلات"
+
+#: inc/admin/register-property.php:18
+msgid "No Property found"
+msgstr "بدون املاک یافت"
+
+#: inc/admin/register-property.php:19
+msgid "No Property found in Trash"
+msgstr "بدون املاک یافت شده در سطل زباله"
+
+#: inc/admin/register-property.php:20
+msgid "Parent Property:"
+msgstr "املاک پدر و مادر:"
+
+#: inc/admin/register-property.php:70
+msgctxt "Property Tags"
+msgid "Property Tags"
+msgstr "برچسبهای املاک"
+
+#: inc/admin/register-property.php:71
+msgctxt "Tags"
+msgid "Tag"
+msgstr "برچسب"
+
+#: inc/admin/register-property.php:72
+msgid "Search Property Tags"
+msgstr "جستجو برچسب ها املاک"
+
+#: inc/admin/register-property.php:73
+msgid "Popular Tags"
+msgstr "برچسب محبوب"
+
+#: inc/admin/register-property.php:74
+msgid "All Tags"
+msgstr "همه برچسب ها"
+
+#: inc/admin/register-property.php:75 inc/admin/register-property.php:76
+msgid "Parent Tag"
+msgstr "برچسب پدر و مادر"
+
+#: inc/admin/register-property.php:77
+msgid "Edit Tag"
+msgstr "ویرایش برچسب"
+
+#: inc/admin/register-property.php:78
+msgid "Update Tag"
+msgstr "به روز رسانی برچسب"
+
+#: inc/admin/register-property.php:79
+msgid "Add New Tag"
+msgstr "اضافه کردن جدید برچسب"
+
+#: inc/admin/register-property.php:80
+msgid "New Tag Name"
+msgstr "جدید نام برچسب"
+
+#: inc/admin/register-property.php:81
+msgid "Add or remove Tags"
+msgstr "اضافه کردن یا حذف برچسب ها"
+
+#: inc/admin/register-property.php:82
+msgid "Choose from most used tags"
+msgstr "را انتخاب کنید از بسیاری از تگ های استفاده شده"
+
+#: inc/admin/register-property.php:83
+msgid " Tags"
+msgstr "برچسب ها"
+
+#: inc/admin/single-property-fields.php:14
+msgid "Check if property have this option"
+msgstr "بررسی کنید که اموال این گزینه"
+
+#: inc/ajax/search-property-ajax.php:11
+#: shortcodes/page-builders/divi-settings.php:258
+#: shortcodes/page-builders/vc-settings.php:92
+msgid "Search Results"
+msgstr "نتایج جستجو"
+
+#: inc/ajax/search-property-ajax.php:32 shortcodes/search-results-simple.php:76
+msgid "Sorry! No Properties Found. Try Searching Again."
+msgstr "متاسف! بدون ویژگی های یافت شده. دوباره جستجو کنید."
+
+#: inc/arrays/agent-fields.php:7 inc/menu/page-agents.php:74
+#: inc/menu/page-agents.php:116
+msgid "First Name"
+msgstr "نام کوچک"
+
+#: inc/arrays/agent-fields.php:17 inc/menu/page-agents.php:75
+#: inc/menu/page-agents.php:117
+msgid "Last Name"
+msgstr "نام خانوادگی"
+
+#: inc/arrays/agent-fields.php:26 inc/menu/page-agents.php:72
+#: inc/menu/page-agents.php:114 shortcodes/edit-agent.php:27
+msgid "Username"
+msgstr "نام کاربری"
+
+#: inc/arrays/agent-fields.php:43 shortcodes/login.php:12
+msgid "Password"
+msgstr "کلمه عبور"
+
+#: inc/arrays/agent-fields.php:52
+msgid "Pepeat Password"
+msgstr "رمز عبور تکرار"
+
+#: inc/arrays/agent-fields.php:61
+msgid "Biographical Info"
+msgstr "زندگینامهای اطلاعات"
+
+#: inc/arrays/agent-fields.php:70
+msgid "Picture of Agent"
+msgstr "تصویر عامل"
+
+#: inc/arrays/agent-fields.php:71
+#, fuzzy
+#| msgid "Upload an additional image for your profile."
+msgid "Upload an additional image for your profile"
+msgstr "آپلود تصویر اضافی برای مشخصات خود را."
+
+#: inc/arrays/agent-fields.php:80
+msgid "Profile Url"
+msgstr "آدرس پروفایل"
+
+#: inc/arrays/agent-fields.php:81
+msgid "Provide url for agent profile"
+msgstr ""
+
+#: inc/arrays/agent-fields.php:89
+msgid "Phone Number"
+msgstr "شماره تلفن"
+
+#: inc/arrays/agent-fields.php:97
+msgid "Facebook Profile"
+msgstr "پروفایل فیس بوک"
+
+#: inc/arrays/agent-fields.php:105
+msgid "Twitter Profile"
+msgstr "توییتر مشخصات"
+
+#: inc/arrays/agent-fields.php:113
+msgid "Google+ Profile"
+msgstr "نمایه + Google"
+
+#: inc/arrays/agent-fields.php:121
+msgid "LinkedIn Profile"
+msgstr "مشخصات مربوط به"
+
+#: inc/arrays/agent-fields.php:129
+msgid "Facebook Page"
+msgstr "صفحه فیس بوک"
+
+#: inc/arrays/agent-fields.php:137
+msgid "Instagram"
+msgstr "اینستاگرام"
+
+#: inc/arrays/agent-fields.php:145
+msgid "YouTube"
+msgstr "YouTube"
+
+#: inc/arrays/agent-fields.php:152
+msgid "User Tagline"
+msgstr "شعار کاربر"
+
+#: inc/arrays/agent-fields.php:153
+msgid "Will display under username"
+msgstr "تحت نام کاربری نمایش"
+
+#: inc/arrays/agent-fields.php:160
+msgid "Skills Level"
+msgstr "سطح مهارت های"
+
+#: inc/arrays/agent-fields.php:161
+#, fuzzy
+#| msgid "Skill name with percentage value on each line, eg: Speaking, 85"
+msgid "Skill name with value on each line, eg: Properties Sold, 185"
+msgstr "نام مهارت با ارزش درصد در هر خط، به عنوان مثال: صحبت کردن، 85"
+
+#: inc/arrays/agent-fields.php:167
+msgid "Contact Form Shortcode"
+msgstr "فرم تماس با کوتاه"
+
+#: inc/arrays/agent-fields.php:168
+msgid "Leave blank for default contact form"
+msgstr "خالی بگذارید برای فرم تماس به طور پیش فرض"
+
+#: inc/arrays/property-fields.php:9
+msgid "Regular Price of Property"
+msgstr "قیمت واقعی ملک"
+
+#: inc/arrays/property-fields.php:18
+#, fuzzy
+#| msgid "After Price"
+msgid "Before Price"
+msgstr "بعد از قیمت"
+
+#: inc/arrays/property-fields.php:19
+#, fuzzy
+#| msgid "Text to display after price, Eg: / Month"
+msgid "Text to display before price, Eg: Starting From"
+msgstr "متن برای نمایش پس از قیمت، به عنوان مثال: / ماه"
+
+#: inc/arrays/property-fields.php:28
+msgid "After Price"
+msgstr "بعد از قیمت"
+
+#: inc/arrays/property-fields.php:29
+msgid "Text to display after price, Eg: / Month"
+msgstr "متن برای نمایش پس از قیمت، به عنوان مثال: / ماه"
+
+#: inc/arrays/property-fields.php:38
+msgid "Sale Price"
+msgstr "قیمت فروش"
+
+#: inc/arrays/property-fields.php:39
+msgid "Sale Price of Property"
+msgstr "قیمت فروش ملک"
+
+#: inc/arrays/property-fields.php:48
+msgid "Latitude"
+msgstr "عرض جغرافیایی"
+
+#: inc/arrays/property-fields.php:49
+msgid "Latitude of property, will use for map"
+msgstr "عرض جغرافیایی اموال، برای نقشه استفاده خواهد کرد"
+
+#: inc/arrays/property-fields.php:58
+msgid "Longitude"
+msgstr "عرض جغرافیایی"
+
+#: inc/arrays/property-fields.php:59
+msgid "Longitude of property, will use for map"
+msgstr "طول جغرافیایی اموال، برای نقشه استفاده خواهد کرد"
+
+#: inc/arrays/property-fields.php:68
+#: inc/menu/custom-fields/custom-fields-page.php:11
+msgid "Video URL"
+msgstr "URL ویدئو"
+
+#: inc/arrays/property-fields.php:69
+msgid "Provide video URL"
+msgstr "فراهم می کند که URL ویدیو"
+
+#: inc/arrays/property-fields.php:78
+msgid "File Attachments"
+msgstr "فایلهای ضمیمه"
+
+#: inc/arrays/property-fields.php:79
+msgid "One file ID per line"
+msgstr "یک شناسه فایل در هر خط"
+
+#: inc/arrays/property-fields.php:89
+msgid "Property Type"
+msgstr "نوع ملک"
+
+#: inc/arrays/property-fields.php:90
+#, fuzzy
+#| msgid "Choose type of property. You can add your own"
+msgid "Choose type of property"
+msgstr "نوع اموال را انتخاب کنید شما می توانید خود را اضافه کنید"
+
+#: inc/arrays/property-fields.php:102
+#, fuzzy
+#| msgid "Choose purpose of property. You can add your own"
+msgid "Choose purpose of property"
+msgstr "هدف از اموال را انتخاب کنید. شما می توانید خود را اضافه کنید"
+
+#: inc/arrays/property-fields.php:113
+#, fuzzy
+#| msgid "Choose status of property. You can add your own"
+msgid "Choose status of property"
+msgstr "وضعیت اموال را انتخاب کنید. شما می توانید خود را اضافه کنید"
+
+#: inc/arrays/property-fields.php:123
+msgid "Bedrooms"
+msgstr "اتاق های خواب"
+
+#: inc/arrays/property-fields.php:124
+msgid "Number of bedrooms"
+msgstr "تعداد اتاق خواب"
+
+#: inc/arrays/property-fields.php:134
+msgid "Bathrooms"
+msgstr "حمام و سرویس بهداشتی"
+
+#: inc/arrays/property-fields.php:135
+msgid "Number of bathrooms"
+msgstr "تعداد حمام"
+
+#: inc/arrays/property-fields.php:146
+msgid "Size - "
+msgstr "اندازه"
+
+#: inc/arrays/property-fields.php:156
+msgid "Address"
+msgstr "نشانی"
+
+#: inc/arrays/property-fields.php:157
+msgid ""
+"If latitude and longitude fields are blank, this address will be used for "
+"rendering map"
+msgstr ""
+"اگر طول و عرض جغرافیایی خالی باشد، این آدرس برای رندر نقشه استفاده می شود"
+
+#: inc/arrays/property-fields.php:167 inc/arrays/property-fields.php:168
+msgid "State"
+msgstr "استان"
+
+#: inc/arrays/property-fields.php:178
+msgid "Zip Code"
+msgstr "کد پستی"
+
+#: inc/arrays/property-fields.php:179
+msgid "Zipcode"
+msgstr "کد پستی"
+
+#: inc/arrays/property-fields.php:189 inc/arrays/property-fields.php:190
+msgid "City"
+msgstr "شهرستان"
+
+#: inc/arrays/property-fields.php:200 inc/arrays/property-fields.php:201
+msgid "Country"
+msgstr "کشور"
+
+#: inc/arrays/property-fields.php:211
+msgid "Rooms"
+msgstr "اتاق ها"
+
+#: inc/arrays/property-fields.php:212
+msgid "Number of rooms"
+msgstr " تعداد سوئیت ها "
+
+#: inc/arrays/property-fields.php:222
+#, fuzzy
+#| msgid "Create Property"
+msgid "Featured Property"
+msgstr "درست املاک"
+
+#: inc/arrays/property-fields.php:223
+msgid "Make it featured"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:5
+#, fuzzy
+#| msgid "Box Style 1"
+msgid "Style"
+msgstr "جعبه سبک 1"
+
+#: inc/menu/admin-settings-arr.php:11
+msgid "Currency Options"
+msgstr "گزینه های پولی"
+
+#: inc/menu/admin-settings-arr.php:20
+msgid "Currency"
+msgstr "واحد پول"
+
+#: inc/menu/admin-settings-arr.php:21
+msgid "Currency Symbol for Properties"
+msgstr "نماد ارز برای خواص"
+
+#: inc/menu/admin-settings-arr.php:28
+msgid "Currency Position"
+msgstr "موقعیت ارز"
+
+#: inc/menu/admin-settings-arr.php:30
+msgid "Left"
+msgstr "چپ"
+
+#: inc/menu/admin-settings-arr.php:31
+msgid "Right"
+msgstr "راست"
+
+#: inc/menu/admin-settings-arr.php:32
+msgid "Left with Space"
+msgstr "فضای چپ"
+
+#: inc/menu/admin-settings-arr.php:33
+msgid "Right with Space"
+msgstr "فضای راست"
+
+#: inc/menu/admin-settings-arr.php:35
+msgid "Position of the Currency Symbol"
+msgstr "موقعیت نماد ارز"
+
+#: inc/menu/admin-settings-arr.php:41
+msgid "Thousand Separator"
+msgstr "هزاران جداکننده"
+
+#: inc/menu/admin-settings-arr.php:42
+msgid "Thousand separator of display price"
+msgstr "هزار تن جدایی قیمت صفحه نمایش"
+
+#: inc/menu/admin-settings-arr.php:49
+msgid "Decimal Separator"
+msgstr "جداکننده اعشاری"
+
+#: inc/menu/admin-settings-arr.php:50
+msgid "Decimal separator of display price"
+msgstr "جدا کننده دهدهی قیمت صفحه نمایش"
+
+#: inc/menu/admin-settings-arr.php:57
+msgid "Number of Decimals"
+msgstr "تعداد دکمه ها "
+
+#: inc/menu/admin-settings-arr.php:58
+msgid "Number of decimal points shown in display price"
+msgstr "تعداد نقاط اعشاری نشان داده شده در قیمت صفحه نمایش"
+
+#: inc/menu/admin-settings-arr.php:66
+msgid "Property Settings"
+msgstr "تنظیمات املاک"
+
+#: inc/menu/admin-settings-arr.php:75
+msgid "Area Unit"
+msgstr "واحد مساحت"
+
+#: inc/menu/admin-settings-arr.php:76
+msgid "Provide unit of area Eg: Square Feet"
+msgstr "فراهم آوردن واحد مساحت به عنوان مثال: مربع پاهای"
+
+#: inc/menu/admin-settings-arr.php:82
+msgid "Excerpt Length"
+msgstr "طول خلاصه مطلب"
+
+#: inc/menu/admin-settings-arr.php:83
+msgid "Number of words to be displayed from the property excerpt. Eg: 15"
+msgstr "تعداد کلمات برای نمایش داده شده از املاک. مثلا: 15"
+
+#: inc/menu/admin-settings-arr.php:89
+msgid "Property Features"
+msgstr "امکانات"
+
+#: inc/menu/admin-settings-arr.php:90
+msgid ""
+"One per line. This will add checkboxes to your property edit page for you to "
+"select. Leave blank to use default"
+msgstr ""
+"یکی در هر خط. این گزینه گزینه های ویرایش صفحه اموال شما را برای شما انتخاب "
+"می کند. برای استفاده از پیش فرض، خالی بگذارید"
+
+#: inc/menu/admin-settings-arr.php:96
+msgid "Property Types"
+msgstr "انواع املاک"
+
+#: inc/menu/admin-settings-arr.php:97
+msgid ""
+"One per line. This will add property types to select from when entering "
+"properties. Leave blank to use default"
+msgstr ""
+"یکی در هر خط. این نوع اموال را برای انتخاب هنگام وارد کردن خواص اضافه می "
+"کند. برای استفاده از پیش فرض، خالی بگذارید"
+
+#: inc/menu/admin-settings-arr.php:103
+msgid "Property Purposes"
+msgstr "اهداف املاک"
+
+#: inc/menu/admin-settings-arr.php:104
+msgid ""
+"One per line. This will add property purposes to select from when entering "
+"properties. Leave blank to use default"
+msgstr ""
+"یکی در هر خط. این باعث می شود که ملکیت ها هنگام ورود به خواص انتخاب شوند. "
+"برای استفاده از پیش فرض، خالی بگذارید"
+
+#: inc/menu/admin-settings-arr.php:110
+msgid "Property Statuses"
+msgstr "وضعیت املاک"
+
+#: inc/menu/admin-settings-arr.php:111
+msgid ""
+"One per line. This will add property status to select from when entering "
+"properties. Leave blank to use default"
+msgstr ""
+"یکی در هر خط. این نوع اموال را برای انتخاب هنگام وارد کردن خواص اضافه می "
+"کند. برای استفاده از پیش فرض، خالی بگذارید"
+
+#: inc/menu/admin-settings-arr.php:117
+msgid "Properties Per Page"
+msgstr "تعداد املاک در هر صفحه"
+
+#: inc/menu/admin-settings-arr.php:118
+#, fuzzy
+#| msgid ""
+#| "Number of properties you want to display on search results and archive "
+#| "pages."
+msgid "Number of properties you want to display on archive pages. (tags etc)"
+msgstr ""
+"تعداد خواصی که می خواهید در نتایج جستجو و صفحات بایگانی نمایش داده شود."
+
+#: inc/menu/admin-settings-arr.php:126
+msgid "Templates Settings"
+msgstr "تنظیمات قالبها"
+
+#: inc/menu/admin-settings-arr.php:134
+msgid "Property Page Template"
+msgstr "املاک صفحه الگو"
+
+#: inc/menu/admin-settings-arr.php:135
+msgid "Choose single property display layout"
+msgstr "انتخاب تک خاصیت طرح بندی صفحه نمایش"
+
+#: inc/menu/admin-settings-arr.php:137 inc/menu/render-admin-settings.php:103
+msgid "Default"
+msgstr "به طور پیش فرض"
+
+#: inc/menu/admin-settings-arr.php:138
+msgid "Full Width"
+msgstr "تمام عرض"
+
+#: inc/menu/admin-settings-arr.php:139
+msgid "Left Sidebar"
+msgstr "ستون کناری سمت چپ"
+
+#: inc/menu/admin-settings-arr.php:140 inc/menu/admin-settings-arr.php:150
+#: inc/menu/admin-settings-arr.php:160
+msgid "From Theme"
+msgstr "از موضوع"
+
+#: inc/menu/admin-settings-arr.php:146
+msgid "Archive Page Template"
+msgstr "بایگانی الگو صفحه"
+
+#: inc/menu/admin-settings-arr.php:147
+msgid "Choose tags and archive properties display layout"
+msgstr "انتخاب برچسب ها و خواص بایگانی نمایش طرح"
+
+#: inc/menu/admin-settings-arr.php:149 inc/menu/admin-settings-arr.php:159
+msgid "From Plugin"
+msgstr "از پلاگین"
+
+#: inc/menu/admin-settings-arr.php:156
+msgid "Agent Page Template"
+msgstr "عامل صفحه الگو"
+
+#: inc/menu/admin-settings-arr.php:157
+msgid "Choose agent page display layout"
+msgstr "انتخاب عامل طرح بندی صفحه نمایش صفحه"
+
+#: inc/menu/admin-settings-arr.php:166
+#, fuzzy
+#| msgid "Agent Page Template"
+msgid "Enable Agent Template"
+msgstr "عامل صفحه الگو"
+
+#: inc/menu/admin-settings-arr.php:168
+#, fuzzy
+#| msgid "Any Type"
+msgid "All Users"
+msgstr "هر نوعی"
+
+#: inc/menu/admin-settings-arr.php:169
+#, fuzzy
+#| msgid "Property Agent"
+msgid "Only Property Agents"
+msgstr "آژانس املاک"
+
+#: inc/menu/admin-settings-arr.php:171
+msgid "Agent Page Template must be set to From Plugin"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:176
+msgid "Container Maximum Width"
+msgstr "حداکثر عرض کانتینر"
+
+#: inc/menu/admin-settings-arr.php:177
+msgid "Provide container max width in px, eg: 1140px"
+msgstr "حداکثر عرض کانتینری را در پیکسل تنظیم کنید، به عنوان مثال: 1140 پیکسل"
+
+#: inc/menu/admin-settings-arr.php:183
+msgid "Agent Page Sidebar Card"
+msgstr "نوار صفحه نماینده/همکار"
+
+#: inc/menu/admin-settings-arr.php:184
+msgid ""
+"Enable or disable default agent card and contact form on single agent page"
+msgstr ""
+"فعال کردن یا غیرفعال کردن کارت نمایندگی پیش فرض و فرم تماس در صفحه ویژگی ملک"
+
+#: inc/menu/admin-settings-arr.php:186 inc/menu/admin-settings-arr.php:207
+#: inc/menu/admin-settings-arr.php:229 inc/menu/admin-settings-arr.php:249
+#: inc/menu/admin-settings-arr.php:259 inc/menu/admin-settings-arr.php:302
+#: inc/menu/admin-settings-arr.php:313 inc/menu/admin-settings-arr.php:446
+#: inc/menu/admin-settings-arr.php:497 inc/menu/admin-settings-arr.php:1018
+#: inc/menu/admin-settings-arr.php:1028 inc/menu/admin-settings-arr.php:1047
+#: inc/menu/admin-settings-arr.php:1057 inc/menu/agent/fields/checkbox.php:29
+#: inc/menu/agent/fields/email.php:29 inc/menu/agent/fields/image.php:29
+#: inc/menu/agent/fields/number.php:29 inc/menu/agent/fields/password.php:29
+#: inc/menu/agent/fields/text.php:29 inc/menu/agent/fields/textarea.php:29
+#: inc/menu/custom-fields/fields/select.php:76
+#: inc/menu/custom-fields/fields/text.php:61
+#: inc/menu/render-admin-settings.php:235
+#: shortcodes/page-builders/all-setting-fields.php:69
+#: shortcodes/page-builders/all-setting-fields.php:86
+#: shortcodes/page-builders/all-setting-fields.php:126
+#: shortcodes/page-builders/all-setting-fields.php:136
+#: shortcodes/page-builders/all-setting-fields.php:145
+#: shortcodes/page-builders/all-setting-fields.php:269
+#: shortcodes/page-builders/all-setting-fields.php:301
+#: shortcodes/page-builders/all-setting-fields.php:319
+#: shortcodes/page-builders/all-setting-fields.php:330
+#: shortcodes/page-builders/all-setting-fields.php:545
+#: shortcodes/page-builders/all-setting-fields.php:651
+#: shortcodes/page-builders/all-setting-fields.php:715
+msgid "Enable"
+msgstr "قادر ساختن"
+
+#: inc/menu/admin-settings-arr.php:193
+#, fuzzy
+#| msgid "Agent Profile"
+msgid "Agent Card Style"
+msgstr "پروفایل مشاور"
+
+#: inc/menu/admin-settings-arr.php:194
+#, fuzzy
+#| msgid "Choose agent who's profile you want to display"
+msgid "Choose agent profile card"
+msgstr "نماینده ای را انتخاب کنید که نمایه شما می خواهید نمایش داده شود"
+
+#: inc/menu/admin-settings-arr.php:196 inc/menu/admin-settings-arr.php:946
+#, fuzzy
+#| msgid "Box Style 1"
+msgid "Style 1"
+msgstr "جعبه سبک 1"
+
+#: inc/menu/admin-settings-arr.php:197 inc/menu/admin-settings-arr.php:947
+#, fuzzy
+#| msgid "Box Style 2"
+msgid "Style 2"
+msgstr "جعبه سبک 2"
+
+#: inc/menu/admin-settings-arr.php:198
+#, fuzzy
+#| msgid "Box Style 3"
+msgid "Style 3"
+msgstr "جعبه سبک 3"
+
+#: inc/menu/admin-settings-arr.php:204
+#, fuzzy
+#| msgid "Agent Registration Form"
+msgid "Agent Page Contact Form"
+msgstr "فرم ثبت نام نمایندگی"
+
+#: inc/menu/admin-settings-arr.php:205
+#, fuzzy
+#| msgid ""
+#| "Enable or disable default agent card and contact form on single agent page"
+msgid "Enable or disable contact form on agent page"
+msgstr ""
+"فعال کردن یا غیرفعال کردن کارت نمایندگی پیش فرض و فرم تماس در صفحه ویژگی ملک"
+
+#: inc/menu/admin-settings-arr.php:214
+msgid "Agent Page Sidebar"
+msgstr "نوار صفحه نماینده/همکار"
+
+#: inc/menu/admin-settings-arr.php:215
+msgid "Choose sidebar for agent details page"
+msgstr "نوار کناری را برای صفحه جزئیات نمایندگی انتخاب کنید"
+
+#: inc/menu/admin-settings-arr.php:220
+msgid "Property Edit Page"
+msgstr "املاک ویرایش صفحه"
+
+#: inc/menu/admin-settings-arr.php:221
+#, fuzzy
+#| msgid "Paste shortcode [rem_edit_property] on selected page"
+msgid "Paste shortcode on selected page"
+msgstr "کد کوتاه [rem_edit_property] را در صفحه انتخابی قرار دهید"
+
+#: inc/menu/admin-settings-arr.php:226
+#, fuzzy
+#| msgid "Help Text"
+msgid "Fields Help Text"
+msgstr "متن راهنما"
+
+#: inc/menu/admin-settings-arr.php:227
+msgid ""
+"Enable or disable help icon with fields when creating/editing properties."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:238
+#, fuzzy
+#| msgid "Single Property"
+msgid "Single Property Page"
+msgstr "اموال تکی"
+
+#: inc/menu/admin-settings-arr.php:246
+msgid "Map"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:247
+#, fuzzy
+#| msgid "Choose sidebar for single property page"
+msgid "Show or hide property map on single property page"
+msgstr "نوار کناری را برای صفحه ویژگی ملک انتخاب کنید"
+
+#: inc/menu/admin-settings-arr.php:256
+msgid "Property Page Sidebar Card"
+msgstr "کارت کناری صفحه املاک"
+
+#: inc/menu/admin-settings-arr.php:257
+msgid ""
+"Enable or disable default agent card and contact form on single property page"
+msgstr ""
+"فعال کردن یا غیرفعال کردن کارت نمایندگی پیش فرض و فرم تماس در صفحه ویژگی ملک"
+
+#: inc/menu/admin-settings-arr.php:266
+msgid "Property Page Sidebar"
+msgstr "کارت کناری صفحه املاک"
+
+#: inc/menu/admin-settings-arr.php:267
+msgid "Choose sidebar for single property page"
+msgstr "نوار کناری را برای صفحه ویژگی ملک انتخاب کنید"
+
+#: inc/menu/admin-settings-arr.php:272
+msgid "Gallery Slider Width"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:273
+msgid "Slider width with unit. Eg: "
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:279
+msgid "Gallery Slider Height"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:280
+msgid "Slider height with unit. Eg: "
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:286
+msgid "Gallery Slider Fit"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:287
+msgid "How to fit an image into slider"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:289
+msgid "Cover"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:290
+#, fuzzy
+#| msgid "Login Agent"
+msgid "Contain"
+msgstr "نمایندگی ورود"
+
+#: inc/menu/admin-settings-arr.php:291
+msgid "Scale Down"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:292
+msgid "None"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:299
+#, fuzzy
+#| msgid "Featured Image"
+msgid "Gallery Featured Image"
+msgstr "تصویر ویژه"
+
+#: inc/menu/admin-settings-arr.php:300
+#, fuzzy
+#| msgid "Enable to display auto rotation of properties"
+msgid "Enable to display featured image in slider"
+msgstr "فعال کردن نمایش چرخش خودکار خواص"
+
+#: inc/menu/admin-settings-arr.php:310
+#, fuzzy
+#| msgid "Display Properties"
+msgid "Display Property ID"
+msgstr "نمایش ملک ها"
+
+#: inc/menu/admin-settings-arr.php:311
+#, fuzzy
+#| msgid "Enable to display auto rotation of properties"
+msgid "Enable to display property id on frontend"
+msgstr "فعال کردن نمایش چرخش خودکار خواص"
+
+#: inc/menu/admin-settings-arr.php:321
+#, fuzzy
+#| msgid "Fixed Fields"
+msgid "Date Field Format"
+msgstr "زمینه های ثابت"
+
+#: inc/menu/admin-settings-arr.php:322
+msgid "Provide date format if you are using date field. Eg: "
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:328
+#, fuzzy
+#| msgid "Property Settings"
+msgid "Property Settings Tabs"
+msgstr "تنظیمات املاک"
+
+#: inc/menu/admin-settings-arr.php:329
+msgid ""
+"Provide additional panel headings for single property pages and admin "
+"settings, each per line"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:336
+#, fuzzy
+#| msgid "List"
+msgid "Listings"
+msgstr "لیست"
+
+#: inc/menu/admin-settings-arr.php:344
+#, fuzzy
+#| msgid "Property Style"
+msgid "Property Archive Listing Style"
+msgstr "سبک ملک"
+
+#: inc/menu/admin-settings-arr.php:345
+#, fuzzy
+#| msgid "Tags Heading for Archive Pages"
+msgid "Listing style for default properties page"
+msgstr "برچسب ها عنوان برای صفحات آرشیو"
+
+#: inc/menu/admin-settings-arr.php:351
+#, fuzzy
+#| msgid "Search Results Columns"
+msgid "Archive Listing Columns"
+msgstr "ستون نتایج جستجوی"
+
+#: inc/menu/admin-settings-arr.php:352 inc/menu/admin-settings-arr.php:429
+msgid "Choose columns in a row for box styles"
+msgstr "ستون ها را در یک ردیف برای سبک های جعبه انتخاب کنید"
+
+#: inc/menu/admin-settings-arr.php:354 inc/menu/admin-settings-arr.php:431
+msgid "1"
+msgstr "1"
+
+#: inc/menu/admin-settings-arr.php:355 inc/menu/admin-settings-arr.php:432
+msgid "2"
+msgstr "2"
+
+#: inc/menu/admin-settings-arr.php:356 inc/menu/admin-settings-arr.php:433
+msgid "3"
+msgstr "3"
+
+#: inc/menu/admin-settings-arr.php:357 inc/menu/admin-settings-arr.php:434
+msgid "4"
+msgstr "4"
+
+#: inc/menu/admin-settings-arr.php:358 inc/menu/admin-settings-arr.php:435
+msgid "5"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:364
+msgid "Inline Property Bar Fields"
+msgstr "زمینه های باربری داخلی"
+
+#: inc/menu/admin-settings-arr.php:365
+msgid ""
+"Provide field names each per line to display on top bar of inline property "
+"listing style"
+msgstr ""
+"نام هر فیلد را برای هر صفحه نشان می دهد تا در نوار بالا از سبک فهرست بندی "
+"درون خطی نمایش داده شود"
+
+#: inc/menu/admin-settings-arr.php:370
+msgid "Listing Features Type"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:371
+msgid "Features are displayed on property listings"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:373
+msgid "Icons and Data"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:374
+#, fuzzy
+#| msgid "Labels and Headings"
+msgid "Labels and Data"
+msgstr "برچسب ها و سرعنوان"
+
+#: inc/menu/admin-settings-arr.php:375
+msgid "Icons, Labels and Data"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:381
+msgid "Custom Listing Features"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:382
+msgid ""
+"Display custom property features. (Label,Field Name,Font Awesome Class) each "
+"per line. Example:"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:388
+#, fuzzy
+#| msgid "Featured Image"
+msgid "Featured Image Size"
+msgstr "تصویر ویژه"
+
+#: inc/menu/admin-settings-arr.php:389
+msgid "Choose size of featured image to use"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:396
+msgid "Search Settings"
+msgstr "تنظیمات جستجو"
+
+#: inc/menu/admin-settings-arr.php:404
+#: shortcodes/page-builders/all-setting-fields.php:235
+msgid "Total Properties"
+msgstr "تعداد املاک"
+
+#: inc/menu/admin-settings-arr.php:405
+#, fuzzy
+#| msgid ""
+#| "Number of properties you want to display on search results and archive "
+#| "pages."
+msgid "Number of properties you want to display on search results"
+msgstr ""
+"تعداد خواصی که می خواهید در نتایج جستجو و صفحات بایگانی نمایش داده شود."
+
+#: inc/menu/admin-settings-arr.php:410
+msgid "Search Price Range Selector"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:411
+msgid "Choose price ranges input option for searching"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:413 inc/menu/admin-settings-arr.php:506
+msgid "Price Slider"
+msgstr "قیمت لغزان"
+
+#: inc/menu/admin-settings-arr.php:414
+#, fuzzy
+#| msgid "Fixed Fields"
+msgid "Min Max Fields"
+msgstr "زمینه های ثابت"
+
+#: inc/menu/admin-settings-arr.php:420
+msgid "Search Results Style"
+msgstr "سبک نتایج جستجو"
+
+#: inc/menu/admin-settings-arr.php:421
+msgid "Choose style for search results"
+msgstr "سبک را برای نتایج جستجو انتخاب کنید"
+
+#: inc/menu/admin-settings-arr.php:428
+msgid "Search Results Columns"
+msgstr "ستون نتایج جستجوی"
+
+#: inc/menu/admin-settings-arr.php:443
+#: shortcodes/page-builders/all-setting-fields.php:82
+#, fuzzy
+#| msgid "Total Properties"
+msgid "Not Available Properties"
+msgstr "تعداد املاک"
+
+#: inc/menu/admin-settings-arr.php:444
+#, fuzzy
+#| msgid "Choose to display properties of specific status"
+msgid ""
+"Choose either to display Not Available properties in search results or not"
+msgstr "برای نشان دادن خواص وضعیت خاص، انتخاب کنید"
+
+#: inc/menu/admin-settings-arr.php:454
+msgid "Search Area Options"
+msgstr "گزینه های منطقه جستجو"
+
+#: inc/menu/admin-settings-arr.php:455
+msgid ""
+"Provide area range each per line, to display dropdown of area ranges instead "
+"of input field when searching."
+msgstr ""
+"محدوده محدوده را در هر خط ارائه دهید تا در حین جستجو به جای فیلد ورودی از "
+"محدوده محدوده نمایش داده شود."
+
+#: inc/menu/admin-settings-arr.php:461
+msgid "Search Bedrooms Options"
+msgstr "گزینه های اتاق های جستجو"
+
+#: inc/menu/admin-settings-arr.php:462
+msgid ""
+"Provide bedrooms range each per line, to display dropdown of bedroom ranges "
+"instead of input field when searching."
+msgstr ""
+"برای هر سطر، اتاق های اتاق را تنظیم کنید تا در حین جستجو، به جای فیلد ورودی، "
+"محدوده اتاق خواب را نمایش دهید."
+
+#: inc/menu/admin-settings-arr.php:468
+msgid "Search Bathrooms Options"
+msgstr "جستجو گزینه های حمام"
+
+#: inc/menu/admin-settings-arr.php:469
+msgid ""
+"Provide bathrooms range each per line, to display dropdown of bathroom "
+"ranges instead of input field when searching."
+msgstr ""
+"هر یک از خط ها حمام را تنظیم کنید تا در حین جستجو، به جای فیلد ورودی، منقطع "
+"از محدوده حمام نمایش داده شود."
+
+#: inc/menu/admin-settings-arr.php:475
+msgid "Search Results Link Target"
+msgstr "نتایج جستجو پیوند هدف"
+
+#: inc/menu/admin-settings-arr.php:476
+msgid ""
+"Provide link target for results of search form. _blank to open in new tab"
+msgstr ""
+"هدف لینک را برای نتایج فرم جستجو فراهم کنید. _blank برای باز کردن در برگه "
+"جدید"
+
+#: inc/menu/admin-settings-arr.php:478
+#, fuzzy
+#| msgid "Add New Tag"
+msgid "New Tab"
+msgstr "اضافه کردن جدید برچسب"
+
+#: inc/menu/admin-settings-arr.php:479
+msgid "Same Tab"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:486
+msgid "Simple Search Method"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:487
+msgid "Provide text,field_name,is_number,value each per line (all lowercase)"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:487 inc/menu/admin-settings-arr.php:846
+#, fuzzy
+#| msgid "Help Text"
+msgid "Help"
+msgstr "متن راهنما"
+
+#: inc/menu/admin-settings-arr.php:493
+#, fuzzy
+#| msgid "Search Field"
+msgid "Prefill Search Fields"
+msgstr "فیلد جستجو"
+
+#: inc/menu/admin-settings-arr.php:494
+msgid ""
+"Enable it to display all the available values of fields in a dropdown on the "
+"search form to choose."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:514
+msgid "Minimum Price"
+msgstr "حداقل هزینه"
+
+#: inc/menu/admin-settings-arr.php:515
+msgid "Minimum price for price slider"
+msgstr "حداقل قیمت برای کشویی قیمت"
+
+#: inc/menu/admin-settings-arr.php:521
+msgid "Maximum Price"
+msgstr "حداکثر قیمت"
+
+#: inc/menu/admin-settings-arr.php:522
+msgid "Maximum price for price slider"
+msgstr "حداکثر قیمت برای کشویی قیمت"
+
+#: inc/menu/admin-settings-arr.php:528
+msgid "Step"
+msgstr "گام"
+
+#: inc/menu/admin-settings-arr.php:529
+msgid "Step or interval for price slider"
+msgstr "مرحله و یا فاصله برای کشویی قیمت"
+
+#: inc/menu/admin-settings-arr.php:535
+msgid "Default Minimum Price"
+msgstr "به طور پیش فرض حداقل هزینه"
+
+#: inc/menu/admin-settings-arr.php:536
+msgid "Default Minimum price for price slider"
+msgstr "پیش فرض حداقل قیمت برای کشویی قیمت"
+
+#: inc/menu/admin-settings-arr.php:542
+msgid "Default Maximum Price"
+msgstr "به طور پیش فرض حداکثر قیمت"
+
+#: inc/menu/admin-settings-arr.php:543
+msgid "Default Maximum price for price slider"
+msgstr "پیش فرض حداکثر قیمت برای کشویی قیمت"
+
+#: inc/menu/admin-settings-arr.php:552
+msgid "Email Messages"
+msgstr "پیام های ایمیل"
+
+#: inc/menu/admin-settings-arr.php:560
+msgid "Agent Registered"
+msgstr "عامل ثبت نام"
+
+#: inc/menu/admin-settings-arr.php:561
+msgid "This message will sent to "
+msgstr "این پیام به ارسال"
+
+#: inc/menu/admin-settings-arr.php:561
+msgid ""
+" when new agent is registered. You can use %username% and %email% for details"
+msgstr ""
+"وقتی عامل جدید ثبت شده است. شما می توانید نام کاربری٪٪ و٪٪ ایمیل برای جزئیات "
+"استفاده"
+
+#: inc/menu/admin-settings-arr.php:567
+msgid "Agent Pending"
+msgstr "عامل انتظار"
+
+#: inc/menu/admin-settings-arr.php:568
+msgid ""
+"Email Message for agent when new agent is registered but status is pending. "
+"You can use %username% and %email% for details"
+msgstr ""
+"پیام برای عامل که عامل جدید ثبت شده است اما وضعیت در حال بررسی است. شما می "
+"توانید نام کاربری٪٪ و٪٪ ایمیل برای جزئیات استفاده"
+
+#: inc/menu/admin-settings-arr.php:574
+msgid "Agent Approved"
+msgstr "عامل تایید"
+
+#: inc/menu/admin-settings-arr.php:575
+msgid ""
+"Email Message for agent when registered agent is approved. You can use "
+"%username% and %email% for details"
+msgstr ""
+"پیام برای عامل که عامل ثبت نام تایید شده است. شما می توانید نام کاربری٪٪ و٪٪ "
+"ایمیل برای جزئیات استفاده"
+
+#: inc/menu/admin-settings-arr.php:581
+msgid "Agent Rejected"
+msgstr "عامل رد"
+
+#: inc/menu/admin-settings-arr.php:582
+msgid ""
+"Email Message for agent when registered agent is rejected. You can use "
+"%username% and %email% for details"
+msgstr ""
+"پیام برای عامل که عامل ثبت نام رد می شود. شما می توانید نام کاربری٪٪ و٪٪ "
+"ایمیل برای جزئیات استفاده"
+
+#: inc/menu/admin-settings-arr.php:588
+#, fuzzy
+#| msgid "Property Statuses"
+msgid "Property Submission"
+msgstr "وضعیت املاک"
+
+#: inc/menu/admin-settings-arr.php:589
+#, fuzzy
+#| msgid "This message will sent to "
+msgid "This message will be sent to "
+msgstr "این پیام به ارسال"
+
+#: inc/menu/admin-settings-arr.php:589
+#, fuzzy
+#| msgid ""
+#| " when new agent is registered. You can use %username% and %email% for "
+#| "details"
+msgid ""
+" when new property is submitted. You can use variables %username% "
+"%approve_url% and %email% for details"
+msgstr ""
+"وقتی عامل جدید ثبت شده است. شما می توانید نام کاربری٪٪ و٪٪ ایمیل برای جزئیات "
+"استفاده"
+
+#: inc/menu/admin-settings-arr.php:595
+#, fuzzy
+#| msgid "Property submitted."
+msgid "Property Submission Message for Agent"
+msgstr "املاک ارائه شده است."
+
+#: inc/menu/admin-settings-arr.php:596
+msgid "This message will be sent to agent when new property is submitted."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:602
+msgid "Property Approved Message for Agent"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:603
+msgid "This message will be sent to agent when new property is approved."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:611
+#, fuzzy
+#| msgid "Agent Registration Form"
+msgid "Agent Contact Form"
+msgstr "فرم ثبت نام نمایندگی"
+
+#: inc/menu/admin-settings-arr.php:619
+#, fuzzy
+#| msgid "Subject"
+msgid "Email Subject"
+msgstr "موضوع"
+
+#: inc/menu/admin-settings-arr.php:620
+msgid ""
+"Provide email subject here if someone contacts through single property page. "
+"You can also use these special tags."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:626
+msgid "Email Format"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:627
+msgid "Provide email markup here. You can also use these special tags."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:633
+msgid "Agent Contact Email Addresses"
+msgstr "عامل تماس با آدرس های ایمیل"
+
+#: inc/menu/admin-settings-arr.php:634
+msgid ""
+"Provide Additional Email addresses each per line to cc mail when visitor "
+"fills the contact agent form."
+msgstr ""
+"هر زمان که بازدیدکننده فرم فرم تماس را پر کند، آدرسهای ایمیل اضافی را در هر "
+"خط به آدرس cc ارسال کنید."
+
+#: inc/menu/admin-settings-arr.php:641
+#, fuzzy
+#| msgid "Message"
+msgid "GDPR Message"
+msgstr "پیام"
+
+#: inc/menu/admin-settings-arr.php:642
+msgid ""
+"Provide the message to display with the contact form with a required "
+"checkbox."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:649
+msgid "reCAPTCHA V2"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:657
+msgid "Site key"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:658
+#, fuzzy
+#| msgid "Provide Google Maps API key here. You can create API key "
+msgid "Provide Google reCAPTCHA V2 Site Key. You can create Site key "
+msgstr ""
+"کلید Google Maps API را اینجا قرار دهید شما می توانید کلید API ایجاد کنید"
+
+#: inc/menu/admin-settings-arr.php:663
+msgid "Secret key"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:664
+#, fuzzy
+#| msgid "Provide Google Maps API key here. You can create API key "
+msgid "Provide Google reCAPTCHA V2 Secret Key. You can create Secret key "
+msgstr ""
+"کلید Google Maps API را اینجا قرار دهید شما می توانید کلید API ایجاد کنید"
+
+#: inc/menu/admin-settings-arr.php:669
+#, fuzzy
+#| msgid "Agent Registration Form"
+msgid "Agent Registration"
+msgstr "فرم ثبت نام نمایندگی"
+
+#: inc/menu/admin-settings-arr.php:670
+msgid "Check to enable captcha on new agent registration."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:675
+#, fuzzy
+#| msgid "Login Agent"
+msgid "Contact Agent"
+msgstr "نمایندگی ورود"
+
+#: inc/menu/admin-settings-arr.php:676
+msgid "Check to enable captcha on agent contact form."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:681 inc/menu/admin-settings-arr.php:1007
+#: shortcodes/page-builders/vc-settings.php:20
+msgid "Login Agent"
+msgstr "نمایندگی ورود"
+
+#: inc/menu/admin-settings-arr.php:682
+msgid "Check to enable captcha on agent login form."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:691
+msgid "Labels and Headings"
+msgstr "برچسب ها و سرعنوان"
+
+#: inc/menu/admin-settings-arr.php:699
+msgid "Features Heading"
+msgstr "ویژگی های سرنویس"
+
+#: inc/menu/admin-settings-arr.php:700
+msgid "Provide heading text for property features on property pages"
+msgstr "فراهم می کند که متن عنوان و برای ویژگی های اموال در صفحات اموال"
+
+#: inc/menu/admin-settings-arr.php:706
+msgid "Maps Heading"
+msgstr "نقشه سرنویس"
+
+#: inc/menu/admin-settings-arr.php:707
+msgid "Provide heading text for maps on property pages"
+msgstr "فراهم می کند که به عنوان متن برای نقشه بر روی صفحات اموال"
+
+#: inc/menu/admin-settings-arr.php:713
+msgid "Tags Heading"
+msgstr "برچسب ها سرنویس"
+
+#: inc/menu/admin-settings-arr.php:714
+msgid "Provide heading text for tags on property pages"
+msgstr "فراهم می کند که به عنوان متن برای برچسب بر روی صفحات اموال"
+
+#: inc/menu/admin-settings-arr.php:720
+msgid "Tags Heading for Archive Pages"
+msgstr "برچسب ها عنوان برای صفحات آرشیو"
+
+#: inc/menu/admin-settings-arr.php:721
+msgid "You can use %tag% for tag name"
+msgstr "شما می توانید٪ برچسب٪ برای نام برچسب استفاده کنید"
+
+#: inc/menu/admin-settings-arr.php:727
+#, fuzzy
+#| msgid "Tags Heading for Archive Pages"
+msgid "Heading for Properties Page"
+msgstr "برچسب ها عنوان برای صفحات آرشیو"
+
+#: inc/menu/admin-settings-arr.php:728
+#, fuzzy
+#| msgid "Provide heading text for maps on property pages"
+msgid "Provide heading for properties archive"
+msgstr "فراهم می کند که به عنوان متن برای نقشه بر روی صفحات اموال"
+
+#: inc/menu/admin-settings-arr.php:734
+#, fuzzy
+#| msgid "Send Message"
+msgid "No Results Found Message"
+msgstr "پیام فرستادن"
+
+#: inc/menu/admin-settings-arr.php:735
+#, fuzzy
+#| msgid ""
+#| "Number of properties you want to display on search results and archive "
+#| "pages."
+msgid "Provide custom message when no properties found in search results"
+msgstr ""
+"تعداد خواصی که می خواهید در نتایج جستجو و صفحات بایگانی نمایش داده شود."
+
+#: inc/menu/admin-settings-arr.php:743
+msgid "Maps Settings"
+msgstr "نقشه تنظیمات"
+
+#: inc/menu/admin-settings-arr.php:751
+msgid "Use Map From"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:753
+msgid "Leaflet"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:754
+#, fuzzy
+#| msgid "Google Maps API Key"
+msgid "Google Maps"
+msgstr "نقشه های گوگل API کلیدی"
+
+#: inc/menu/admin-settings-arr.php:756
+msgid "Choose map provider"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:762
+msgid "Google Maps API Key"
+msgstr "نقشه های گوگل API کلیدی"
+
+#: inc/menu/admin-settings-arr.php:763
+msgid "Provide Google Maps API key here. You can create API key "
+msgstr ""
+"کلید Google Maps API را اینجا قرار دهید شما می توانید کلید API ایجاد کنید"
+
+#: inc/menu/admin-settings-arr.php:769
+msgid "Map Type"
+msgstr "نوع نقشه"
+
+#: inc/menu/admin-settings-arr.php:771
+msgid "Road Map"
+msgstr "نقشه جاده ای"
+
+#: inc/menu/admin-settings-arr.php:772
+msgid "Google Earth"
+msgstr "گوگل ارث"
+
+#: inc/menu/admin-settings-arr.php:773
+msgid "Hybrid"
+msgstr "Hybrid"
+
+#: inc/menu/admin-settings-arr.php:774
+msgid "Terrain"
+msgstr "Terrain"
+
+#: inc/menu/admin-settings-arr.php:776
+msgid "Choose default map type here"
+msgstr "در اینجا نوع نقشه پیش فرض را انتخاب کنید"
+
+#: inc/menu/admin-settings-arr.php:782
+#: shortcodes/page-builders/all-setting-fields.php:689
+msgid "Map Zoom Level"
+msgstr "سطح زوم نقشه"
+
+#: inc/menu/admin-settings-arr.php:783
+msgid "Provide Zoom level between 0 and 21+ for single property map"
+msgstr "سطح زوم را بین 0 و 21+ برای نقشه مالکیت یکسان قرار دهید"
+
+#: inc/menu/admin-settings-arr.php:789
+msgid "Drag Icon URL"
+msgstr "کشیدن URL نماد"
+
+#: inc/menu/admin-settings-arr.php:790
+msgid ""
+"Upload custom icon for dragging on map while creating new property. "
+"Recommended size: 72x60"
+msgstr ""
+"آپلود آیکون های سفارشی برای کشیدن بر روی نقشه در حالی که ایجاد مالکیت جدید. "
+"اندازه توصیه شده: 72x60"
+
+#: inc/menu/admin-settings-arr.php:796
+msgid "Location Icon URL"
+msgstr "محل سکونت اینترنتی نماد"
+
+#: inc/menu/admin-settings-arr.php:797
+msgid ""
+"Upload custom icon for location on map when visiting property page. "
+"Recommended size: 72x60"
+msgstr ""
+"آپلود آیکون های سفارشی برای محل بر روی نقشه در هنگام بازدید از صفحه اموال. "
+"اندازه توصیه شده: 72x60"
+
+#: inc/menu/admin-settings-arr.php:803
+#, fuzzy
+#| msgid "Property ID"
+msgid "Property Icon URL"
+msgstr "شناسه ملک"
+
+#: inc/menu/admin-settings-arr.php:804
+msgid "Upload custom icon for property location marker on large map."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:810
+msgid "Property Icon URL (Hover)"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:811
+msgid ""
+"Upload custom icon for property location marker on large map for hover state."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:817
+#, fuzzy
+#| msgid "Drag Icon URL"
+msgid "Circle Icon URL"
+msgstr "کشیدن URL نماد"
+
+#: inc/menu/admin-settings-arr.php:818
+msgid "Upload custom icon for circle counter marker on large map."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:824
+#, fuzzy
+#| msgid "Location Icon URL"
+msgid "My Location Icon URL"
+msgstr "محل سکونت اینترنتی نماد"
+
+#: inc/menu/admin-settings-arr.php:825
+msgid "Upload custom icon for my location marker on large map."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:831
+#: shortcodes/page-builders/all-setting-fields.php:677
+msgid "Default Latitude"
+msgstr "پیش فرض عرض جغرافیایی"
+
+#: inc/menu/admin-settings-arr.php:832
+msgid "Provide latitude for default map location on create property page"
+msgstr "عرض جایی برای موقعیت نقشه پیش فرض را در صفحه ایجاد اموال فراهم کنید"
+
+#: inc/menu/admin-settings-arr.php:838
+#: shortcodes/page-builders/all-setting-fields.php:683
+msgid "Default Longitude"
+msgstr "طول جغرافیایی پیش فرض"
+
+#: inc/menu/admin-settings-arr.php:839
+msgid "Provide longitude for default map location on create property page"
+msgstr ""
+"طول جغرافیایی برای موقعیت نقشه پیش فرض را در صفحه ایجاد املاک ارائه کنید"
+
+#: inc/menu/admin-settings-arr.php:845
+msgid "Map Styles Object"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:846
+#, fuzzy
+#| msgid "Provide property id here"
+msgid "Provide map styles here."
+msgstr "ارائه شناسه اموال در اینجا"
+
+#: inc/menu/admin-settings-arr.php:852
+#, fuzzy
+#| msgid "Map Type"
+msgid "Map Style"
+msgstr "نوع نقشه"
+
+#: inc/menu/admin-settings-arr.php:854
+#, fuzzy
+#| msgid "Choose style for search results"
+msgid "Choose style for leaflet map. "
+msgstr "سبک را برای نتایج جستجو انتخاب کنید"
+
+#: inc/menu/admin-settings-arr.php:854 shortcodes/create-property.php:101
+#, fuzzy
+#| msgid "Preview Property"
+msgid "Preview"
+msgstr "پیش نمایش املاک"
+
+#: inc/menu/admin-settings-arr.php:863
+msgid "Colors and CSS"
+msgstr "رنگ و CSS"
+
+#: inc/menu/admin-settings-arr.php:871
+msgid "Headings Underline"
+msgstr "سرعنوان زیر خط دار خط"
+
+#: inc/menu/admin-settings-arr.php:873
+msgid "Choose bottom border color for headings area"
+msgstr "انتخاب رنگ حاشیه پایین برای منطقه سرفصل"
+
+#: inc/menu/admin-settings-arr.php:879
+msgid "Headings Underline Active"
+msgstr "سرعنوان زیر خط دار خط فعال"
+
+#: inc/menu/admin-settings-arr.php:881
+msgid "Choose bottom border color for headings active area"
+msgstr "انتخاب رنگ مرز پایین برای عنوان منطقه فعال"
+
+#: inc/menu/admin-settings-arr.php:887
+msgid "Buttons Background"
+msgstr "دکمه پس زمینه"
+
+#: inc/menu/admin-settings-arr.php:889
+msgid "Choose background color for buttons"
+msgstr "انتخاب رنگ پس زمینه برای دکمه"
+
+#: inc/menu/admin-settings-arr.php:895
+msgid "Buttons Text"
+msgstr "دکمه های متن"
+
+#: inc/menu/admin-settings-arr.php:897 inc/menu/admin-settings-arr.php:913
+msgid "Choose text color for buttons"
+msgstr "انتخاب رنگ متن برای دکمه"
+
+#: inc/menu/admin-settings-arr.php:903
+msgid "Buttons Background - Hover"
+msgstr "دکمه پس زمینه - شناور"
+
+#: inc/menu/admin-settings-arr.php:905
+msgid "Choose background color for buttons on hover state"
+msgstr "انتخاب رنگ پس زمینه برای دکمه های روی دولت شناور"
+
+#: inc/menu/admin-settings-arr.php:911
+msgid "Buttons Text - Hover"
+msgstr "دکمه های متن - شناور"
+
+#: inc/menu/admin-settings-arr.php:919
+msgid "Theme Main Color"
+msgstr "تم اصلی رنگ"
+
+#: inc/menu/admin-settings-arr.php:921
+msgid "Choose main theme color for templates"
+msgstr "انتخاب رنگ قالب اصلی برای قالب"
+
+#: inc/menu/admin-settings-arr.php:927
+msgid "Custom CSS Code"
+msgstr "سفارشی CSS کد"
+
+#: inc/menu/admin-settings-arr.php:929
+msgid "Paste your custom css code here, you can prefix with"
+msgstr "چسباندن کد CSS سفارشی خود را اینجا، شما می توانید با پیشوند"
+
+#: inc/menu/admin-settings-arr.php:937
+msgid "Listing Ribbons"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:944
+#, fuzzy
+#| msgid "Box Style 1"
+msgid "Ribbon Style"
+msgstr "جعبه سبک 1"
+
+#: inc/menu/admin-settings-arr.php:949
+#, fuzzy
+#| msgid "Choose properties display style"
+msgid "Choose ribbon style"
+msgstr "خواص نمایش سبک را انتخاب کنید"
+
+#: inc/menu/admin-settings-arr.php:954
+msgid "Sale Ribbon Text"
+msgstr "فروش روبان متن"
+
+#: inc/menu/admin-settings-arr.php:955
+#, fuzzy
+#| msgid "It displays search results of properties searched from widget."
+msgid ""
+"It displays when sale price of property is set, leave blank to disable it"
+msgstr "نمایش نتایج جستجو از ویژگی های جستجو از ویجت."
+
+#: inc/menu/admin-settings-arr.php:960
+#, fuzzy
+#| msgid "Filter Properties"
+msgid "Rented Properties"
+msgstr "خواص فیلتر"
+
+#: inc/menu/admin-settings-arr.php:961
+msgid ""
+"It displays when property purpose is set to rent, leave blank to disable it"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:966
+#, fuzzy
+#| msgid "Total Properties"
+msgid "For Sale Properties"
+msgstr "تعداد املاک"
+
+#: inc/menu/admin-settings-arr.php:967
+msgid ""
+"It displays when property purpose is set to sell, leave blank to disable it"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:972
+#, fuzzy
+#| msgid "Total Properties"
+msgid "Sold Properties"
+msgstr "تعداد املاک"
+
+#: inc/menu/admin-settings-arr.php:973
+msgid ""
+"It displays when property status is set to sold, leave blank to disable it"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:978
+#, fuzzy
+#| msgid "Search Properties"
+msgid "Featured Properties"
+msgstr "جستجوی ملک"
+
+#: inc/menu/admin-settings-arr.php:979
+msgid ""
+"It displays when featured option is set to yes, leave blank to disable it"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:984
+#, fuzzy
+#| msgid "Custom Fields"
+msgid "Custom Ribbon"
+msgstr "زمینه های دلخواه"
+
+#: inc/menu/admin-settings-arr.php:985
+#, fuzzy
+#| msgid ""
+#| "Provide meta key and value on each line to filter. Eg: property_status|"
+#| "normal"
+msgid "Provide key with value. Eg:"
+msgstr ""
+"در هر خط برای فیلتر کردن مقدار کلیدی و ارزش را وارد کنید. مثلا: وضعیت اموال "
+"| عادی"
+
+#: inc/menu/admin-settings-arr.php:990
+#, fuzzy
+#| msgid "Sale Ribbon Text"
+msgid "Custom Ribbon Text"
+msgstr "فروش روبان متن"
+
+#: inc/menu/admin-settings-arr.php:991
+#, fuzzy
+#| msgid "Provide content to display if user is not logged in"
+msgid ""
+"Provide text to display for custom ribbon. You can also provide field name "
+"for dynamic label."
+msgstr "ارائه محتوا برای نمایش اگر کاربر وارد نشده باشد"
+
+#: inc/menu/admin-settings-arr.php:997
+msgid "Page Builders"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1005
+msgid "Gutenberg Blocks"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1008
+#: shortcodes/page-builders/divi-settings.php:67
+#: shortcodes/page-builders/vc-settings.php:4
+msgid "Register Agent"
+msgstr "ثبت نام نمایندگی"
+
+#: inc/menu/admin-settings-arr.php:1009
+#, fuzzy
+#| msgid "Search"
+msgid "Simple Search"
+msgstr "جستجو کردن"
+
+#: inc/menu/admin-settings-arr.php:1011
+msgid "Enable or disable Gutenberg Blocks here. More are coming..."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1016
+msgid "WPBakery Page Builder Addons"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1021
+msgid "Enable or disable WPBakery Page Builder addons here."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1026
+msgid "Divi Modules"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1031
+#, fuzzy
+#| msgid ""
+#| "Enable or disable default agent card and contact form on single agent page"
+msgid "Enable or disable Divi modules here."
+msgstr ""
+"فعال کردن یا غیرفعال کردن کارت نمایندگی پیش فرض و فرم تماس در صفحه ویژگی ملک"
+
+#: inc/menu/admin-settings-arr.php:1037
+msgid "Advanced Settings"
+msgstr "تنظیمات پیشرفته "
+
+#: inc/menu/admin-settings-arr.php:1045
+msgid "Bootstrap CSS"
+msgstr "سی اس اس بوت استرپ"
+
+#: inc/menu/admin-settings-arr.php:1050
+msgid "Disable it, if your theme loads its own bootstrap 3 styles"
+msgstr "آن را غیرفعال کنید، در صورتی که تم خود بارکد 3 خود را بارگذاری کند"
+
+#: inc/menu/admin-settings-arr.php:1055
+msgid "Font Awesome"
+msgstr "فونت Awesome"
+
+#: inc/menu/admin-settings-arr.php:1060
+msgid "Disable it, if your theme loads its own font awesome icons"
+msgstr ""
+"آن را غیرفعال کنید، در صورتی که تم مورد نظر فونت های بسیار جذاب خود را "
+"بارگذاری کند"
+
+#: inc/menu/admin-settings-arr.php:1065
+#, fuzzy
+#| msgid "Property submitted."
+msgid "Property Submission Mode"
+msgstr "املاک ارائه شده است."
+
+#: inc/menu/admin-settings-arr.php:1067
+msgid "Publish Right Away"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1068
+msgid "Approve by Administrator"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1070
+#, fuzzy
+#| msgid "Renders a form to create property"
+msgid "Set permission for agents for creating new property"
+msgstr "ارائه یک فرم برای ایجاد اموال"
+
+#: inc/menu/admin-settings-arr.php:1075
+#, fuzzy
+#| msgid "Edit Single Property"
+msgid "Redirect After Creating Property"
+msgstr "ویرایش املاک تک"
+
+#: inc/menu/admin-settings-arr.php:1076
+#, fuzzy
+#| msgid "It will render a form to edit property on frontend."
+msgid "Provide redirect url after creating property from frontend"
+msgstr "این فرم را برای ویرایش ویژگی در ظاهر ارائه می کند."
+
+#: inc/menu/admin-settings-arr.php:1081
+#, fuzzy
+#| msgid "Edit Single Property"
+msgid "Redirect After Editing Property"
+msgstr "ویرایش املاک تک"
+
+#: inc/menu/admin-settings-arr.php:1082
+#, fuzzy
+#| msgid "It will render a form to edit property on frontend."
+msgid "Provide redirect url after editing property from frontend"
+msgstr "این فرم را برای ویرایش ویژگی در ظاهر ارائه می کند."
+
+#: inc/menu/admin-settings-arr.php:1088
+msgid "Keep"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1089 inc/menu/agent/fields/checkbox.php:57
+#: inc/menu/agent/fields/email.php:80 inc/menu/agent/fields/image.php:80
+#: inc/menu/agent/fields/number.php:80 inc/menu/agent/fields/password.php:80
+#: inc/menu/agent/fields/select.php:85 inc/menu/agent/fields/text.php:80
+#: inc/menu/agent/fields/textarea.php:80
+#: inc/menu/custom-fields/fields/select.php:86
+#: inc/menu/custom-fields/fields/text.php:72
+#: shortcodes/manage-properties.php:111 shortcodes/my-properties.php:98
+msgid "Delete"
+msgstr "حذف"
+
+#: inc/menu/admin-settings-arr.php:1091
+#, fuzzy
+#| msgid "Attachments Heading"
+msgid "Attachments Deletion"
+msgstr "بخش فایلها"
+
+#: inc/menu/admin-settings-arr.php:1092
+msgid "What to do with gallery images after deleting property."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1097
+#, fuzzy
+#| msgid "Agent Approved"
+msgid "Agents Approval"
+msgstr "عامل تایید"
+
+#: inc/menu/admin-settings-arr.php:1099
+msgid "Manual"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1100
+msgid "Automatic"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1102
+msgid "We recommend you to use manual method"
+msgstr ""
+
+#: inc/menu/agent-profile-fields.php:3
+msgid "Agent Details"
+msgstr "جزییات عامل"
+
+#: inc/menu/agent-profile-fields.php:26
+msgid "Upload Image"
+msgstr "آپلود تصویر"
+
+#: inc/menu/agent/custom-fields-page.php:2
+#, fuzzy
+#| msgid "Agent Registration Form"
+msgid "Agent Registration Fields"
+msgstr "فرم ثبت نام نمایندگی"
+
+#: inc/menu/agent/custom-fields-page.php:41
+#: inc/menu/custom-fields/custom-fields-page.php:67
+msgid "Please Drag and Drop the fields in above area from left panel"
+msgstr ""
+"آن را غیرفعال کنید، در صورتی که تم مورد نظر فونت های بسیار جذاب خود را "
+"بارگذاری کند..."
+
+#: inc/menu/agent/custom-fields-page.php:47
+#: inc/menu/custom-fields/custom-fields-page.php:75
+msgid "Reset Fields"
+msgstr "ریست کردن فیلدها"
+
+#: inc/menu/agent/custom-fields-page.php:48
+#: inc/menu/custom-fields/custom-fields-page.php:76
+#: inc/menu/page-settings.php:64
+msgid "Save Settings"
+msgstr "تنظیمات را ذخیره کن"
+
+#: inc/menu/agent/fields/checkbox.php:2
+msgid "Checkbox"
+msgstr ""
+
+#: inc/menu/agent/fields/checkbox.php:8 inc/menu/agent/fields/email.php:8
+#: inc/menu/agent/fields/image.php:8 inc/menu/agent/fields/number.php:8
+#: inc/menu/agent/fields/password.php:8 inc/menu/agent/fields/select.php:8
+#: inc/menu/agent/fields/text.php:8 inc/menu/agent/fields/textarea.php:8
+#: inc/menu/custom-fields/fields/select.php:8
+#: inc/menu/custom-fields/fields/text.php:8
+#: shortcodes/page-builders/all-setting-fields.php:435
+msgid "Label"
+msgstr "برچسب"
+
+#: inc/menu/agent/fields/checkbox.php:14 inc/menu/agent/fields/email.php:14
+#: inc/menu/agent/fields/image.php:14 inc/menu/agent/fields/number.php:14
+#: inc/menu/agent/fields/password.php:14 inc/menu/agent/fields/select.php:14
+#: inc/menu/agent/fields/text.php:14 inc/menu/agent/fields/textarea.php:14
+#: inc/menu/custom-fields/fields/select.php:15
+#: inc/menu/custom-fields/fields/text.php:15
+msgid "Data Name (lowercase without spaces)"
+msgstr "نام داده (حروف کوچک بدون فواصل)"
+
+#: inc/menu/agent/fields/checkbox.php:20 inc/menu/agent/fields/email.php:20
+#: inc/menu/agent/fields/image.php:20 inc/menu/agent/fields/number.php:20
+#: inc/menu/agent/fields/password.php:20 inc/menu/agent/fields/select.php:39
+#: inc/menu/agent/fields/text.php:20 inc/menu/agent/fields/textarea.php:20
+#: inc/menu/custom-fields/fields/select.php:42
+#: inc/menu/custom-fields/fields/text.php:27
+msgid "Help Text"
+msgstr "متن راهنما"
+
+#: inc/menu/agent/fields/checkbox.php:26 inc/menu/agent/fields/email.php:26
+#: inc/menu/agent/fields/image.php:26 inc/menu/agent/fields/number.php:26
+#: inc/menu/agent/fields/password.php:26 inc/menu/agent/fields/text.php:26
+#: inc/menu/agent/fields/textarea.php:26
+#: inc/menu/custom-fields/fields/select.php:73
+#: inc/menu/custom-fields/fields/text.php:58
+msgid "Required"
+msgstr ""
+
+#: inc/menu/agent/fields/checkbox.php:34 inc/menu/agent/fields/email.php:34
+#: inc/menu/agent/fields/image.php:34 inc/menu/agent/fields/number.php:34
+#: inc/menu/agent/fields/password.php:34 inc/menu/agent/fields/select.php:45
+#: inc/menu/agent/fields/text.php:34 inc/menu/agent/fields/textarea.php:34
+#, fuzzy
+#| msgid "Display Properties"
+msgid "Display on"
+msgstr "نمایش ملک ها"
+
+#: inc/menu/agent/fields/checkbox.php:38 inc/menu/agent/fields/email.php:38
+#: inc/menu/agent/fields/image.php:38 inc/menu/agent/fields/number.php:38
+#: inc/menu/agent/fields/password.php:38 inc/menu/agent/fields/select.php:49
+#: inc/menu/agent/fields/text.php:38 inc/menu/agent/fields/textarea.php:38
+#, fuzzy
+#| msgid "Agent Registration Form"
+msgid "Registration Form"
+msgstr "فرم ثبت نام نمایندگی"
+
+#: inc/menu/agent/fields/checkbox.php:43 inc/menu/agent/fields/email.php:66
+#: inc/menu/agent/fields/image.php:66 inc/menu/agent/fields/number.php:66
+#: inc/menu/agent/fields/password.php:66 inc/menu/agent/fields/text.php:66
+#: inc/menu/agent/fields/textarea.php:66
+#, fuzzy
+#| msgctxt "Tags"
+#| msgid "Tag"
+msgid "Tab"
+msgstr "برچسب"
+
+#: inc/menu/agent/fields/email.php:2
+#, fuzzy
+#| msgid "Fixed Fields"
+msgid "Email Field"
+msgstr "زمینه های ثابت"
+
+#: inc/menu/agent/fields/email.php:42 inc/menu/agent/fields/image.php:42
+#: inc/menu/agent/fields/number.php:42 inc/menu/agent/fields/password.php:42
+#: inc/menu/agent/fields/select.php:53 inc/menu/agent/fields/text.php:42
+#: inc/menu/agent/fields/textarea.php:42
+#, fuzzy
+#| msgid "Agent Profile"
+msgid "Admin Profile Edit"
+msgstr "پروفایل مشاور"
+
+#: inc/menu/agent/fields/email.php:47 inc/menu/agent/fields/image.php:47
+#: inc/menu/agent/fields/number.php:47 inc/menu/agent/fields/password.php:47
+#: inc/menu/agent/fields/select.php:58 inc/menu/agent/fields/text.php:47
+#: inc/menu/agent/fields/textarea.php:47
+msgid "Frontend Edit"
+msgstr ""
+
+#: inc/menu/agent/fields/email.php:51 inc/menu/agent/fields/image.php:51
+#: inc/menu/agent/fields/number.php:51 inc/menu/agent/fields/password.php:51
+#: inc/menu/agent/fields/select.php:62 inc/menu/agent/fields/text.php:51
+#: inc/menu/agent/fields/textarea.php:51
+msgid "Agent Card Icons"
+msgstr ""
+
+#: inc/menu/agent/fields/email.php:55 inc/menu/agent/fields/image.php:55
+#: inc/menu/agent/fields/number.php:55 inc/menu/agent/fields/password.php:55
+#: inc/menu/agent/fields/select.php:66 inc/menu/agent/fields/text.php:55
+#: inc/menu/agent/fields/textarea.php:55
+#, fuzzy
+#| msgid "Agent Page Sidebar"
+msgid "Agent Page"
+msgstr "نوار صفحه نماینده/همکار"
+
+#: inc/menu/agent/fields/email.php:60 inc/menu/agent/fields/image.php:60
+#: inc/menu/agent/fields/number.php:60 inc/menu/agent/fields/password.php:60
+#: inc/menu/agent/fields/text.php:60 inc/menu/agent/fields/textarea.php:60
+msgid "Icon Class (If Agent Card Icons is selected)"
+msgstr ""
+
+#: inc/menu/agent/fields/image.php:2
+#, fuzzy
+#| msgid "Fixed Fields"
+msgid "Image Field"
+msgstr "زمینه های ثابت"
+
+#: inc/menu/agent/fields/number.php:2
+#: inc/menu/custom-fields/custom-fields-page.php:7
+msgid "Number Field"
+msgstr "فیلد شماره"
+
+#: inc/menu/agent/fields/password.php:2
+#, fuzzy
+#| msgid "Password"
+msgid "Password Field"
+msgstr "کلمه عبور"
+
+#: inc/menu/agent/fields/select.php:2
+msgid "Select Box"
+msgstr "انتخاب جعبه"
+
+#: inc/menu/agent/fields/select.php:20
+#: inc/menu/custom-fields/fields/select.php:21
+msgid "Default Selected"
+msgstr "انتخاب پیشفرض"
+
+#: inc/menu/agent/fields/select.php:26
+#: inc/menu/custom-fields/fields/select.php:27
+msgid "Options (each per line)"
+msgstr "گزینه ها (در هر خط)"
+
+#: inc/menu/agent/fields/select.php:71
+#: inc/menu/custom-fields/fields/select.php:48
+#: inc/menu/custom-fields/fields/text.php:33
+msgid "Admin Settings Tab"
+msgstr "زبانه تنظیمات مدیریت"
+
+#: inc/menu/agent/fields/text.php:2
+#: inc/menu/custom-fields/custom-fields-page.php:6
+msgid "Text Field"
+msgstr "فیلد متن"
+
+#: inc/menu/agent/fields/textarea.php:2
+#, fuzzy
+#| msgid "Text Field"
+msgid "Textarea Field"
+msgstr "فیلد متن"
+
+#: inc/menu/custom-fields/custom-fields-page.php:2
+msgid "Custom Fields Builder"
+msgstr "ایجاد فیلدهای اختصاصی"
+
+#: inc/menu/custom-fields/custom-fields-page.php:8
+msgid "DropDown Field"
+msgstr ""
+
+#: inc/menu/custom-fields/custom-fields-page.php:9
+#, fuzzy
+#| msgid "Fixed Fields"
+msgid "Date Field"
+msgstr "زمینه های ثابت"
+
+#: inc/menu/custom-fields/custom-fields-page.php:10
+#, fuzzy
+#| msgid "Multiple Properties on Map"
+msgid "Multiple Files Upload"
+msgstr "خواص چندگانه در نقشه"
+
+#: inc/menu/custom-fields/custom-fields-page.php:12
+#, fuzzy
+#| msgid "Text Field"
+msgid "Text Area"
+msgstr "فیلد متن"
+
+#: inc/menu/custom-fields/custom-fields-page.php:13
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: inc/menu/custom-fields/custom-fields-page.php:69
+msgid ""
+"If Data Name contains the whole word \"area\", the chosen area unit will be "
+"shown after the value."
+msgstr ""
+
+#: inc/menu/custom-fields/fields/select.php:62
+#: inc/menu/custom-fields/fields/text.php:47 shortcodes/edit-property.php:129
+msgid "Accessibility"
+msgstr ""
+
+#: inc/menu/custom-fields/fields/text.php:21
+msgid "Default Value"
+msgstr "مقدار پیشفرض"
+
+#: inc/menu/page-agents.php:65
+msgid "Pending Agents"
+msgstr "انتظار عامل"
+
+#: inc/menu/page-agents.php:76
+msgid "Date of Registration"
+msgstr "تاریخ ثبت نام"
+
+#: inc/menu/page-agents.php:77
+msgid "Action"
+msgstr "عمل"
+
+#: inc/menu/page-agents.php:89
+msgid "Deny"
+msgstr "انکار"
+
+#: inc/menu/page-agents.php:90
+msgid "Approve"
+msgstr "تایید"
+
+#: inc/menu/page-agents.php:99
+msgid "You dont have any pending agents."
+msgstr "شما هیچ عامل در حال انتظار را ندارید"
+
+#: inc/menu/page-agents.php:107
+msgid "Registered Agents"
+msgstr "عوامل ثبت"
+
+#: inc/menu/page-agents.php:119
+msgid "Profile"
+msgstr "مشخصات"
+
+#: inc/menu/page-agents.php:132
+msgid "View Profile"
+msgstr "نمایش مشخصات"
+
+#: inc/menu/page-agents.php:141
+msgid "You dont have any registered agents."
+msgstr "شما هیچ عامل ثبت نامی ندارید"
+
+#: inc/menu/page-agents.php:147
+msgid "Register New Agent"
+msgstr "ثبت نام عامل جدید"
+
+#: inc/menu/page-settings.php:2
+msgid "Real Estate Manager - Settings"
+msgstr "مدیر املاک و مستغلات - تنظیمات"
+
+#: inc/menu/page-settings.php:15
+msgid "If 404 Page is displaying"
+msgstr "اگر 404 صفحه نمایش است"
+
+#: inc/menu/page-settings.php:17
+msgid "Go to Settings -> Permalinks and click Save Changes button"
+msgstr "به تنظیمات - پیوندهای یکتا رفته روی دکمه ذخیره تغییرات کلیک کنید"
+
+#: inc/menu/page-settings.php:21
+msgid "If Maps not displaying"
+msgstr "اگر نقشه نمایش نیست"
+
+#: inc/menu/page-settings.php:23
+msgid "Create a Google Maps API using google and paste it in Maps API field."
+msgstr ""
+"یک API Google Maps با استفاده از google ایجاد کنید و آن را در فیلد API Maps "
+"وارد کنید."
+
+#: inc/menu/page-settings.php:27
+msgid "Change Property Page Design"
+msgstr "تغییر صفحه املاک طراحی"
+
+#: inc/menu/page-settings.php:29
+msgid "Copy the following file and paste it into your theme's root"
+msgstr "فایل زیر را کپی کنید و آن را در ریشه موضوع خود قرار دهید"
+
+#: inc/menu/page-settings.php:31
+msgid "Now change its name to"
+msgstr "حالا نام خود را به تغییر"
+
+#: inc/menu/page-settings.php:33
+msgid "Then change Property Page Template option to From Theme"
+msgstr "سپس گزینه املاک صفحه الگو برای تغییر از موضوع"
+
+#: inc/menu/page-settings.php:34
+msgid "Now you can make changes in this template file."
+msgstr "حالا شما می توانید تغییرات در این فایل قالب را."
+
+#: inc/menu/page-settings.php:38
+msgid "Need Help? Any Suggestions?"
+msgstr "کمک خواستن؟ هر گونه پیشنهاد؟"
+
+#: inc/menu/page-settings.php:40
+msgid "Please contact us"
+msgstr "لطفا با ما تماس بگیرید"
+
+#: inc/menu/page-settings.php:41
+msgid "HERE"
+msgstr "اینجا"
+
+#: inc/menu/page-settings.php:42
+msgid "for assistance."
+msgstr "برای یاری."
+
+#: inc/menu/page-settings.php:63
+msgid "Please Wait..."
+msgstr "لطفا صبر کنید..."
+
+#: inc/menu/render-admin-settings.php:50
+msgid "We noticed you are using custom fields, so please set above options"
+msgstr ""
+
+#: inc/menu/render-admin-settings.php:180
+#: inc/menu/render-admin-settings.php:181
+msgid "Choose a currency&hellip;"
+msgstr "انتخاب  واحد پولی"
+
+#: inc/menu/render-admin-settings.php:217
+msgid "Image"
+msgstr "تصویر"
+
+#: inc/menu/render-admin-settings.php:218
+msgid "Select"
+msgstr "انتخاب کنید"
+
+#: inc/menu/render-admin-settings.php:219
+msgid "Media"
+msgstr "رسانه ها"
+
+#: inc/sidebar-agent-contact.php:18
+msgid "Your Name"
+msgstr "اسم شما"
+
+#: inc/sidebar-agent-contact.php:21
+msgid "Your Email"
+msgstr "ایمیل شما"
+
+#: inc/sidebar-agent-contact.php:24
+msgid "Phone"
+msgstr ""
+
+#: inc/sidebar-agent-contact.php:27
+msgid "Message"
+msgstr "پیام"
+
+#: inc/sidebar-agent-contact.php:30
+msgid "Send Message"
+msgstr "پیام فرستادن"
+
+#: shortcodes/agent-profile.php:90
+#: shortcodes/page-builders/divi-settings.php:201
+#: shortcodes/page-builders/vc-settings.php:68 templates/agent.php:87
+msgid "My Properties"
+msgstr "املاک من"
+
+#: shortcodes/carousel/carousel.php:13
+msgid "No Properties Found!"
+msgstr "بدون ویژگی های یافت شده!"
+
+#: shortcodes/create-property.php:9 shortcodes/edit-property.php:14
+msgid "Basic Information"
+msgstr "اطلاعات اولیه"
+
+#: shortcodes/create-property.php:13 shortcodes/edit-property.php:18
+#: shortcodes/page-builders/all-setting-fields.php:31
+msgid "Property Title"
+msgstr "عنوان ملک در"
+
+#: shortcodes/create-property.php:16
+msgid "Property Description"
+msgstr "شرح ملک"
+
+#: shortcodes/create-property.php:24 shortcodes/edit-property.php:29
+msgid "Images"
+msgstr "تصاویر"
+
+#: shortcodes/create-property.php:29 shortcodes/edit-property.php:34
+msgid "Click here to Upload Images"
+msgstr "برای آپلود تصاویر اینجا را کلیک کنید"
+
+#: shortcodes/create-property.php:80 shortcodes/edit-property.php:103
+msgid "Each tag separated by comma"
+msgstr "هر یک از تگ جدا شده توسط کاما"
+
+#: shortcodes/create-property.php:88 shortcodes/edit-property.php:115
+msgid "Place on Map"
+msgstr "محل بر روی نقشه"
+
+#: shortcodes/create-property.php:100
+#: shortcodes/page-builders/vc-settings.php:28
+msgid "Create Property"
+msgstr "درست املاک"
+
+#: shortcodes/create-property.php:107
+#, fuzzy
+#| msgid "Please Wait..."
+msgid "Please wait..."
+msgstr "لطفا صبر کنید..."
+
+#: shortcodes/edit-agent.php:44 shortcodes/edit-property.php:136
+msgid "Save Changes"
+msgstr "تغییرات ذخیره شد"
+
+#: shortcodes/edit-agent.php:47
+msgid "Saving Changes..."
+msgstr "در حال ذخیره سازی تغییرات"
+
+#: shortcodes/edit-property.php:130
+msgid "Draft"
+msgstr ""
+
+#: shortcodes/edit-property.php:131 shortcodes/manage-properties.php:29
+msgid "Publish"
+msgstr ""
+
+#: shortcodes/edit-property.php:143
+msgid "Please wait! your porperty is being modified..."
+msgstr "لطفا صبر کنید! اموال شما اصلاح می شود ..."
+
+#: shortcodes/login.php:8
+msgid "Username or email"
+msgstr "نام کاربری یا پست الکترونیک"
+
+#: shortcodes/login.php:22
+msgid "Keep me signed in"
+msgstr "نگاه داشتن در داخل"
+
+#: shortcodes/login.php:23 shortcodes/page-builders/all-setting-fields.php:945
+msgid "Login"
+msgstr "ورود"
+
+#: shortcodes/manage-properties.php:9 shortcodes/my-properties.php:8
+#, fuzzy
+#| msgid "Display Agent Profile"
+msgid "Display All"
+msgstr "مشخصات نمایه نمایه"
+
+#: shortcodes/manage-properties.php:10 shortcodes/my-properties.php:9
+#, fuzzy
+#| msgid "Property published."
+msgid "Only Published"
+msgstr "املاک منتشر شده است."
+
+#: shortcodes/manage-properties.php:11 shortcodes/my-properties.php:10
+#, fuzzy
+#| msgid "Agent Pending"
+msgid "Only Pending"
+msgstr "عامل انتظار"
+
+#: shortcodes/manage-properties.php:12 shortcodes/my-properties.php:11
+msgid "Only Draft"
+msgstr ""
+
+#: shortcodes/manage-properties.php:30
+msgid "Unpublish"
+msgstr ""
+
+#: shortcodes/manage-properties.php:41 shortcodes/my-properties.php:35
+msgid "Thumbnail"
+msgstr "کوچک"
+
+#: shortcodes/manage-properties.php:42
+#: shortcodes/page-builders/all-setting-fields.php:29
+msgid "ID"
+msgstr ""
+
+#: shortcodes/manage-properties.php:45 shortcodes/my-properties.php:38
+msgid "Added"
+msgstr "اضافه"
+
+#: shortcodes/manage-properties.php:49 shortcodes/my-properties.php:41
+msgid "Actions"
+msgstr "اعمال"
+
+#: shortcodes/manage-properties.php:107 shortcodes/my-properties.php:94
+#, fuzzy
+#| msgid "Edit Tag"
+msgid "Edit"
+msgstr "ویرایش برچسب"
+
+#: shortcodes/map/map.php:101 shortcodes/map/nearby.php:98
+msgid "Found"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:16
+#: shortcodes/page-builders/all-setting-fields.php:932
+msgid "Designates the ascending or descending order of the below option."
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:26
+#, fuzzy
+#| msgid "Choose order to display properties"
+msgid "Choose option to sort properties by"
+msgstr "سفارش را برای نشان دادن خواص انتخاب کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:32
+#, fuzzy
+#| msgid "Property Purpose"
+msgid "Property Price"
+msgstr "هدف ملک"
+
+#: shortcodes/page-builders/all-setting-fields.php:33
+#: shortcodes/page-builders/all-setting-fields.php:222
+#: shortcodes/page-builders/all-setting-fields.php:567
+msgid "Random"
+msgstr "تصادفی "
+
+#: shortcodes/page-builders/all-setting-fields.php:39
+msgid "Order by custom meta"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:40
+#, fuzzy
+#| msgid ""
+#| "Provide data for fixed fields on each line. Eg: property_status|normal"
+msgid "Provide custom field key to sort by custom field. Eg: property_status"
+msgstr ""
+"داده های مربوط به زمینه های ثابت را در هر خط ارائه دهید. مثلا: وضعیت اموال | "
+"عادی"
+
+#: shortcodes/page-builders/all-setting-fields.php:45
+#: shortcodes/page-builders/all-setting-fields.php:228
+msgid "Property Style"
+msgstr "سبک ملک"
+
+#: shortcodes/page-builders/all-setting-fields.php:46
+#: shortcodes/page-builders/all-setting-fields.php:229
+msgid "Choose properties display style"
+msgstr "خواص نمایش سبک را انتخاب کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:52
+#: shortcodes/page-builders/all-setting-fields.php:479
+#: shortcodes/page-builders/all-setting-fields.php:918
+msgid "Columns"
+msgstr "ستون ها"
+
+#: shortcodes/page-builders/all-setting-fields.php:53
+msgid "Number of properties in a row"
+msgstr "تعداد خواص در یک ردیف"
+
+#: shortcodes/page-builders/all-setting-fields.php:55
+#: shortcodes/page-builders/all-setting-fields.php:921
+#, fuzzy
+#| msgid "2 Columns"
+msgid "1 Columns"
+msgstr "2 ستونه"
+
+#: shortcodes/page-builders/all-setting-fields.php:56
+#: shortcodes/page-builders/all-setting-fields.php:482
+#: shortcodes/page-builders/all-setting-fields.php:922
+msgid "2 Columns"
+msgstr "2 ستونه"
+
+#: shortcodes/page-builders/all-setting-fields.php:57
+#: shortcodes/page-builders/all-setting-fields.php:483
+#: shortcodes/page-builders/all-setting-fields.php:923
+msgid "3 Columns"
+msgstr "3 ستونه"
+
+#: shortcodes/page-builders/all-setting-fields.php:58
+#: shortcodes/page-builders/all-setting-fields.php:484
+#: shortcodes/page-builders/all-setting-fields.php:924
+msgid "4 Columns"
+msgstr "4 ستونه"
+
+#: shortcodes/page-builders/all-setting-fields.php:59
+#: shortcodes/page-builders/all-setting-fields.php:485
+#: shortcodes/page-builders/all-setting-fields.php:925
+#, fuzzy
+#| msgid "2 Columns"
+msgid "5 Columns"
+msgstr "2 ستونه"
+
+#: shortcodes/page-builders/all-setting-fields.php:65
+msgid "Top Bar"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:66
+msgid "Top bar to sort or change layout"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:75
+#, fuzzy
+#| msgid "Default Latitude"
+msgid "Default Grid Style"
+msgstr "پیش فرض عرض جغرافیایی"
+
+#: shortcodes/page-builders/all-setting-fields.php:76
+msgid "Default style of grid for top bar."
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:83
+#, fuzzy
+#| msgid "Displays properties on a large map"
+msgid "Display properties having status Not Available or not"
+msgstr "خواص را بر روی یک نقشه بزرگ نمایش می دهد"
+
+#: shortcodes/page-builders/all-setting-fields.php:92
+#: shortcodes/page-builders/all-setting-fields.php:627
+msgid "Number of Properties"
+msgstr "تعداد املاک در هر صفحه"
+
+#: shortcodes/page-builders/all-setting-fields.php:93
+msgid ""
+"Provide total number of properties to show, after that pagination will "
+"display"
+msgstr "بعد از نمایش صفحه بندی، تعداد کل خواص را نشان دهید"
+
+#: shortcodes/page-builders/all-setting-fields.php:98
+msgid "Tags Specific"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:99
+msgid "Comma separated list of tags to filter properties"
+msgstr "لیست برچسب های جدا شده با کاما برای فیلتر کردن خواص"
+
+#: shortcodes/page-builders/all-setting-fields.php:104
+#, fuzzy
+#| msgid "Features Heading"
+msgid "Features Specific"
+msgstr "ویژگی های سرنویس"
+
+#: shortcodes/page-builders/all-setting-fields.php:105
+#, fuzzy
+#| msgid "Comma separated list of tags to filter properties"
+msgid "Comma separated list of features to filter properties"
+msgstr "لیست برچسب های جدا شده با کاما برای فیلتر کردن خواص"
+
+#: shortcodes/page-builders/all-setting-fields.php:110
+msgid "Agent Specific"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:111
+#: shortcodes/page-builders/all-setting-fields.php:260
+#, fuzzy
+#| msgid "Comma separated list of tags to filter properties"
+msgid "Agent ID or comma separated IDs to display their properties"
+msgstr "لیست برچسب های جدا شده با کاما برای فیلتر کردن خواص"
+
+#: shortcodes/page-builders/all-setting-fields.php:116
+#: shortcodes/page-builders/all-setting-fields.php:241
+#: shortcodes/page-builders/all-setting-fields.php:637
+#, fuzzy
+#| msgid "Filter Properties"
+msgid "Filter Properties by Meta"
+msgstr "خواص فیلتر"
+
+#: shortcodes/page-builders/all-setting-fields.php:117
+#: shortcodes/page-builders/all-setting-fields.php:242
+#: shortcodes/page-builders/all-setting-fields.php:638
+msgid ""
+"Provide meta key and value on each line to filter. Eg: property_status|normal"
+msgstr ""
+"در هر خط برای فیلتر کردن مقدار کلیدی و ارزش را وارد کنید. مثلا: وضعیت اموال "
+"| عادی"
+
+#: shortcodes/page-builders/all-setting-fields.php:122
+#: shortcodes/page-builders/all-setting-fields.php:265
+#: shortcodes/page-builders/all-setting-fields.php:711
+msgid "Prefer Nearest Properties"
+msgstr "ترجیح می دهد خواص نزدیک تر"
+
+#: shortcodes/page-builders/all-setting-fields.php:123
+#, fuzzy
+#| msgid ""
+#| "It will enable Geo Location Trackor to track visitors location and will "
+#| "display properties near them"
+msgid ""
+"It will enable Geo Location to track visitor location and will display "
+"properties near them"
+msgstr ""
+"Geolocation Tracker را قادر می سازد تا مکان بازدیدکنندگان را ردیابی کند و "
+"خواص نزدیک آنها را نمایش دهد"
+
+#: shortcodes/page-builders/all-setting-fields.php:132
+msgid "Justified Grid (Masonry)"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:133
+#, fuzzy
+#| msgid "It will render a list of properties."
+msgid "It will enable masonry grid for properties"
+msgstr "این یک لیست از خواص را ارائه می دهد."
+
+#: shortcodes/page-builders/all-setting-fields.php:142
+msgid "Pagination"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:143
+msgid "Enable or Disable Pagination"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:156
+#: shortcodes/page-builders/all-setting-fields.php:357
+msgid "Redirect"
+msgstr "تغییر مسیر"
+
+#: shortcodes/page-builders/all-setting-fields.php:157
+#, fuzzy
+#| msgid "Provide URL to redirect after successfull registration"
+msgid "Provide URL to redirect after successful registration"
+msgstr "URL را برای تغییر مسیر پس از ثبت نام موفق ارائه دهید"
+
+#: shortcodes/page-builders/all-setting-fields.php:162
+#: shortcodes/page-builders/all-setting-fields.php:363
+msgid "Content for Logged In Users"
+msgstr "محتوا برای کاربران وارد شده"
+
+#: shortcodes/page-builders/all-setting-fields.php:163
+#: shortcodes/page-builders/all-setting-fields.php:364
+#, fuzzy
+#| msgid "Provide content for already logged in users"
+msgid "Provide contents for already logged in users"
+msgstr "ارائه محتوا برای کاربران قبلا وارد شده است"
+
+#: shortcodes/page-builders/all-setting-fields.php:172
+msgid "Placeholder"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:173
+#, fuzzy
+#| msgid "Choose style for search results"
+msgid "Placeholder for search field"
+msgstr "سبک را برای نتایج جستجو انتخاب کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:178
+#, fuzzy
+#| msgid "Full Width"
+msgid "Field Width"
+msgstr "تمام عرض"
+
+#: shortcodes/page-builders/all-setting-fields.php:179
+msgid "Width with units. Eg: 450px"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:184
+#, fuzzy
+#| msgid "Loader Color"
+msgid "Border Color"
+msgstr "رنگ لوودر"
+
+#: shortcodes/page-builders/all-setting-fields.php:185
+#, fuzzy
+#| msgid "Choose color for maps loader box"
+msgid "Choose color for border"
+msgstr "رنگ برای جعبه نقشه لودر را انتخاب کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:190
+#, fuzzy
+#| msgid "Results Page"
+msgid "Results Page URL"
+msgstr "نتایج صفحه"
+
+#: shortcodes/page-builders/all-setting-fields.php:191
+#, fuzzy
+#| msgid "Provide text for search button"
+msgid "Provide URL for the search results page"
+msgstr "متن را برای دکمه جستجو فراهم کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:196
+#, fuzzy
+#| msgid "Search"
+msgid "Search Icon"
+msgstr "جستجو کردن"
+
+#: shortcodes/page-builders/all-setting-fields.php:197
+msgid "Provide fontawesome icon with markup."
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:207
+#: shortcodes/page-builders/all-setting-fields.php:599
+msgid "Choose order to display properties"
+msgstr "سفارش را برای نشان دادن خواص انتخاب کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:217
+#: shortcodes/page-builders/all-setting-fields.php:613
+msgid "Choose order by to display properties"
+msgstr "سفارش را برای نشان دادن خواص انتخاب کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:221
+#: shortcodes/page-builders/all-setting-fields.php:566
+#: shortcodes/page-builders/all-setting-fields.php:617
+msgid "Property Name"
+msgstr "نام مجتمع"
+
+#: shortcodes/page-builders/all-setting-fields.php:236
+msgid "Provide total number of properties to show"
+msgstr "تعداد کل خواص را برای نشان دادن ارائه کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:248
+msgid "Provide tags each per line to display specific properties"
+msgstr "برچسب ها را در هر خط برای نشان دادن خواص خاص ارائه دهید"
+
+#: shortcodes/page-builders/all-setting-fields.php:253
+#: shortcodes/page-builders/all-setting-fields.php:588
+msgid "Property IDs"
+msgstr "شناسه املاک"
+
+#: shortcodes/page-builders/all-setting-fields.php:254
+msgid "Provide IDs if you want to display specific properties, each per line"
+msgstr ""
+"اگر میخواهید خصوصیات خاص را نشان دهید، هر یک از خط ها، شناسه ها را ارائه دهید"
+
+#: shortcodes/page-builders/all-setting-fields.php:266
+#: shortcodes/page-builders/all-setting-fields.php:712
+msgid ""
+"It will enable Geo Location Trackor to track visitors location and will "
+"display properties near them"
+msgstr ""
+"Geolocation Tracker را قادر می سازد تا مکان بازدیدکنندگان را ردیابی کند و "
+"خواص نزدیک آنها را نمایش دهد"
+
+#: shortcodes/page-builders/all-setting-fields.php:276
+msgid "Properties in Row"
+msgstr "خواص در ردیف"
+
+#: shortcodes/page-builders/all-setting-fields.php:277
+msgid "Provide number of properties you want to show at a time"
+msgstr "تعدادی از خواص را که می خواهید در یک زمان نشان داده شود را ارائه دهید"
+
+#: shortcodes/page-builders/all-setting-fields.php:283
+msgid "Properties to Scroll"
+msgstr "خواص اسکرول"
+
+#: shortcodes/page-builders/all-setting-fields.php:284
+msgid "Provide number of properties you want to scroll at a time"
+msgstr "تعداد اموال هایی را که می خواهید در یک زمان حرکت کنید، ارائه دهید"
+
+#: shortcodes/page-builders/all-setting-fields.php:290
+msgid "Speed"
+msgstr "سرعت"
+
+#: shortcodes/page-builders/all-setting-fields.php:291
+msgid "Speed in ms Eg: 2000"
+msgstr "سرعت ms در مثال: 2000"
+
+#: shortcodes/page-builders/all-setting-fields.php:297
+msgid "Auto Play"
+msgstr "اجرای خودکار"
+
+#: shortcodes/page-builders/all-setting-fields.php:298
+msgid "Enable to display auto rotation of properties"
+msgstr "فعال کردن نمایش چرخش خودکار خواص"
+
+#: shortcodes/page-builders/all-setting-fields.php:308
+msgid "Auto Play Speed"
+msgstr "سرعت پخش خودکار"
+
+#: shortcodes/page-builders/all-setting-fields.php:309
+msgid "Auto play speed in ms Eg: 2000"
+msgstr "سرعت بازی خودکار در ms مثال: 2000"
+
+#: shortcodes/page-builders/all-setting-fields.php:315
+msgid "Arrows"
+msgstr "فلش ها"
+
+#: shortcodes/page-builders/all-setting-fields.php:316
+msgid "Enable to display arrows for navigation"
+msgstr "فعال کردن برای نمایش دادن فلش برای ناوبری"
+
+#: shortcodes/page-builders/all-setting-fields.php:326
+msgid "Dots"
+msgstr "نقطه ها"
+
+#: shortcodes/page-builders/all-setting-fields.php:327
+msgid "Enable to display bottom dots for navigation"
+msgstr "فعال کردن برای نمایش نقاط پایین برای ناوبری"
+
+#: shortcodes/page-builders/all-setting-fields.php:341
+#: shortcodes/page-builders/all-setting-fields.php:373
+#: shortcodes/page-builders/all-setting-fields.php:383
+#: shortcodes/page-builders/all-setting-fields.php:403
+#: shortcodes/page-builders/all-setting-fields.php:413
+#: shortcodes/page-builders/all-setting-fields.php:462
+msgid "Content for Non Logged In Users"
+msgstr "محتوا برای کاربران وارد شده"
+
+#: shortcodes/page-builders/all-setting-fields.php:342
+#, fuzzy
+#| msgid "Provide content for non logged in users"
+msgid "Provide contents for non logged in users"
+msgstr "ارائه محتوا برای کاربران غیر ورودی"
+
+#: shortcodes/page-builders/all-setting-fields.php:351
+msgid "Heading"
+msgstr "تیتر"
+
+#: shortcodes/page-builders/all-setting-fields.php:352
+msgid "Heading will appear above the login form"
+msgstr "عنوان در بالای فرم ورود نمایش داده خواهد شد"
+
+#: shortcodes/page-builders/all-setting-fields.php:358
+#, fuzzy
+#| msgid "Provide URL to redirect after successfull login"
+msgid "Provide URL to redirect after successful login"
+msgstr "URL را برای تغییر مسیر بعد از ورود به سیستم فراهم کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:374
+#: shortcodes/page-builders/all-setting-fields.php:384
+#, fuzzy
+#| msgid "Provide content to display if user is not logged in"
+msgid "Provide contents to display if user is not logged in"
+msgstr "ارائه محتوا برای نمایش اگر کاربر وارد نشده باشد"
+
+#: shortcodes/page-builders/all-setting-fields.php:394
+msgid "Provide property id here"
+msgstr "ارائه شناسه اموال در اینجا"
+
+#: shortcodes/page-builders/all-setting-fields.php:404
+#: shortcodes/page-builders/all-setting-fields.php:414
+#: shortcodes/page-builders/all-setting-fields.php:463
+msgid "Provide content to display if user is not logged in"
+msgstr "ارائه محتوا برای نمایش اگر کاربر وارد نشده باشد"
+
+#: shortcodes/page-builders/all-setting-fields.php:423
+#, fuzzy
+#| msgid "Redirect"
+msgid "Redirect URL"
+msgstr "تغییر مسیر"
+
+#: shortcodes/page-builders/all-setting-fields.php:424
+#, fuzzy
+#| msgid "Provide URL to redirect after successfull login"
+msgid "Provide URL to redirect after logout"
+msgstr "URL را برای تغییر مسیر بعد از ورود به سیستم فراهم کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:429
+msgid "CSS Button"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:430
+#, fuzzy
+#| msgid "Provide text for search button"
+msgid "Provide css classes for button"
+msgstr "متن را برای دکمه جستجو فراهم کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:436
+msgid "Provide button label"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:446
+#, fuzzy
+#| msgid "Choose order to display properties"
+msgid "Choose agent to display his/her profile."
+msgstr "سفارش را برای نشان دادن خواص انتخاب کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:456
+msgid "Role"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:457
+#, fuzzy
+#| msgid "Provide total number of properties to show"
+msgid "Provide role name who can manage properties from this page."
+msgstr "تعداد کل خواص را برای نشان دادن ارائه کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:472
+msgid "Check Fields to Display"
+msgstr "فیلدهای نمایش را بررسی کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:473
+msgid "Check the required fields for search menu"
+msgstr "فیلدهای مورد نیاز برای منو جستجو را بررسی کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:480
+msgid "Choose number of fields in each row"
+msgstr "تعداد رشته ها را در هر سطر انتخاب کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:486
+msgid "6 Columns"
+msgstr "6 ستون"
+
+#: shortcodes/page-builders/all-setting-fields.php:487
+#, fuzzy
+#| msgid "2 Columns"
+msgid "1 Column"
+msgstr "2 ستونه"
+
+#: shortcodes/page-builders/all-setting-fields.php:493
+msgid "Search Button Title"
+msgstr "عنوان دکمه جستجو"
+
+#: shortcodes/page-builders/all-setting-fields.php:494
+msgid "Provide text for search button"
+msgstr "متن را برای دکمه جستجو فراهم کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:499
+msgid "Filter Button Title"
+msgstr "عنوان فیلتر فیلتر"
+
+#: shortcodes/page-builders/all-setting-fields.php:500
+msgid "Provide text for more filter button"
+msgstr "متن را برای دکمه فیلتر بیشتر فراهم کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:505
+msgid "Results Page"
+msgstr "نتایج صفحه"
+
+#: shortcodes/page-builders/all-setting-fields.php:506
+msgid ""
+"Provide url, it will disable AJAX search and will open up that page to "
+"display results. Make sure to paste shortcode [rem_search_results] on "
+"provided page to display results."
+msgstr ""
+"URL را فراهم می کند، جستجو AJAX را غیرفعال می کند و این صفحه را برای نمایش "
+"نتایج باز خواهد کرد. برای نمایش نتایج، مطمئن شوید که کد کوتاه [rem "
+"search_results] را در صفحه ارائه شده قرار دهید."
+
+#: shortcodes/page-builders/all-setting-fields.php:511
+#, fuzzy
+#| msgid "Default Selected"
+msgid "Result Selector"
+msgstr "انتخاب پیشفرض"
+
+#: shortcodes/page-builders/all-setting-fields.php:512
+#, fuzzy
+#| msgid "_blank if you want to open results in separate page"
+msgid ""
+"HTML selector if you want to display results in some other place on current "
+"page"
+msgstr "_blank اگر میخواهید نتایج را در صفحه جداگانه باز کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:517
+msgid "Fixed Fields"
+msgstr "زمینه های ثابت"
+
+#: shortcodes/page-builders/all-setting-fields.php:518
+msgid "Provide data for fixed fields on each line. Eg: property_status|normal"
+msgstr ""
+"داده های مربوط به زمینه های ثابت را در هر خط ارائه دهید. مثلا: وضعیت اموال | "
+"عادی"
+
+#: shortcodes/page-builders/all-setting-fields.php:523
+msgid "Hard Coded Contents"
+msgstr "مطالب سخت افزاری"
+
+#: shortcodes/page-builders/all-setting-fields.php:524
+msgid "You can paste shortcode here to list some default properties"
+msgstr ""
+"شما می توانید کد کوتاه را در اینجا وارد کنید تا برخی از خواص پیش فرض را لیست "
+"کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:529
+#: shortcodes/page-builders/all-setting-fields.php:944
+#, fuzzy
+#| msgid "Agent"
+msgid "Agent ID"
+msgstr "عامل"
+
+#: shortcodes/page-builders/all-setting-fields.php:530
+msgid "Agent ID or comma separated IDs for agent specific search"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:535
+#, fuzzy
+#| msgid "More Filters"
+msgid "More Filters Column Classes"
+msgstr "فیلترهای بیشتر"
+
+#: shortcodes/page-builders/all-setting-fields.php:536
+msgid "CSS classes for more filters (features)."
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:541
+msgid "Auto Complete"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:542
+#, fuzzy
+#| msgid ""
+#| "Enable or disable default agent card and contact form on single agent page"
+msgid "Enable or Disable auto suggestions"
+msgstr ""
+"فعال کردن یا غیرفعال کردن کارت نمایندگی پیش فرض و فرم تماس در صفحه ویژگی ملک"
+
+#: shortcodes/page-builders/all-setting-fields.php:552
+#, fuzzy
+#| msgid "Choose order to display properties"
+msgid "Choose order to display results"
+msgstr "سفارش را برای نشان دادن خواص انتخاب کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:562
+#, fuzzy
+#| msgid "Choose order by to display properties"
+msgid "Choose order by to display results"
+msgstr "سفارش را برای نشان دادن خواص انتخاب کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:578
+msgid "Display By"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:579
+msgid "How you want to display properties on map"
+msgstr "چگونه می خواهید خواص روی نقشه را نمایش دهید"
+
+#: shortcodes/page-builders/all-setting-fields.php:581
+msgid "Properties by IDs"
+msgstr "خواص توسط شناسه"
+
+#: shortcodes/page-builders/all-setting-fields.php:582
+msgid "Use Property Query"
+msgstr "از Query Property استفاده کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:589
+msgid "Property ID each per line to display on map"
+msgstr "شناسه املاک در هر خط برای نمایش در نقشه"
+
+#: shortcodes/page-builders/all-setting-fields.php:628
+msgid "Provide total number of properties to show. -1 for all"
+msgstr "تعداد کل خواص را برای نشان دادن ارائه کنید. -1 برای همه"
+
+#: shortcodes/page-builders/all-setting-fields.php:647
+msgid "Property Type Filtering"
+msgstr "فیلتر نوع املاک"
+
+#: shortcodes/page-builders/all-setting-fields.php:648
+msgid "Enable to display property type buttons below maps to filter"
+msgstr "فعال کردن برای نمایش دکمه های نوع ملک زیر نقشه برای فیلتر کردن"
+
+#: shortcodes/page-builders/all-setting-fields.php:657
+#, fuzzy
+#| msgid "Filter by Tags"
+msgid "Filter Key"
+msgstr "فیلتر کردن توسط تگ ها"
+
+#: shortcodes/page-builders/all-setting-fields.php:658
+msgid "Field key to use for filter menu"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:667
+#: shortcodes/page-builders/all-setting-fields.php:827
+#: shortcodes/page-builders/all-setting-fields.php:838
+#: shortcodes/page-builders/all-setting-fields.php:849
+#: shortcodes/page-builders/all-setting-fields.php:860
+#: shortcodes/page-builders/all-setting-fields.php:871
+msgid "Filter Options"
+msgstr "تنظیمات جستجوی"
+
+#: shortcodes/page-builders/all-setting-fields.php:668
+#, fuzzy
+#| msgid "Comma separated list of tags to filter properties"
+msgid "Provide comma-separated values to display on filter menu"
+msgstr "لیست برچسب های جدا شده با کاما برای فیلتر کردن خواص"
+
+#: shortcodes/page-builders/all-setting-fields.php:678
+msgid "Provide default latitude if you are using Leaflet Map"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:684
+msgid "Provide default longitude if you are using Leaflet Map"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:690
+#, fuzzy
+#| msgid "Provide Zoom level between 0 and 21+ for single property map"
+msgid "Provide zoom level if you are using Leaflet Map"
+msgstr "سطح زوم را بین 0 و 21+ برای نقشه مالکیت یکسان قرار دهید"
+
+#: shortcodes/page-builders/all-setting-fields.php:695
+msgid "Map ID"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:696
+msgid "Lowercase without spaces id for using multiple maps on the same page."
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:701
+msgid "Filter by Tags"
+msgstr "فیلتر کردن توسط تگ ها"
+
+#: shortcodes/page-builders/all-setting-fields.php:702
+msgid "Provide single tag on each line to filter."
+msgstr "تگ تک در هر خط برای فیلتر کردن."
+
+#: shortcodes/page-builders/all-setting-fields.php:721
+msgid "Map Height"
+msgstr "ارتفاع نقشه"
+
+#: shortcodes/page-builders/all-setting-fields.php:722
+msgid "Provide map height Eg: 550px"
+msgstr "ارائه ارتفاع نقشه به عنوان مثال: 550 پیکسل"
+
+#: shortcodes/page-builders/all-setting-fields.php:728
+#, fuzzy
+#| msgid "Comma separated list of tags to filter properties"
+msgid "Provide agent id for specific listings"
+msgstr "لیست برچسب های جدا شده با کاما برای فیلتر کردن خواص"
+
+#: shortcodes/page-builders/all-setting-fields.php:733
+msgid "Loading Heading"
+msgstr "در حال بارگیری عنوان"
+
+#: shortcodes/page-builders/all-setting-fields.php:734
+msgid "Provide map loading text heading"
+msgstr "قرار دادن عنوان متن بارگذاری متن"
+
+#: shortcodes/page-builders/all-setting-fields.php:740
+msgid "Loading Description"
+msgstr "در حال بارگیری توضیحات"
+
+#: shortcodes/page-builders/all-setting-fields.php:741
+msgid "Provide map loading text description"
+msgstr "توصیف نقشه بارگذاری متن را ارائه دهید"
+
+#: shortcodes/page-builders/all-setting-fields.php:747
+#: shortcodes/page-builders/all-setting-fields.php:825
+msgid "Buttons Background Color"
+msgstr "رنگ پیش زمینه دکمه‌ها"
+
+#: shortcodes/page-builders/all-setting-fields.php:748
+msgid "Choose background color for map buttons"
+msgstr "رنگ پس زمینه را برای دکمه های نقشه انتخاب کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:749
+#: shortcodes/page-builders/all-setting-fields.php:756
+#: shortcodes/page-builders/all-setting-fields.php:763
+#: shortcodes/page-builders/all-setting-fields.php:770
+#: shortcodes/page-builders/all-setting-fields.php:777
+msgid "Colors"
+msgstr "رنگ ها"
+
+#: shortcodes/page-builders/all-setting-fields.php:754
+#: shortcodes/page-builders/all-setting-fields.php:836
+msgid "Buttons Text Color"
+msgstr "رنگ متن دکمه"
+
+#: shortcodes/page-builders/all-setting-fields.php:755
+msgid "Choose text color for map buttons"
+msgstr "رنگ متن را برای دکمه های نقشه انتخاب کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:761
+#: shortcodes/page-builders/all-setting-fields.php:847
+msgid "Buttons Background Color - Hover"
+msgstr "تغییر رنگ هاور پس زمینه دکمه ها"
+
+#: shortcodes/page-builders/all-setting-fields.php:762
+msgid "Choose hover background color for map buttons"
+msgstr "رنگ پس زمینه را برای دکمه های نقشه انتخاب کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:768
+#: shortcodes/page-builders/all-setting-fields.php:858
+msgid "Buttons Text Color - Hover"
+msgstr "رنگ متن هاور دکمه ها"
+
+#: shortcodes/page-builders/all-setting-fields.php:769
+msgid "Choose text hover color for map buttons"
+msgstr "رنگ متن را برای دکمه های نقشه انتخاب کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:775
+msgid "Loader Color"
+msgstr "رنگ لوودر"
+
+#: shortcodes/page-builders/all-setting-fields.php:776
+msgid "Choose color for maps loader box"
+msgstr "رنگ برای جعبه نقشه لودر را انتخاب کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:783
+msgid "Water Color"
+msgstr "آب رنگ"
+
+#: shortcodes/page-builders/all-setting-fields.php:784
+msgid "Choose water color in map"
+msgstr "رنگ آب را در نقشه انتخاب کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:785
+#: shortcodes/page-builders/all-setting-fields.php:792
+#: shortcodes/page-builders/all-setting-fields.php:799
+#: shortcodes/page-builders/all-setting-fields.php:806
+#: shortcodes/page-builders/all-setting-fields.php:813
+#: shortcodes/page-builders/all-setting-fields.php:820
+msgid "Map Colors"
+msgstr "نقشه رنگ"
+
+#: shortcodes/page-builders/all-setting-fields.php:790
+msgid "Fill Color"
+msgstr "رنگ پُرشدگی"
+
+#: shortcodes/page-builders/all-setting-fields.php:791
+msgid "Choose natural fill color in map"
+msgstr "رنگ پر رنگ در نقشه را انتخاب کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:797
+msgid "Points of Interest Color"
+msgstr "نقاط مورد علاقه رنگ"
+
+#: shortcodes/page-builders/all-setting-fields.php:798
+msgid "Choose poi color in map"
+msgstr "رنگ پوی را در نقشه انتخاب کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:804
+msgid "Points of Interest Hue Color"
+msgstr "نقاط مورد علاقه رنگ"
+
+#: shortcodes/page-builders/all-setting-fields.php:805
+msgid "Choose poi hue color in map"
+msgstr "رنگ پوی را در نقشه انتخاب کنید"
+
+#: shortcodes/page-builders/all-setting-fields.php:811
+msgid "Road Lightness"
+msgstr "سبک جاده"
+
+#: shortcodes/page-builders/all-setting-fields.php:812
+msgid "Choose road lightness in map, Default: 100"
+msgstr "سبک جاده را در نقشه انتخاب کنید، پیش فرض: 100"
+
+#: shortcodes/page-builders/all-setting-fields.php:818
+msgid "Lines Lightness"
+msgstr "خطوط روشنایی"
+
+#: shortcodes/page-builders/all-setting-fields.php:819
+msgid "Choose line lightness in map, Default: 700"
+msgstr "سبک خط را در نقشه انتخاب کنید، پیش فرض: 700"
+
+#: shortcodes/page-builders/all-setting-fields.php:826
+msgid "Background color for bottom buttons"
+msgstr "رنگ پس زمینه برای دکمه های پایین"
+
+#: shortcodes/page-builders/all-setting-fields.php:837
+msgid "Text color for bottom buttons"
+msgstr "رنگ متن برای دکمه های پایین"
+
+#: shortcodes/page-builders/all-setting-fields.php:848
+msgid "Background color for bottom buttons on hover"
+msgstr "رنگ پس زمینه برای دکمه های پایین در شنا"
+
+#: shortcodes/page-builders/all-setting-fields.php:859
+msgid "Text color for bottom buttons on hover"
+msgstr "رنگ متن برای دکمه های پایین در شنا"
+
+#: shortcodes/page-builders/all-setting-fields.php:869
+msgid "Buttons Background Color - Active"
+msgstr "دکمه های رنگ پس زمینه - فعال است"
+
+#: shortcodes/page-builders/all-setting-fields.php:870
+msgid "Background color for bottom buttons on active"
+msgstr "رنگ پس زمینه برای دکمه های پایین در فعال است"
+
+#: shortcodes/page-builders/all-setting-fields.php:880
+msgid "Field Name for Icons"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:881
+#, fuzzy
+#| msgid ""
+#| "Provide meta key and value on each line to filter. Eg: property_status|"
+#| "normal"
+msgid "Provide field data name to filter icons by. Eg: property_type"
+msgstr ""
+"در هر خط برای فیلتر کردن مقدار کلیدی و ارزش را وارد کنید. مثلا: وضعیت اموال "
+"| عادی"
+
+#: shortcodes/page-builders/all-setting-fields.php:882
+#: shortcodes/page-builders/all-setting-fields.php:889
+#: shortcodes/page-builders/all-setting-fields.php:896
+#: shortcodes/page-builders/all-setting-fields.php:903
+#, fuzzy
+#| msgid "Custom Fields"
+msgid "Custom Icons"
+msgstr "زمینه های دلخواه"
+
+#: shortcodes/page-builders/all-setting-fields.php:887
+#, fuzzy
+#| msgid "Drag Icon URL"
+msgid "Icon URLs"
+msgstr "کشیدن URL نماد"
+
+#: shortcodes/page-builders/all-setting-fields.php:888
+msgid ""
+"Provide meta value, static and hover icon urls seaprated with pipe sign. Eg: "
+"house|some_image.png|some_image_hover.png"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:894
+#, fuzzy
+#| msgid "Location Icon URL"
+msgid "My Location Icon Url"
+msgstr "محل سکونت اینترنتی نماد"
+
+#: shortcodes/page-builders/all-setting-fields.php:895
+msgid "Provide icon url for my location pin"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:901
+msgid "Circle Icon Url"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:902
+msgid "Provide icon url for multiple properties. Size 55x55"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:912
+#, fuzzy
+#| msgid "Agent"
+msgid "Agent IDs"
+msgstr "عامل"
+
+#: shortcodes/page-builders/all-setting-fields.php:913
+#, fuzzy
+#| msgid "Comma separated list of tags to filter properties"
+msgid "Comma-separated ids of the agents for a specific listing"
+msgstr "لیست برچسب های جدا شده با کاما برای فیلتر کردن خواص"
+
+#: shortcodes/page-builders/all-setting-fields.php:919
+#, fuzzy
+#| msgid "Number of properties in a row"
+msgid "Number of columns in a row"
+msgstr "تعداد خواص در یک ردیف"
+
+#: shortcodes/page-builders/all-setting-fields.php:942
+msgid "Choose option to sort agents by"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:946
+#, fuzzy
+#| msgid "New Tag Name"
+msgid "Nice Name"
+msgstr "جدید نام برچسب"
+
+#: shortcodes/page-builders/all-setting-fields.php:947
+#, fuzzy
+#| msgid "Address"
+msgid "Email Address"
+msgstr "نشانی"
+
+#: shortcodes/page-builders/all-setting-fields.php:948
+msgid "URL"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:949
+#, fuzzy
+#| msgid "Agent Registered"
+msgid "Registered"
+msgstr "عامل ثبت نام"
+
+#: shortcodes/page-builders/all-setting-fields.php:950
+#, fuzzy
+#| msgid "First Name"
+msgid "Display Name"
+msgstr "نام کوچک"
+
+#: shortcodes/page-builders/all-setting-fields.php:951
+#, fuzzy
+#| msgid "Property Country"
+msgid "Properties Count"
+msgstr "املاک کشور"
+
+#: shortcodes/page-builders/all-setting-fields.php:952
+msgid "IDs Provided Above"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:953
+#, fuzzy
+#| msgid "Default Value"
+msgid "Meta Value"
+msgstr "مقدار پیشفرض"
+
+#: shortcodes/page-builders/all-setting-fields.php:959
+#, fuzzy
+#| msgid "Custom CSS Code"
+msgid "Custom Meta Key"
+msgstr "سفارشی CSS کد"
+
+#: shortcodes/page-builders/all-setting-fields.php:960
+#, fuzzy
+#| msgid "Comma separated list of tags to filter properties"
+msgid "Provide field name here for specific agent listing."
+msgstr "لیست برچسب های جدا شده با کاما برای فیلتر کردن خواص"
+
+#: shortcodes/page-builders/all-setting-fields.php:965
+#, fuzzy
+#| msgid "Custom Fields"
+msgid "Custom Meta Value"
+msgstr "زمینه های دلخواه"
+
+#: shortcodes/page-builders/all-setting-fields.php:966
+#, fuzzy
+#| msgid "Comma separated list of tags to filter properties"
+msgid "Provide field value here for specific agent listing."
+msgstr "لیست برچسب های جدا شده با کاما برای فیلتر کردن خواص"
+
+#: shortcodes/page-builders/all-setting-fields.php:971
+#, fuzzy
+#| msgid "Login Agent"
+msgid "Total Agents"
+msgstr "نمایندگی ورود"
+
+#: shortcodes/page-builders/all-setting-fields.php:972
+#, fuzzy
+#| msgid "Number of properties in a row"
+msgid "Number of agents to display."
+msgstr "تعداد خواص در یک ردیف"
+
+#: shortcodes/page-builders/all-setting-fields.php:977
+msgid "Masonry"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:978
+msgid "Justified Layout"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:980
+#, fuzzy
+#| msgid "Enable"
+msgid "enable"
+msgstr "قادر ساختن"
+
+#: shortcodes/page-builders/all-setting-fields.php:981
+#, fuzzy
+#| msgid "Disable"
+msgid "disable"
+msgstr "غیرفعال"
+
+#: shortcodes/page-builders/divi-settings.php:48
+#: shortcodes/page-builders/vc-settings.php:60
+msgid "List Properties"
+msgstr "خواص لیست"
+
+#: shortcodes/page-builders/divi-settings.php:86
+#, fuzzy
+#| msgid "Edit Agent Profile"
+msgid "Edit Agent Form"
+msgstr "ویرایش پروفایل مشاور"
+
+#: shortcodes/page-builders/divi-settings.php:105
+#, fuzzy
+#| msgid "Login Agent"
+msgid "Login Agent Form"
+msgstr "نمایندگی ورود"
+
+#: shortcodes/page-builders/divi-settings.php:124
+msgid "Create Property Form"
+msgstr "ایجاد فرم اموال"
+
+#: shortcodes/page-builders/divi-settings.php:143
+#: shortcodes/page-builders/vc-settings.php:36
+#, fuzzy
+#| msgid "Login Agent"
+msgid "List Agents"
+msgstr "نمایندگی ورود"
+
+#: shortcodes/page-builders/divi-settings.php:182
+#: shortcodes/page-builders/vc-settings.php:52
+msgid "Single Property"
+msgstr "اموال تکی"
+
+#: shortcodes/page-builders/divi-settings.php:220
+#: shortcodes/page-builders/vc-settings.php:76
+msgid "Agent Profile"
+msgstr "پروفایل مشاور"
+
+#: shortcodes/page-builders/divi-settings.php:239
+#: shortcodes/page-builders/vc-settings.php:84
+#, fuzzy
+#| msgid "Profile"
+msgid "My Profile"
+msgstr "مشخصات"
+
+#: shortcodes/page-builders/divi-settings.php:276
+#, fuzzy
+#| msgid "Google Maps API Key"
+msgid "Large Map"
+msgstr "نقشه های گوگل API کلیدی"
+
+#: shortcodes/page-builders/divi-settings.php:295
+msgid "Search Property Form"
+msgstr "فرم جستجو جستجو"
+
+#: shortcodes/page-builders/divi-settings.php:324
+#, fuzzy
+#| msgid "Price Slider"
+msgid "Properties Slider"
+msgstr "قیمت لغزان"
+
+#: shortcodes/page-builders/divi-settings.php:343
+#, fuzzy
+#| msgid "Search Properties"
+msgid "Simple Search Properties"
+msgstr "جستجوی ملک"
+
+#: shortcodes/page-builders/divi-settings.php:361
+#: shortcodes/page-builders/vc-settings.php:140
+#, fuzzy
+#| msgid "My Properties"
+msgid "Manage Properties"
+msgstr "املاک من"
+
+#: shortcodes/page-builders/divi-settings.php:379
+#: shortcodes/page-builders/vc-settings.php:132
+#, fuzzy
+#| msgid "Logout"
+msgid "Logout Button"
+msgstr "خروج "
+
+#: shortcodes/page-builders/vc-settings.php:8
+msgid "Renders a form to register new agent"
+msgstr "یک فرم برای ثبت نام عامل جدید را ارائه می دهد"
+
+#: shortcodes/page-builders/vc-settings.php:12
+msgid "Edit Agent Profile"
+msgstr "ویرایش پروفایل مشاور"
+
+#: shortcodes/page-builders/vc-settings.php:16
+msgid "Renders a form to edit logged in agent's profile"
+msgstr "یک فرم برای ویرایش وارد شده در نمایه نمایه ارائه می دهد"
+
+#: shortcodes/page-builders/vc-settings.php:24
+msgid "Renders an AJAX based login form"
+msgstr "یک فرم ثبت نام مبتنی بر AJAX ارائه می دهد"
+
+#: shortcodes/page-builders/vc-settings.php:32
+msgid "Renders a form to create property"
+msgstr "ارائه یک فرم برای ایجاد اموال"
+
+#: shortcodes/page-builders/vc-settings.php:40
+#, fuzzy
+#| msgid "Displays profile of specific agent"
+msgid "Displays list of agents"
+msgstr "نمایه نمایه خاص را نمایش می دهد"
+
+#: shortcodes/page-builders/vc-settings.php:48
+msgid "Renders a form to edit property"
+msgstr "یک فرم را برای ویرایش املاک ارائه می دهد"
+
+#: shortcodes/page-builders/vc-settings.php:56
+msgid "Display a single property"
+msgstr "نمایش یک ملک تک"
+
+#: shortcodes/page-builders/vc-settings.php:64
+msgid "Displays properties according to the settings"
+msgstr "خواص را با توجه به تنظیمات نمایش می دهد"
+
+#: shortcodes/page-builders/vc-settings.php:72
+msgid "Displays properties of current logged in agent"
+msgstr "خواص فعلی وارد شده در عامل را نشان می دهد"
+
+#: shortcodes/page-builders/vc-settings.php:80
+msgid "Displays profile of specific agent"
+msgstr "نمایه نمایه خاص را نمایش می دهد"
+
+#: shortcodes/page-builders/vc-settings.php:88
+#, fuzzy
+#| msgid "Displays properties of current logged in agent"
+msgid "Displays profile of logged in agent"
+msgstr "خواص فعلی وارد شده در عامل را نشان می دهد"
+
+#: shortcodes/page-builders/vc-settings.php:96
+msgid "Displays search results if searched from widget"
+msgstr "نمایش نتایج جستجو در صورت جستجوی از ویجت"
+
+#: shortcodes/page-builders/vc-settings.php:100
+msgid "Properties Map"
+msgstr "خواص نقشه"
+
+#: shortcodes/page-builders/vc-settings.php:104
+msgid "Displays properties on a large map"
+msgstr "خواص را بر روی یک نقشه بزرگ نمایش می دهد"
+
+#: shortcodes/page-builders/vc-settings.php:112
+msgid "Renders a form to search properties via AJAX"
+msgstr "یک فرم برای جستجو از طریق AJAX ارائه می دهد"
+
+#: shortcodes/page-builders/vc-settings.php:116
+#, fuzzy
+#| msgid "Price Slider"
+msgid "Carousel Slider"
+msgstr "قیمت لغزان"
+
+#: shortcodes/page-builders/vc-settings.php:120
+msgid "Renders responsive carousel of properties"
+msgstr "چرخ فلک پاسخگو خواص را ارائه می دهد"
+
+#: shortcodes/page-builders/vc-settings.php:124
+#, fuzzy
+#| msgid "Search Field"
+msgid "Inline Search Field"
+msgstr "فیلد جستجو"
+
+#: shortcodes/page-builders/vc-settings.php:128
+msgid "Renders simple search form"
+msgstr ""
+
+#: shortcodes/page-builders/vc-settings.php:136
+msgid "Displays a logout button"
+msgstr ""
+
+#: shortcodes/page-builders/vc-settings.php:144
+msgid "Manage all properties (for admins)"
+msgstr ""
+
+#: shortcodes/register-agent.php:35
+msgid "Sign up"
+msgstr "ثبت نام"
+
+#: shortcodes/search-property.php:110
+msgid "Loading..."
+msgstr "در حال بارگذاری ..."
+
+#: templates/agent/style2.php:38
+msgid "More Info"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Real Estate Manager Pro"
+msgstr "مدیر املاک و مستغلات"
+
+#. Plugin URI of the plugin/theme
+msgid "https://webcodingplace.com/real-estate-manager-wordpress-plugin/"
+msgstr "https://webcodingplace.com/real-estate-manager-wordpress-plugin/"
+
+#. Description of the plugin/theme
+msgid "A complete solution for real estate management"
+msgstr "یک راه حل کامل برای مدیریت املاک و مستغلات"
+
+#. Author of the plugin/theme
+msgid "WebCodingPlace"
+msgstr "WebCodingPlace"
+
+#. Author URI of the plugin/theme
+msgid "https://webcodingplace.com/"
+msgstr "https://webcodingplace.com/"
+
+#~ msgid "Error, please try again"
+#~ msgstr "خطا،لطفا دوباره وارد کنید"
+
+#~ msgid "General Settings"
+#~ msgstr "تنظیمات عمومی"
+
+#~ msgid "Video Heading"
+#~ msgstr "سرنویس های ویدیوئی"
+
+#~ msgid "Provide heading text for property video on property pages"
+#~ msgstr "فراهم می کند که متن عنوان و برای ویدیو اموال را در صفحات اموال"
+
+#~ msgid "Provide heading text for attachments on property pages"
+#~ msgstr "متن عنوان را برای پیوست ها در صفحات املاک قرار دهید"
+
+#, fuzzy
+#~| msgid "Upload Image"
+#~ msgid "Upload Field"
+#~ msgstr "آپلود تصویر"
+
+#~ msgid "Please wait! your porperty is being created..."
+#~ msgstr "لطفا صبر کنید! اموال خود را در حال خلق شدن ..."
+
+#, fuzzy
+#~| msgid "Provide number of properties you want to scroll at a time"
+#~ msgid "Order of properties you want to display."
+#~ msgstr "تعداد اموال هایی را که می خواهید در یک زمان حرکت کنید، ارائه دهید"
+
+#, fuzzy
+#~| msgid "Choose to display properties of specific purpose"
+#~ msgid "Sort retrieved properties by specific parameter."
+#~ msgstr "برای نشان دادن خواص هدف خاص، انتخاب کنید"
+
+#, fuzzy
+#~| msgid "Number of properties in a row"
+#~ msgid "Number of properties in a row."
+#~ msgstr "تعداد خواص در یک ردیف"
+
+#, fuzzy
+#~| msgid "Comma separated list of tags to filter properties"
+#~ msgid "Comma separated list of tags to display tag specific properties."
+#~ msgstr "لیست برچسب های جدا شده با کاما برای فیلتر کردن خواص"
+
+#, fuzzy
+#~| msgid "Prefer Nearest Properties"
+#~ msgid "Prefer Near Properties"
+#~ msgstr "ترجیح می دهد خواص نزدیک تر"
+
+#, fuzzy
+#~| msgid "Agent Registration Form"
+#~ msgid "Meta Filtration"
+#~ msgstr "فرم ثبت نام نمایندگی"
+
+#~ msgid "Shortcodes"
+#~ msgstr "کوتاه فعال"
+
+#, fuzzy
+#~| msgid "Descending"
+#~ msgid "Ascending or Descending"
+#~ msgstr "نزولی"
+
+#, fuzzy
+#~| msgid "How you want to display properties on map"
+#~ msgid "How you want to order agents"
+#~ msgstr "چگونه می خواهید خواص روی نقشه را نمایش دهید"
+
+#~ msgid "Number of Properties in a Page"
+#~ msgstr "تعداد خواص در یک صفحه"
+
+#~ msgid "Choose to display properties of specific purpose"
+#~ msgstr "برای نشان دادن خواص هدف خاص، انتخاب کنید"
+
+#~ msgid "Choose to display properties of specific type"
+#~ msgstr "برای نشان دادن خواص نوع خاص، انتخاب کنید"
+
+#~ msgid "Property Status"
+#~ msgstr "وضعیت ملک"
+
+#~ msgid "Property Tags"
+#~ msgstr "برچسبهای املاک"
+
+#~ msgid "Touch Carousel"
+#~ msgstr "چرخ فلک لمسی"
+
+#~ msgid "Detail"
+#~ msgstr "جزئیات"
+
+#~ msgid "Any Type"
+#~ msgstr "هر نوعی"
+
+#~ msgid "Any Area"
+#~ msgstr "هر منطقه"
+
+#~ msgid "Any Purpose"
+#~ msgstr "هر هدف"
+
+#~ msgid "Any Status"
+#~ msgstr "هر وضعیت"
+
+#~ msgid "Possible Attributes"
+#~ msgstr "ویژگی های احتمالی"
+
+#~ msgid "It will render a form to register new agent"
+#~ msgstr "آن را به یک فرم ارائه به ثبت نام عامل جدید"
+
+#~ msgid "It will render a form to create a property."
+#~ msgstr "آن را به یک شکل به ایجاد یک اموال رندر."
+
+#~ msgid "Edit Single Property"
+#~ msgstr "ویرایش املاک تک"
+
+#~ msgid "It will render a form to edit property on frontend."
+#~ msgstr "این فرم را برای ویرایش ویژگی در ظاهر ارائه می کند."
+
+#~ msgid "Login Form"
+#~ msgstr "فرم ورود"
+
+#~ msgid "It will render a form to login an agent."
+#~ msgstr "آن را به یک فرم برای ورود یک عامل رندر."
+
+#~ msgid "List My Properties"
+#~ msgstr "فهرست خواص من"
+
+#~ msgid "It will render a list of properties of current logged in user."
+#~ msgstr "این یک لیست و خواص فعلی وارد شده کاربر ارائه دهد."
+
+#~ msgid "It will render a form to search properties via AJAX."
+#~ msgstr "آن را به یک فرم به جستجو در خواص از طریق AJAX رندر."
+
+#~ msgid "It will render a list of properties."
+#~ msgstr "این یک لیست از خواص را ارائه می دهد."
+
+#~ msgid "It displays search results of properties searched from widget."
+#~ msgstr "نمایش نتایج جستجو از ویژگی های جستجو از ویجت."
+
+#~ msgid "It displays multiple  properties on a map."
+#~ msgstr "این خواص چندین نقشه را نمایش می دهد."
+
+#~ msgid "It displays profile of a single agent."
+#~ msgstr "این نمایه یک نماینده را نمایش می دهد."
+
+#~ msgid "It renders a form to edit current users profile."
+#~ msgstr "این یک فرم برای ویرایش پروفایل کاربران فعلی است."
+
+#~ msgid "It displays a single property by id."
+#~ msgstr "این یک ملک را با شناسه نمایش می دهد."
+
+#~ msgid "It renders slider of selected properties based on settings."
+#~ msgstr "این یک لغزنده از خواص انتخاب شده بر اساس تنظیمات است."
+
+#~ msgid "For more details, please visit"
+#~ msgstr "برای اطلاعات بیشتر لطفا بازدید کنید"
+
+#~ msgid "Shortcode Details"
+#~ msgstr "جزئیات کوتاه"
+
+#~ msgid "Summary"
+#~ msgstr "خلاصه"
+
+#~ msgid "Some Area, City"
+#~ msgstr "برخی از منطقه، شهر"
+
+#~ msgid "Provide text for ribbon of on sale properties"
+#~ msgstr "ارائه متن برای روبان در املاک فروش"
+
+#~ msgid "Form Target"
+#~ msgstr "از هدف گذاری"
+
+#~ msgid "Price in"
+#~ msgstr "قیمت در"
+
+#~ msgid "Property City"
+#~ msgstr "شهر املاک"
+
+#~ msgid "Nickname"
+#~ msgstr "نام نمایشی "
+
+#~ msgid "Property scheduled for: <strong>%1$s</strong>."
+#~ msgstr "املاک برنامه ریزی شده برای: <strong> به٪ 1 $ s را </ strong> است."
+
+#~ msgid ""
+#~ "Provide custom url for agent profile, write disable to hide info icon"
+#~ msgstr ""
+#~ "نشانی اینترنتی سفارشی برای نمایه را ارسال کنید، برای غیر فعال کردن آیکون "
+#~ "اطلاعات ارسال کنید"
+
+#~ msgid "Inline"
+#~ msgstr "درون خط"
+
+#~ msgid "Box Style 4"
+#~ msgstr "جعبه سبک 4"
+
+#~ msgid "Each skill per line with value"
+#~ msgstr "هر مهارت در هر خط با ارزش"
+
+#~ msgid "Social Networks"
+#~ msgstr "شبکه اجتماعی"
+
+#~ msgid "Tagline"
+#~ msgstr "شعار"
+
+#~ msgid "Facebook URL"
+#~ msgstr "URL فیس بوک"
+
+#~ msgid "Twitter URL"
+#~ msgstr "توییتر URL"
+
+#~ msgid "Google+ URL"
+#~ msgstr "نشانی اینترنتی Google+"
+
+#~ msgid "LinkedIn URL"
+#~ msgstr "URL لینک"
+
+#~ msgid "Grid 1"
+#~ msgstr "گرید 1"
+
+#~ msgid "Grid 2"
+#~ msgstr "سلول 2"
+
+#~ msgid "Grid 3"
+#~ msgstr "سلول 3"
+
+#~ msgid "Grid 4"
+#~ msgstr "شبکه‌بندی 4"

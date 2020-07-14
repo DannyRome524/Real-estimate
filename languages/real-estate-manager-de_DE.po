@@ -1,0 +1,5365 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Real Estate Manager Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-13 14:40+0500\n"
+"PO-Revision-Date: 2020-05-13 14:41+0500\n"
+"Last-Translator: Marcel <marcel.aulenbacher@gmail.com>\n"
+"Language-Team: Deutsch\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: rem.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Loco-Version: 2.2.2; wp-5.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/blocks.class.php:90 inc/admin/register-property.php:3
+#: shortcodes/page-builders/vc-settings.php:6
+#: shortcodes/page-builders/vc-settings.php:14
+#: shortcodes/page-builders/vc-settings.php:22
+#: shortcodes/page-builders/vc-settings.php:30
+#: shortcodes/page-builders/vc-settings.php:38
+#: shortcodes/page-builders/vc-settings.php:46
+#: shortcodes/page-builders/vc-settings.php:54
+#: shortcodes/page-builders/vc-settings.php:62
+#: shortcodes/page-builders/vc-settings.php:70
+#: shortcodes/page-builders/vc-settings.php:78
+#: shortcodes/page-builders/vc-settings.php:86
+#: shortcodes/page-builders/vc-settings.php:94
+#: shortcodes/page-builders/vc-settings.php:102
+#: shortcodes/page-builders/vc-settings.php:110
+#: shortcodes/page-builders/vc-settings.php:118
+#: shortcodes/page-builders/vc-settings.php:126
+#: shortcodes/page-builders/vc-settings.php:134
+#: shortcodes/page-builders/vc-settings.php:142
+msgid "Real Estate Manager"
+msgstr "Immobilien-Manager"
+
+#: classes/emails.class.php:38
+msgid "New Agent Registered "
+msgstr "Neuer Anbieter registriert "
+
+#: classes/emails.class.php:49
+msgid "Registration Successful "
+msgstr "Die Registrierung war erfolgreich "
+
+#: classes/emails.class.php:65
+msgid "Approved "
+msgstr "Genehmigt "
+
+#: classes/emails.class.php:81
+msgid "Rejected "
+msgstr "Abgelehnt "
+
+#: classes/emails.class.php:103
+msgid "New Property Submitted "
+msgstr "Neue Immobilie wurde angelegt "
+
+#: classes/emails.class.php:109
+msgid "Property Submitted "
+msgstr "Immobilie eingereicht "
+
+#: classes/emails.class.php:122
+msgid "Property Approved "
+msgstr "Immobilie freigegeben "
+
+#: classes/hooks.class.php:168 classes/hooks.class.php:192
+#: classes/hooks.class.php:198 core.functions.php:587
+#: inc/menu/page-agents.php:91 inc/menu/page-agents.php:133
+msgid "Details"
+msgstr "Details"
+
+#: classes/hooks.class.php:174
+msgid "Add to wishlist"
+msgstr ""
+
+#: classes/hooks.class.php:181 templates/compare-box.php:38
+msgid "Compare"
+msgstr ""
+
+#: classes/hooks.class.php:273
+msgid "Beds"
+msgstr "Betten"
+
+#: classes/hooks.class.php:278
+msgid "Baths"
+msgstr "Bäder"
+
+#: classes/hooks.class.php:283 inc/arrays/property-fields.php:145
+#: templates/compare-box.php:18
+msgid "Area"
+msgstr "Wohnfläche"
+
+#: classes/hooks.class.php:611 classes/hooks.class.php:1183
+#: classes/widgets/search-properties.php:91
+#: classes/widgets/search-properties.php:184 core.functions.php:774
+#: core.functions.php:1399 shortcodes/page-builders/all-setting-fields.php:399
+msgid "Property ID"
+msgstr "Immobilien ID"
+
+#: classes/hooks.class.php:773 core.functions.php:589
+msgid "Features"
+msgstr "Ausstattung"
+
+#: classes/hooks.class.php:803 core.functions.php:1400
+#: shortcodes/create-property.php:81 shortcodes/edit-property.php:103
+#: shortcodes/page-builders/all-setting-fields.php:253
+msgid "Tags"
+msgstr "Schlagworte"
+
+#: classes/hooks.class.php:840 inc/admin/register-property.php:14
+#: shortcodes/page-builders/divi-settings.php:163
+#: shortcodes/page-builders/vc-settings.php:44
+msgid "Edit Property"
+msgstr "Immobilie bearbeiten"
+
+#: classes/hooks.class.php:846
+msgid "Find on Map"
+msgstr "Auf der Karte anzeigen"
+
+#: classes/hooks.class.php:927
+msgid "Name"
+msgstr "Name"
+
+#: classes/hooks.class.php:930 inc/arrays/agent-fields.php:34
+#: inc/menu/page-agents.php:73 inc/menu/page-agents.php:115
+msgid "Email"
+msgstr "Email"
+
+#: classes/hooks.class.php:933
+msgid "Subject"
+msgstr "Betreff"
+
+#: classes/hooks.class.php:936
+msgid "Your Message"
+msgstr "Ihre Nachricht"
+
+#: classes/hooks.class.php:942
+msgid "SEND MESSAGE"
+msgstr "NACHRICHT SENDEN"
+
+#: classes/hooks.class.php:949 inc/sidebar-agent-contact.php:35
+msgid "Sending Email, Please Wait..."
+msgstr "E-Mail senden, bitte warten ..."
+
+#: classes/hooks.class.php:972
+msgid "«"
+msgstr "«"
+
+#: classes/hooks.class.php:973
+msgid "»"
+msgstr "»"
+
+#: classes/hooks.class.php:981
+msgid "Tag:"
+msgstr "Schlagwort:"
+
+#: classes/hooks.class.php:984
+msgid "Properties:"
+msgstr "Immobilien:"
+
+#: classes/hooks.class.php:1003 classes/setup.class.php:700
+#: shortcodes/page-builders/all-setting-fields.php:771
+#: shortcodes/page-builders/all-setting-fields.php:778
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: classes/hooks.class.php:1004
+msgid "Request for Customize"
+msgstr "Anfrage zur Bearbeitung"
+
+#: classes/hooks.class.php:1157
+msgid "You can add more features"
+msgstr "Sie können weitere Merkmale hinzufügen"
+
+#: classes/hooks.class.php:1158 inc/menu/admin-settings-arr.php:753
+#: inc/menu/admin-settings-arr.php:759 inc/menu/admin-settings-arr.php:873
+#: inc/menu/render-admin-settings.php:50
+msgid "here"
+msgstr "hier"
+
+#: classes/hooks.class.php:1184
+msgid "Featured Image"
+msgstr "Hervorgehobenes Bild"
+
+#: classes/hooks.class.php:1224 inc/menu/admin-settings-arr.php:124
+msgid "Energy Efficiency"
+msgstr "Energie-Effizienz"
+
+#: classes/hooks.class.php:1244
+msgid "A+"
+msgstr "A+"
+
+#: classes/hooks.class.php:1245
+msgid "A"
+msgstr "A"
+
+#: classes/hooks.class.php:1246
+msgid "B"
+msgstr "B"
+
+#: classes/hooks.class.php:1247
+msgid "C"
+msgstr "C"
+
+#: classes/hooks.class.php:1248
+msgid "D"
+msgstr "D"
+
+#: classes/hooks.class.php:1249
+msgid "E"
+msgstr "E"
+
+#: classes/hooks.class.php:1250
+msgid "F"
+msgstr "F"
+
+#: classes/hooks.class.php:1251
+msgid "G"
+msgstr "G"
+
+#: classes/hooks.class.php:1252
+msgid "H"
+msgstr "H"
+
+#: classes/hooks.class.php:1254
+msgid "Energy Class"
+msgstr "Energieklasse"
+
+#: classes/hooks.class.php:1255
+msgid "Select the energy class of the property"
+msgstr "Wählen Sie die Energieklasse der Immobilie"
+
+#: classes/hooks.class.php:1264
+msgid "Global Energy Performance Index"
+msgstr "Globaler Energieeffizienzindex"
+
+#: classes/hooks.class.php:1265
+msgid "Example: 92.42 kWh / m²a"
+msgstr "Beispiel: 92.42 kWh / m²a"
+
+#: classes/hooks.class.php:1274
+msgid "Renewable Energy Performance Index"
+msgstr "Energieeffizienzindex erneuerbare Energien"
+
+#: classes/hooks.class.php:1275
+msgid "Example: 1.00 kWh / m²a"
+msgstr "Beispiel: 1,00 kWh / m²a"
+
+#: classes/hooks.class.php:1284
+msgid "Energy Performance of the Listing"
+msgstr "Energieeffizienz der Listung"
+
+#: classes/hooks.class.php:1285
+msgid "Example: Low"
+msgstr "Beispiel: Niedrig"
+
+#: classes/hooks.class.php:1306
+msgid "Energy class"
+msgstr "Energieklasse"
+
+#: classes/routes.class.php:363 classes/setup.class.php:687
+msgid "Email Sent Successfully"
+msgstr "Die E-Mail wurde erfolgreich versendet"
+
+#: classes/routes.class.php:365 classes/setup.class.php:689
+msgid "There is some problem, please try later"
+msgstr "Es gibt ein Problem, bitte versuchen Sie es später"
+
+#: classes/setup.class.php:104
+msgid "Property Information"
+msgstr "Informationen der Immobilie"
+
+#: classes/setup.class.php:105
+msgid "Location on Map"
+msgstr "Position auf der Karte"
+
+#: classes/setup.class.php:106
+msgid "Gallery Images"
+msgstr "Galerie Bilder"
+
+#: classes/setup.class.php:107
+msgid "Additional Agents"
+msgstr "Weitere Makler"
+
+#: classes/setup.class.php:460 classes/setup.class.php:780
+msgid "Property Agent"
+msgstr "Ihr Makler"
+
+#: classes/setup.class.php:536
+msgid "Attic"
+msgstr "Dachgeschoßwohnung"
+
+#: classes/setup.class.php:537
+msgid "Gas Heat"
+msgstr "Gasheizung"
+
+#: classes/setup.class.php:538
+msgid "Balcony"
+msgstr "Balkon"
+
+#: classes/setup.class.php:539
+msgid "Wine Cellar"
+msgstr "Weinkeller"
+
+#: classes/setup.class.php:540
+msgid "Basketball Court"
+msgstr "Sportplatz"
+
+#: classes/setup.class.php:541
+msgid "Trash Compactors"
+msgstr "Müllvernichter"
+
+#: classes/setup.class.php:542
+msgid "Fireplace"
+msgstr "Kamin"
+
+#: classes/setup.class.php:543
+msgid "Pool"
+msgstr "Swimmingpool"
+
+#: classes/setup.class.php:544
+msgid "Lake View"
+msgstr "Seeblick"
+
+#: classes/setup.class.php:545
+msgid "Solar Heat"
+msgstr "Solarwärme"
+
+#: classes/setup.class.php:546
+msgid "Separate Shower"
+msgstr "Separate Dusche"
+
+#: classes/setup.class.php:547
+msgid "Wet Bar"
+msgstr "Hausbar"
+
+#: classes/setup.class.php:548
+msgid "Remodeled"
+msgstr "Renoviert"
+
+#: classes/setup.class.php:549
+msgid "Skylights"
+msgstr "Oberlichter"
+
+#: classes/setup.class.php:550
+msgid "Stone Surfaces"
+msgstr "Steinoberflächen"
+
+#: classes/setup.class.php:551
+msgid "Golf Course"
+msgstr "Golfplatz"
+
+#: classes/setup.class.php:552
+msgid "Health Club"
+msgstr "Wellnessclub"
+
+#: classes/setup.class.php:553
+msgid "Backyard"
+msgstr "Hinterhof"
+
+#: classes/setup.class.php:554
+msgid "Pet Allowed"
+msgstr "Haustiere erlaubt"
+
+#: classes/setup.class.php:555
+msgid "Office/Den"
+msgstr "Büro"
+
+#: classes/setup.class.php:556
+msgid "Laundry"
+msgstr "Waschraum"
+
+#: classes/setup.class.php:569
+msgid "Duplex"
+msgstr "Duplex"
+
+#: classes/setup.class.php:570
+msgid "House"
+msgstr "Haus"
+
+#: classes/setup.class.php:571
+msgid "Office"
+msgstr "Büro"
+
+#: classes/setup.class.php:572
+msgid "Retail"
+msgstr "Verkauf"
+
+#: classes/setup.class.php:573
+msgid "Vila"
+msgstr "Villa"
+
+#: classes/setup.class.php:586
+msgid "Rent"
+msgstr "Zu Vermieten"
+
+#: classes/setup.class.php:587
+msgid "Sell"
+msgstr "Zu Verkaufen"
+
+#: classes/setup.class.php:600
+msgid "Normal"
+msgstr "Normal"
+
+#: classes/setup.class.php:601
+msgid "Available"
+msgstr "Verfügbar"
+
+#: classes/setup.class.php:602
+msgid "Not Available"
+msgstr "Nicht verfügbar"
+
+#: classes/setup.class.php:603
+msgid "Sold"
+msgstr "Verkauft"
+
+#: classes/setup.class.php:604
+msgid "Open House"
+msgstr "Hausbesuch"
+
+#: classes/setup.class.php:619 classes/shortcodes.class.php:1322
+#: classes/shortcodes.class.php:1588
+msgid "Please check the captcha form."
+msgstr "Bitte prüfen Sie das Captcha Formular."
+
+#: classes/setup.class.php:628 classes/shortcodes.class.php:1331
+msgid "There was an error. Please try again after reloading page"
+msgstr ""
+"Es gab einen Fehler. Bitte versuchen Sie es erneut nach dem Sie die Seite "
+"neu geladen haben"
+
+#: classes/setup.class.php:697
+msgid "Agents"
+msgstr "Anbieter"
+
+#: classes/setup.class.php:698
+msgid "Property Fields"
+msgstr "Immobilien Eingabefelder"
+
+#: classes/setup.class.php:699
+msgid "Registration Fields"
+msgstr "Registrierungsfelder"
+
+#: classes/setup.class.php:701
+msgid "Extensions"
+msgstr "Erweiterungen"
+
+#: classes/setup.class.php:702
+msgid "Help/Support"
+msgstr "Hilfe/Support"
+
+#: classes/setup.class.php:861 classes/setup.class.php:892
+#: classes/setup.class.php:1217
+msgid "Settings Saved!"
+msgstr "Einstellungen gespeichert!"
+
+#: classes/setup.class.php:862 classes/setup.class.php:893
+#: classes/setup.class.php:1218
+msgid "Settings are saved in the database successfully."
+msgstr "Die Einstellungen wurden erfolgreich in der Datenbank gespeichert."
+
+#: classes/setup.class.php:873 classes/setup.class.php:896
+#: classes/setup.class.php:1221
+msgid "Failed!"
+msgstr "Gescheitert!"
+
+#: classes/setup.class.php:874 classes/setup.class.php:897
+#: classes/setup.class.php:1222
+msgid "There is some error or you did not make any change."
+msgstr "Es gab einen Fehler oder es wurde nichts verändert."
+
+#: classes/setup.class.php:919 classes/setup.class.php:922
+msgid "Property updated."
+msgstr "Immobilie aktualisiert."
+
+#: classes/setup.class.php:920
+msgid "Custom field updated."
+msgstr "Benutzerdefiniertes Feld aktualisiert."
+
+#: classes/setup.class.php:921
+msgid "Custom field deleted."
+msgstr "Benutzerdefiniertes Feld gelöscht."
+
+#. translators: %s: date and time of the revision
+#: classes/setup.class.php:924
+msgid "Property restored to revision"
+msgstr "Immobilie zur Überprüfung wiederhergestellt"
+
+#: classes/setup.class.php:925
+msgid "Property published."
+msgstr "Immobilie veröffentlicht."
+
+#: classes/setup.class.php:926
+msgid "Property saved."
+msgstr "Immobilie gespeichert."
+
+#: classes/setup.class.php:927
+msgid "Property submitted."
+msgstr "Immobilie abgesendet."
+
+#: classes/setup.class.php:929
+msgid "Property scheduled."
+msgstr "Immobilie gespeichert."
+
+#. translators: Publish box date format, see http://php.net/date
+#: classes/setup.class.php:931
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G: i"
+
+#: classes/setup.class.php:933
+msgid "Property draft updated."
+msgstr "Immobilienentwurf aktualisiert."
+
+#: classes/setup.class.php:939 inc/admin/register-property.php:16
+msgid "View Property"
+msgstr "Immobilie ansehen"
+
+#: classes/setup.class.php:945
+msgid "Preview Property"
+msgstr "Vorschau der Immobilie"
+
+#: classes/setup.class.php:1010
+msgid "Property Page Base"
+msgstr "Basis der Immobilienseite"
+
+#: classes/setup.class.php:1035 shortcodes/manage-properties.php:44
+#: shortcodes/my-properties.php:37 templates/compare-box.php:17
+msgid "Type"
+msgstr "Typ"
+
+#: classes/setup.class.php:1036 inc/arrays/property-fields.php:101
+#: shortcodes/manage-properties.php:46 shortcodes/my-properties.php:39
+#: templates/compare-box.php:19
+msgid "Purpose"
+msgstr "Zweck"
+
+#: classes/setup.class.php:1037 inc/arrays/property-fields.php:112
+#: shortcodes/manage-properties.php:47 shortcodes/my-properties.php:40
+#: templates/compare-box.php:16
+msgid "Status"
+msgstr "Status"
+
+#: classes/setup.class.php:1038
+msgid "Is Featured"
+msgstr "Wird hervorgehoben"
+
+#: classes/setup.class.php:1066
+msgid "All Types"
+msgstr "Alle Arten"
+
+#: classes/setup.class.php:1078
+msgid "All Purpose"
+msgstr "Alle Zwecke"
+
+#: classes/setup.class.php:1089
+msgid "All Status"
+msgstr "Alle Status"
+
+#: classes/shortcodes.class.php:87
+msgid "Passwords did not match!"
+msgstr "Das Passwort stimmt nicht überein!"
+
+#: classes/shortcodes.class.php:105 classes/shortcodes.class.php:179
+#: classes/shortcodes.class.php:719 classes/shortcodes.class.php:966
+msgid ""
+"Live Preview is not available in Elementor edit mode but will work when "
+"visiting this page."
+msgstr ""
+"Die Live-Vorschau ist im Elementor nicht verfügbar, funktioniert aber sobald "
+"sie die Seite besuchen."
+
+#: classes/shortcodes.class.php:111 classes/widgets/search-properties.php:106
+#: shortcodes/manage-properties.php:23 shortcodes/my-properties.php:22
+msgid "Search"
+msgstr "Suche"
+
+#: classes/shortcodes.class.php:112
+msgid "More Filters"
+msgstr "Weitere Filter"
+
+#: classes/shortcodes.class.php:186
+#, fuzzy
+#| msgid "G"
+msgid "Go"
+msgstr "G"
+
+#: classes/shortcodes.class.php:187
+#, fuzzy
+#| msgid "More Info"
+msgid "More "
+msgstr "Weitere Informationen"
+
+#: classes/shortcodes.class.php:280
+msgid "Logging In, Please Wait..."
+msgstr "Logge Sie ein, bitte warten..."
+
+#: classes/shortcodes.class.php:480 classes/shortcodes.class.php:514
+msgid "Are you sure to delete this property?"
+msgstr "Wollen Sie diese Immobilie wirklich löschen?"
+
+#: classes/shortcodes.class.php:481 classes/shortcodes.class.php:515
+#: inc/arrays/property-fields.php:226 inc/menu/admin-settings-arr.php:1182
+msgid "Yes"
+msgstr "Ja"
+
+#: classes/shortcodes.class.php:482 classes/shortcodes.class.php:516
+#: inc/arrays/property-fields.php:225 inc/menu/admin-settings-arr.php:1181
+msgid "No"
+msgstr "Nein"
+
+#: classes/shortcodes.class.php:517 classes/shortcodes.class.php:1489
+msgid "Done"
+msgstr "Erledigt"
+
+#: classes/shortcodes.class.php:1123 shortcodes/edit-agent.php:45
+msgid "Logout"
+msgstr "Abmelden"
+
+#: classes/shortcodes.class.php:1314
+msgid "There is no property having ID "
+msgstr "Es gibt keine Immobilie mit ID "
+
+#: classes/shortcodes.class.php:1353
+msgid "Successful!"
+msgstr "Erfolgreich!"
+
+#: classes/shortcodes.class.php:1519
+msgid "Changes Saved!"
+msgstr "Änderungen gespeichert!"
+
+#: classes/shortcodes.class.php:1597
+msgid "There was an error. Please try again after reloading page."
+msgstr ""
+"Es ist ein Fehler passiert, bitte versuchen Sie die Seite neu zu laden."
+
+#: classes/shortcodes.class.php:1605 classes/shortcodes.class.php:1641
+msgid "Username or Email already exists"
+msgstr "Benutzername oder E-Mail existiert bereits"
+
+#: classes/shortcodes.class.php:1613 classes/shortcodes.class.php:1653
+msgid "Registered Successfully, please wait until admin approves."
+msgstr ""
+"Registrierung erfolgreich. Bitte warten Sie auf ihre Freischaltung durch "
+"einen Administrator."
+
+#: classes/shortcodes.class.php:1615 classes/shortcodes.class.php:1655
+msgid "Error, please try later"
+msgstr "Fehler, bitte später versuchen"
+
+#: classes/shortcodes.class.php:1680
+msgid "Deleted"
+msgstr "Gelöscht"
+
+#: classes/shortcodes.class.php:1682
+msgid "Sorry! You can not delete this property."
+msgstr "Entschuldigung! Sie können diese Immobilie nicht löschen."
+
+#: classes/shortcodes.class.php:1693 classes/shortcodes.class.php:1793
+#: inc/admin/property-settings-metabox.php:37
+#: inc/menu/agent/fields/checkbox.php:26 inc/menu/agent/fields/email.php:26
+#: inc/menu/agent/fields/image.php:26 inc/menu/agent/fields/number.php:26
+#: inc/menu/agent/fields/password.php:26 inc/menu/agent/fields/select.php:42
+#: inc/menu/agent/fields/text.php:26 inc/menu/agent/fields/textarea.php:26
+#: inc/menu/custom-fields/fields/select.php:73
+#: inc/menu/custom-fields/fields/text.php:58
+msgid "Required"
+msgstr "Benötigt"
+
+#: classes/shortcodes.class.php:1770
+msgid "Choose Picture"
+msgstr "Bild auswählen"
+
+#: classes/shortcodes.class.php:1770 classes/shortcodes.class.php:1822
+#: core.functions.php:703
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: classes/shortcodes.class.php:1822 core.functions.php:703
+msgid "Select attachments for property"
+msgstr "Anlagen für das Objekt aussuchen"
+
+#: classes/shortcodes.class.php:1822 core.functions.php:703
+msgid "Upload"
+msgstr "Hochladen"
+
+#: classes/shortcodes.class.php:1842 classes/shortcodes.class.php:1866
+#: core.functions.php:667 core.functions.php:819 core.functions.php:834
+#: core.functions.php:850 core.functions.php:851 core.functions.php:886
+msgid "Any"
+msgstr "Alle"
+
+#: classes/shortcodes.class.php:1924
+msgid "Sort By Date"
+msgstr "Sortiere nach Datum"
+
+#: classes/shortcodes.class.php:1928
+msgid "Sort By Title"
+msgstr "Sortiere nach Titel"
+
+#: classes/shortcodes.class.php:1932
+msgid "Sort By Price : High to Low"
+msgstr "Sortiere nach Preis: Hoch nach Niedrig"
+
+#: classes/shortcodes.class.php:1936
+msgid "Sort By Price : Low to High"
+msgstr "Sortiere nach Preis: Niedrig nach Hoch"
+
+#: classes/widgets/mortgage-calculator.php:13
+msgid "REM - Mortgage Calculator"
+msgstr "REM - Hypothekenrechner"
+
+#: classes/widgets/mortgage-calculator.php:14
+msgid "Displays Mortgage Calculator"
+msgstr "Zeigt einen Hypothekenrechner an"
+
+#: classes/widgets/mortgage-calculator.php:38
+msgid "Sale price"
+msgstr "Verkaufspreis"
+
+#: classes/widgets/mortgage-calculator.php:42
+msgid "Down payment"
+msgstr "Anzahlung"
+
+#: classes/widgets/mortgage-calculator.php:46
+msgid "Interest Rate"
+msgstr "Zinssatz (in %)"
+
+#: classes/widgets/mortgage-calculator.php:50
+msgid "Term"
+msgstr "Begriff"
+
+#: classes/widgets/mortgage-calculator.php:50
+msgid "years"
+msgstr "Jahre"
+
+#: classes/widgets/mortgage-calculator.php:53
+msgid "Calculate"
+msgstr "Berechnen"
+
+#: classes/widgets/mortgage-calculator.php:64
+#: classes/widgets/recent-properties.php:68
+#: classes/widgets/search-properties.php:122 classes/widgets/tags-cloud.php:34
+#: core.functions.php:779 shortcodes/manage-properties.php:43
+#: shortcodes/my-properties.php:36 templates/compare-box.php:47
+msgid "Title"
+msgstr "Titel"
+
+#: classes/widgets/recent-properties.php:15
+#, fuzzy
+#| msgid "Rented Properties"
+msgid "REM - Recent Properties"
+msgstr "Vermietete Immobilien"
+
+#: classes/widgets/recent-properties.php:16
+#, fuzzy
+#| msgid "Rented Properties"
+msgid "Displays Recent Properties"
+msgstr "Vermietete Immobilien"
+
+#: classes/widgets/recent-properties.php:77
+#: shortcodes/page-builders/all-setting-fields.php:92
+#: shortcodes/page-builders/all-setting-fields.php:653
+msgid "Number of Properties"
+msgstr "Anzahl der Immobilien"
+
+#: classes/widgets/recent-properties.php:92
+#, fuzzy
+#| msgid "Display Name"
+msgid "Display Date"
+msgstr "Anzeigename"
+
+#: classes/widgets/recent-properties.php:101
+#, fuzzy
+#| msgid "Parent Property:"
+msgid "Enable Current Property"
+msgstr "Übergeordnete Immobilie:"
+
+#: classes/widgets/recent-properties.php:104
+msgid "Custom Data (Provide field name)"
+msgstr ""
+
+#: classes/widgets/search-properties.php:15
+msgid "REM - Search Property"
+msgstr "REM - Immobilie suchen"
+
+#: classes/widgets/search-properties.php:16
+msgid "Search Properties"
+msgstr "Immobilien suchen"
+
+#: classes/widgets/search-properties.php:76
+#: shortcodes/search-property-inline.php:47 shortcodes/search-property.php:46
+msgid "Keywords"
+msgstr "Schlüsselworte"
+
+#: classes/widgets/search-properties.php:88
+#: classes/widgets/search-properties.php:157 core.functions.php:757
+#: core.functions.php:1396 shortcodes/page-builders/all-setting-fields.php:15
+#: shortcodes/page-builders/all-setting-fields.php:212
+#: shortcodes/page-builders/all-setting-fields.php:577
+#: shortcodes/page-builders/all-setting-fields.php:624
+#: shortcodes/page-builders/all-setting-fields.php:919
+msgid "Order"
+msgstr "Sortieren"
+
+#: classes/widgets/search-properties.php:89
+#: classes/widgets/search-properties.php:166 core.functions.php:778
+#: core.functions.php:1397 shortcodes/page-builders/all-setting-fields.php:25
+#: shortcodes/page-builders/all-setting-fields.php:222
+#: shortcodes/page-builders/all-setting-fields.php:587
+#: shortcodes/page-builders/all-setting-fields.php:638
+#: shortcodes/page-builders/all-setting-fields.php:929
+msgid "Order By"
+msgstr "Sortieren nach"
+
+#: classes/widgets/search-properties.php:90
+#: classes/widgets/search-properties.php:175 core.functions.php:786
+#: core.functions.php:1398 shortcodes/manage-properties.php:48
+#: shortcodes/page-builders/all-setting-fields.php:30
+#: shortcodes/page-builders/all-setting-fields.php:226
+#: shortcodes/page-builders/all-setting-fields.php:265
+#: shortcodes/page-builders/all-setting-fields.php:451
+#: shortcodes/page-builders/all-setting-fields.php:591
+#: shortcodes/page-builders/all-setting-fields.php:642
+#: shortcodes/page-builders/all-setting-fields.php:763
+msgid "Agent"
+msgstr "Makler"
+
+#: classes/widgets/search-properties.php:137 core.functions.php:1390
+msgid "Search Field"
+msgstr "Suchfeld"
+
+#: classes/widgets/search-properties.php:193
+msgid "Enable Auto Complete Fields"
+msgstr "Automatische Vervollständigung aktivieren"
+
+#: classes/widgets/search-properties.php:195
+msgid "It will auto suggest words in text fields as user type in."
+msgstr "Schlägt bei Texteingabe durch den Nutzer automatisch Suchwörter vor."
+
+#: classes/widgets/search-properties.php:198
+msgid "Search Results Page"
+msgstr "Ergebnisseite der Suche"
+
+#: classes/widgets/search-properties.php:219
+#: inc/menu/render-admin-settings.php:167
+msgid "No Pages Found!"
+msgstr "Keine Seiten gefunden!"
+
+#: classes/widgets/search-properties.php:222
+msgid "Paste following shortcode in selected page to display results"
+msgstr ""
+"Fügen Sie den folgenden Shortcode in die ausgewählte Seite ein, um die "
+"Ergebnisse anzuzeigen"
+
+#: classes/widgets/tags-cloud.php:13
+msgid "REM - Tags Cloud"
+msgstr "REM - Schlagworte"
+
+#: classes/widgets/tags-cloud.php:14
+msgid "Displays Properties Tags Cloud"
+msgstr "Zeige Schlagworte für Immobilien"
+
+#: core.functions.php:154
+msgid "United Arab Emirates dirham"
+msgstr "Vereinigte Arabische Emirate"
+
+#: core.functions.php:155
+msgid "Afghan afghani"
+msgstr "Afghanischer Afghani"
+
+#: core.functions.php:156
+msgid "Albanian lek"
+msgstr "Albanischer Lek"
+
+#: core.functions.php:157
+msgid "Armenian dram"
+msgstr "Armenischer Dram"
+
+#: core.functions.php:158
+msgid "Netherlands Antillean guilder"
+msgstr "Niederländischer Antillen-Gulden"
+
+#: core.functions.php:159
+msgid "Angolan kwanza"
+msgstr "Angolanischer Kwanza"
+
+#: core.functions.php:160
+msgid "Argentine peso"
+msgstr "Argentinischer Peso"
+
+#: core.functions.php:161
+msgid "Australian dollar"
+msgstr "Australischer Dollar"
+
+#: core.functions.php:162
+msgid "Aruban florin"
+msgstr "Aruba-Florin"
+
+#: core.functions.php:163
+msgid "Azerbaijani manat"
+msgstr "Aserbaidschan-Manat"
+
+#: core.functions.php:164
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr "Bosnisch-Herzegowinische Konvertible Mark"
+
+#: core.functions.php:165
+msgid "Barbadian dollar"
+msgstr "Barbados-Dollar"
+
+#: core.functions.php:166
+msgid "Bangladeshi taka"
+msgstr "Bangladeshi Taka"
+
+#: core.functions.php:167
+msgid "Bulgarian lev"
+msgstr "Bulgarische Lev"
+
+#: core.functions.php:168
+msgid "Bahraini dinar"
+msgstr "Bahrain-Dinar"
+
+#: core.functions.php:169
+msgid "Burundian franc"
+msgstr "Burundi-Franc"
+
+#: core.functions.php:170
+msgid "Bermudian dollar"
+msgstr "Bermuda-Dollar"
+
+#: core.functions.php:171
+msgid "Brunei dollar"
+msgstr "Brunei-Dollar"
+
+#: core.functions.php:172
+msgid "Bolivian boliviano"
+msgstr "Bolivianischer Boliviano"
+
+#: core.functions.php:173
+msgid "Brazilian real"
+msgstr "Brasilianischer Real"
+
+#: core.functions.php:174
+msgid "Bahamian dollar"
+msgstr "Bahama-Dollar"
+
+#: core.functions.php:175
+msgid "Bitcoin"
+msgstr "Bitcoin"
+
+#: core.functions.php:176
+msgid "Bhutanese ngultrum"
+msgstr "Bhutanischer Ngultrum"
+
+#: core.functions.php:177
+msgid "Botswana pula"
+msgstr "Botswanischer Pula"
+
+#: core.functions.php:178
+msgid "Belarusian ruble"
+msgstr "Weißrussischer Rubel"
+
+#: core.functions.php:179
+msgid "Belize dollar"
+msgstr "Belize-Dollar"
+
+#: core.functions.php:180
+msgid "Canadian dollar"
+msgstr "Kanadischer Dollar"
+
+#: core.functions.php:181
+msgid "Congolese franc"
+msgstr "Kongolesischer CFA-Franc BEAC"
+
+#: core.functions.php:182
+msgid "Swiss franc"
+msgstr "Schweizer Franken"
+
+#: core.functions.php:183
+msgid "Chilean peso"
+msgstr "Chilean Peso"
+
+#: core.functions.php:184
+msgid "Chinese yuan"
+msgstr "Chinesischer Yuan"
+
+#: core.functions.php:185
+msgid "Colombian peso"
+msgstr "Kolumbianischer Peso"
+
+#: core.functions.php:186
+msgid "Costa Rican col&oacute;n"
+msgstr "Costa-Rica-Col&oacute;n"
+
+#: core.functions.php:187
+msgid "Cuban convertible peso"
+msgstr "Kubanischer Peso convertible"
+
+#: core.functions.php:188
+msgid "Cuban peso"
+msgstr "Kubanischer Peso"
+
+#: core.functions.php:189
+msgid "Cape Verdean escudo"
+msgstr "Kap-Verde-Escudo"
+
+#: core.functions.php:190
+msgid "Czech koruna"
+msgstr "Czeschicher Koruna"
+
+#: core.functions.php:191
+msgid "Djiboutian franc"
+msgstr "Dschibuti-Franc"
+
+#: core.functions.php:192
+msgid "Danish krone"
+msgstr "Dänische Kronen"
+
+#: core.functions.php:193
+msgid "Dominican peso"
+msgstr "Dominikanischer Peso"
+
+#: core.functions.php:194
+msgid "Algerian dinar"
+msgstr "Algerischer Dinar"
+
+#: core.functions.php:195
+msgid "Egyptian pound"
+msgstr "Ägyptisches Pfund"
+
+#: core.functions.php:196
+msgid "Eritrean nakfa"
+msgstr "Eritreischer Nakfa"
+
+#: core.functions.php:197
+msgid "Ethiopian birr"
+msgstr "Äthiopischer Birr"
+
+#: core.functions.php:198
+msgid "Euro"
+msgstr "Euro"
+
+#: core.functions.php:199
+msgid "Fijian dollar"
+msgstr "Fidschi-Dollar"
+
+#: core.functions.php:200
+msgid "Falkland Islands pound"
+msgstr "Falkland-Pfund"
+
+#: core.functions.php:201
+msgid "Pound sterling"
+msgstr "Pfund Sterling"
+
+#: core.functions.php:202
+msgid "Georgian lari"
+msgstr "Georgischer Lari"
+
+#: core.functions.php:203
+msgid "Guernsey pound"
+msgstr "Guernsey-Pfund"
+
+#: core.functions.php:204
+msgid "Ghana cedi"
+msgstr "Ghanaischer Cedi"
+
+#: core.functions.php:205
+msgid "Gibraltar pound"
+msgstr "Gibraltar-Pfund"
+
+#: core.functions.php:206
+msgid "Gambian dalasi"
+msgstr "Gambischer Dalasi"
+
+#: core.functions.php:207
+msgid "Guinean franc"
+msgstr "Guinea-Franc"
+
+#: core.functions.php:208
+msgid "Guatemalan quetzal"
+msgstr "Guatemaltekischer Quetzal"
+
+#: core.functions.php:209
+msgid "Guyanese dollar"
+msgstr "Guyana-Dollar"
+
+#: core.functions.php:210
+msgid "Hong Kong dollar"
+msgstr "Hong Kong Dollar"
+
+#: core.functions.php:211
+msgid "Honduran lempira"
+msgstr "Honduranischer Lempira"
+
+#: core.functions.php:212
+msgid "Croatian kuna"
+msgstr "Kroatischer Kuna"
+
+#: core.functions.php:213
+msgid "Haitian gourde"
+msgstr "Haitianische Gourde"
+
+#: core.functions.php:214
+msgid "Hungarian forint"
+msgstr "Ungarische Forint"
+
+#: core.functions.php:215
+msgid "Indonesian rupiah"
+msgstr "Indonesische Rupien"
+
+#: core.functions.php:216
+msgid "Israeli new shekel"
+msgstr "Neuer Israel Schekel"
+
+#: core.functions.php:217
+msgid "Manx pound"
+msgstr "Isle-of-Man-Pfund"
+
+#: core.functions.php:218
+msgid "Indian rupee"
+msgstr "Indian Rupee"
+
+#: core.functions.php:219
+msgid "Iraqi dinar"
+msgstr "Irakischer Dinar"
+
+#: core.functions.php:220
+msgid "Iranian rial"
+msgstr "Iranische Rial"
+
+#: core.functions.php:221
+msgid "Icelandic kr&oacute;na"
+msgstr "Isländische Krone"
+
+#: core.functions.php:222
+msgid "Jersey pound"
+msgstr "Jersey-Pfund"
+
+#: core.functions.php:223
+msgid "Jamaican dollar"
+msgstr "Jamaikanischer Dollar"
+
+#: core.functions.php:224
+msgid "Jordanian dinar"
+msgstr "Jordanischer Dinar"
+
+#: core.functions.php:225
+msgid "Japanese yen"
+msgstr "Japanischer Yen"
+
+#: core.functions.php:226
+msgid "Kenyan shilling"
+msgstr "Kenia-Schilling"
+
+#: core.functions.php:227
+msgid "Kyrgyzstani som"
+msgstr "Kirgisischer Som"
+
+#: core.functions.php:228
+msgid "Cambodian riel"
+msgstr "Kambodschanischer Riel"
+
+#: core.functions.php:229
+msgid "Comorian franc"
+msgstr "Komoren-Franc"
+
+#: core.functions.php:230
+msgid "North Korean won"
+msgstr "Nordkoreanischer Won"
+
+#: core.functions.php:231
+msgid "South Korean won"
+msgstr "Südkoreanischer Won"
+
+#: core.functions.php:232
+msgid "Kuwaiti dinar"
+msgstr "Kuwait-Dinar"
+
+#: core.functions.php:233
+msgid "Cayman Islands dollar"
+msgstr "Kaiman-Dollar"
+
+#: core.functions.php:234
+msgid "Kazakhstani tenge"
+msgstr "Kasachischer Tenge"
+
+#: core.functions.php:235
+msgid "Lao kip"
+msgstr "Laotischer Kip"
+
+#: core.functions.php:236
+msgid "Lebanese pound"
+msgstr "Libanesisches Pfund"
+
+#: core.functions.php:237
+msgid "Sri Lankan rupee"
+msgstr "Sri Lanka-Rupie"
+
+#: core.functions.php:238
+msgid "Liberian dollar"
+msgstr "Liberianische Dollar"
+
+#: core.functions.php:239
+msgid "Lesotho loti"
+msgstr "Lesothischer Loti"
+
+#: core.functions.php:240
+msgid "Libyan dinar"
+msgstr "Lybische Dinar"
+
+#: core.functions.php:241
+msgid "Moroccan dirham"
+msgstr "Marokkanischer Dirham"
+
+#: core.functions.php:242
+msgid "Moldovan leu"
+msgstr "Moldawischer Leu"
+
+#: core.functions.php:243
+msgid "Malagasy ariary"
+msgstr "Madagassischer Ariary"
+
+#: core.functions.php:244
+msgid "Macedonian denar"
+msgstr "Mazedonischer Denar"
+
+#: core.functions.php:245
+msgid "Burmese kyat"
+msgstr "Myanmarischer Kyat"
+
+#: core.functions.php:246
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr "Mongolischer Tögrög"
+
+#: core.functions.php:247
+msgid "Macanese pataca"
+msgstr "Macau-Pataca"
+
+#: core.functions.php:248
+msgid "Mauritanian ouguiya"
+msgstr "Mauretanischer Ouguiya"
+
+#: core.functions.php:249
+msgid "Mauritian rupee"
+msgstr "Mauritius-Rupie"
+
+#: core.functions.php:250
+msgid "Maldivian rufiyaa"
+msgstr "Malediven-Rupie"
+
+#: core.functions.php:251
+msgid "Malawian kwacha"
+msgstr "Malawi-Kwacha"
+
+#: core.functions.php:252
+msgid "Mexican peso"
+msgstr "Mexikanischer Peso"
+
+#: core.functions.php:253
+msgid "Malaysian ringgit"
+msgstr "Malaysische Ringgits"
+
+#: core.functions.php:254
+msgid "Mozambican metical"
+msgstr "Mosambikanischer Metical"
+
+#: core.functions.php:255
+msgid "Namibian dollar"
+msgstr "Namibischer Dollar"
+
+#: core.functions.php:256
+msgid "Nigerian naira"
+msgstr "Nigerian Naira"
+
+#: core.functions.php:257
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr "Nicaraguanischer C&oacute;rdoba"
+
+#: core.functions.php:258
+msgid "Norwegian krone"
+msgstr "Norwegische Kronen"
+
+#: core.functions.php:259
+msgid "Nepalese rupee"
+msgstr "Nepalesische Rupie"
+
+#: core.functions.php:260
+msgid "New Zealand dollar"
+msgstr "Neuseeland Dollar"
+
+#: core.functions.php:261
+msgid "Omani rial"
+msgstr "Omanischer Rial"
+
+#: core.functions.php:262
+msgid "Panamanian balboa"
+msgstr "Panamaischer Balboa"
+
+#: core.functions.php:263
+msgid "Peruvian nuevo sol"
+msgstr "Peruanischer Sol"
+
+#: core.functions.php:264
+msgid "Papua New Guinean kina"
+msgstr "Papua-Neuguinea Kina"
+
+#: core.functions.php:265
+msgid "Philippine peso"
+msgstr "Philippinische Peso"
+
+#: core.functions.php:266
+msgid "Pakistani rupee"
+msgstr "Pakistanische Rupien"
+
+#: core.functions.php:267
+msgid "Polish z&#x142;oty"
+msgstr "Polnischer Z&#x142;oty"
+
+#: core.functions.php:268
+msgid "Transnistrian ruble"
+msgstr "Transnistrischer Rubel"
+
+#: core.functions.php:269
+msgid "Paraguayan guaran&iacute;"
+msgstr "Paraguayischer Guaran&iacute;"
+
+#: core.functions.php:270
+msgid "Qatari riyal"
+msgstr "Katar-Riyal"
+
+#: core.functions.php:271
+msgid "Romanian leu"
+msgstr "Romänischer Leu"
+
+#: core.functions.php:272
+msgid "Serbian dinar"
+msgstr "Serbischer Dinar"
+
+#: core.functions.php:273
+msgid "Russian ruble"
+msgstr "Russischer Rubel"
+
+#: core.functions.php:274
+msgid "Rwandan franc"
+msgstr "Ruanda-Franc"
+
+#: core.functions.php:275
+msgid "Saudi riyal"
+msgstr "Saudi-Riyal"
+
+#: core.functions.php:276
+msgid "Solomon Islands dollar"
+msgstr "Salomonen-Dollar"
+
+#: core.functions.php:277
+msgid "Seychellois rupee"
+msgstr "Seychellen-Rupie"
+
+#: core.functions.php:278
+msgid "Sudanese pound"
+msgstr "Sudanesischer Pfund"
+
+#: core.functions.php:279
+msgid "Swedish krona"
+msgstr "Schwedische Kronen"
+
+#: core.functions.php:280
+msgid "Singapore dollar"
+msgstr "Singapur Dollar"
+
+#: core.functions.php:281
+msgid "Saint Helena pound"
+msgstr "St.-Helena-Pfund"
+
+#: core.functions.php:282
+msgid "Sierra Leonean leone"
+msgstr "Sierra Leonean leone"
+
+#: core.functions.php:283
+msgid "Somali shilling"
+msgstr "Somalia-Schilling"
+
+#: core.functions.php:284
+msgid "Surinamese dollar"
+msgstr "Suriname-Dollar"
+
+#: core.functions.php:285
+msgid "South Sudanese pound"
+msgstr "Südsudanesischer Pfund"
+
+#: core.functions.php:286
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr "S&atilde;o-tom&eacute;ischer Dobra"
+
+#: core.functions.php:287
+msgid "Syrian pound"
+msgstr "Syrischer Pfund"
+
+#: core.functions.php:288
+msgid "Swazi lilangeni"
+msgstr "Swasiländischer Lilangeni"
+
+#: core.functions.php:289
+msgid "Thai baht"
+msgstr "Thailändische Baht"
+
+#: core.functions.php:290
+msgid "Tajikistani somoni"
+msgstr "Tadschikischer Somoni"
+
+#: core.functions.php:291
+msgid "Turkmenistan manat"
+msgstr "Turkmenistan-Manat"
+
+#: core.functions.php:292
+msgid "Tunisian dinar"
+msgstr "Tunesischer Dinar"
+
+#: core.functions.php:293
+msgid "Tongan pa&#x2bb;anga"
+msgstr "Tongaischer pa&#x2bb;anga"
+
+#: core.functions.php:294
+msgid "Turkish lira"
+msgstr "Türkische Lira"
+
+#: core.functions.php:295
+msgid "Trinidad and Tobago dollar"
+msgstr "Trinidad und Tobago Dollar"
+
+#: core.functions.php:296
+msgid "New Taiwan dollar"
+msgstr "Neue Tabelle hinzufügen"
+
+#: core.functions.php:297
+msgid "Tanzanian shilling"
+msgstr "Tansania-Schilling"
+
+#: core.functions.php:298
+msgid "Ukrainian hryvnia"
+msgstr "Ukrainische Hrywnja"
+
+#: core.functions.php:299
+msgid "Ugandan shilling"
+msgstr "Uganda-Schilling"
+
+#: core.functions.php:300
+msgid "United States dollar"
+msgstr "US Dollar"
+
+#: core.functions.php:301
+msgid "Uruguayan peso"
+msgstr "Uruguayischer Peso"
+
+#: core.functions.php:302
+msgid "Uzbekistani som"
+msgstr "Usbekischer Som"
+
+#: core.functions.php:303
+msgid "Venezuelan bol&iacute;var"
+msgstr "Venezolanischer Bol&iacute;var"
+
+#: core.functions.php:304
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr "Vietnamesischer &#x111;&#x1ed3;ng"
+
+#: core.functions.php:305
+msgid "Vanuatu vatu"
+msgstr "Vanuatu-Vatu"
+
+#: core.functions.php:306
+msgid "Samoan t&#x101;l&#x101;"
+msgstr "Samoanischer t&#x101;l&#x101;"
+
+#: core.functions.php:307
+msgid "Central African CFA franc"
+msgstr "Zentralafrikanischer CFA-Franc BEAC"
+
+#: core.functions.php:308
+msgid "East Caribbean dollar"
+msgstr "Ostkaribischer Dollar"
+
+#: core.functions.php:309
+msgid "West African CFA franc"
+msgstr "Westafrikanischer CFA-Franc BCEAO"
+
+#: core.functions.php:310
+msgid "CFP franc"
+msgstr "CFP-Franc"
+
+#: core.functions.php:311
+msgid "Yemeni rial"
+msgstr "Jemen-Rial"
+
+#: core.functions.php:312
+msgid "South African rand"
+msgstr "Südafrikanischer Rand"
+
+#: core.functions.php:313
+msgid "Zambian kwacha"
+msgstr "Sambischer Kwacha"
+
+#: core.functions.php:588
+msgid "Internal Structure"
+msgstr "Interne Struktur"
+
+#: core.functions.php:590
+msgid "Attachments"
+msgstr "Anhänge"
+
+#: core.functions.php:591
+msgid "Video"
+msgstr "Video"
+
+#: core.functions.php:592
+msgid "Private Fields"
+msgstr "Private Felder"
+
+#: core.functions.php:604
+msgid "Personal Info"
+msgstr "Persönliche Informationen"
+
+#: core.functions.php:605
+msgid "Social Profiles"
+msgstr "Profile in sozialen Netzwerken"
+
+#: core.functions.php:606
+msgid "Skills"
+msgstr "Fähigkeiten"
+
+#: core.functions.php:622
+msgid "Style 1 - Inline"
+msgstr "Style 1 - Inline"
+
+#: core.functions.php:623
+msgid "Style 2 - Static Box"
+msgstr "Style 2 - Static Box"
+
+#: core.functions.php:624
+msgid "Style 3 - Hover Box"
+msgstr "Style 3 - Hover Box"
+
+#: core.functions.php:625
+msgid "Style 4 - Mini Box"
+msgstr "Style 4 - Mini Box"
+
+#: core.functions.php:626
+msgid "Style 5 - Full Box"
+msgstr "Style 5 - Full Box"
+
+#: core.functions.php:627
+msgid "Style 6 - Fade Thumbnails"
+msgstr "Style 6 - Fade Thumbnails"
+
+#: core.functions.php:628
+msgid "Style 7 - Map Box"
+msgstr "Style 7 - Map Box"
+
+#: core.functions.php:629
+#, fuzzy
+#| msgid "Style 1 - Inline"
+msgid "Style 1 - Deprecated"
+msgstr "Style 1 - Inline"
+
+#: core.functions.php:630
+#, fuzzy
+#| msgid "Style 2 - Static Box"
+msgid "Style 2 - Deprecated"
+msgstr "Style 2 - Static Box"
+
+#: core.functions.php:734
+msgid "NO"
+msgstr "NEIN"
+
+#: core.functions.php:734
+msgid "YES"
+msgstr "JA"
+
+#: core.functions.php:758 shortcodes/page-builders/all-setting-fields.php:19
+#: shortcodes/page-builders/all-setting-fields.php:216
+#: shortcodes/page-builders/all-setting-fields.php:581
+#: shortcodes/page-builders/all-setting-fields.php:628
+#: shortcodes/page-builders/all-setting-fields.php:923
+msgid "Descending"
+msgstr "Absteigend"
+
+#: core.functions.php:759 shortcodes/page-builders/all-setting-fields.php:18
+#: shortcodes/page-builders/all-setting-fields.php:215
+#: shortcodes/page-builders/all-setting-fields.php:580
+#: shortcodes/page-builders/all-setting-fields.php:627
+#: shortcodes/page-builders/all-setting-fields.php:922
+msgid "Ascending"
+msgstr "Aufsteigend"
+
+#: core.functions.php:764
+msgid "Tag"
+msgstr "Schlagwort"
+
+#: core.functions.php:780 shortcodes/page-builders/all-setting-fields.php:28
+#: shortcodes/page-builders/all-setting-fields.php:225
+#: shortcodes/page-builders/all-setting-fields.php:590
+#: shortcodes/page-builders/all-setting-fields.php:641
+msgid "Date"
+msgstr "Datum"
+
+#: core.functions.php:781 core.functions.php:933 core.functions.php:945
+#: inc/arrays/property-fields.php:8
+#: shortcodes/page-builders/all-setting-fields.php:594
+#: templates/compare-box.php:15
+msgid "Price"
+msgstr "Preis"
+
+#: core.functions.php:948
+msgid "Min"
+msgstr "Min"
+
+#: core.functions.php:950
+msgid "Max"
+msgstr "Max"
+
+#: inc/admin/property-images-metabox.php:1 shortcodes/create-property.php:31
+msgid "Select images for property gallery"
+msgstr "Bilder für die Immobilien Galerie auswählen"
+
+#: inc/admin/property-images-metabox.php:1 shortcodes/create-property.php:31
+msgid "Insert"
+msgstr "Einfügen"
+
+#: inc/admin/property-images-metabox.php:3
+msgid "Upload Images"
+msgstr "Bilder hochladen"
+
+#: inc/admin/property-location-map.php:6 shortcodes/create-property.php:96
+#: shortcodes/edit-property.php:122
+msgid "Type to Search..."
+msgstr "Texteingabe zur Suche..."
+
+#: inc/admin/property-location-map.php:12
+msgid "Search the address on search bar. "
+msgstr "Suche die Adresse in der Suchleiste. "
+
+#: inc/admin/property-location-map.php:13 shortcodes/create-property.php:101
+#: shortcodes/edit-property.php:126
+msgid "Drag the pin to the location on the map"
+msgstr "Ziehen Sie den Pin an die Stelle auf der Karte"
+
+#: inc/admin/property-location-map.php:20 inc/menu/admin-settings-arr.php:127
+#: inc/menu/admin-settings-arr.php:198 inc/menu/admin-settings-arr.php:219
+#: inc/menu/admin-settings-arr.php:253 inc/menu/admin-settings-arr.php:273
+#: inc/menu/admin-settings-arr.php:283 inc/menu/admin-settings-arr.php:326
+#: inc/menu/admin-settings-arr.php:337 inc/menu/admin-settings-arr.php:446
+#: inc/menu/admin-settings-arr.php:511 inc/menu/admin-settings-arr.php:560
+#: inc/menu/admin-settings-arr.php:1143 inc/menu/admin-settings-arr.php:1153
+#: inc/menu/admin-settings-arr.php:1172 inc/menu/admin-settings-arr.php:1192
+#: inc/menu/render-admin-settings.php:126
+#: shortcodes/page-builders/all-setting-fields.php:68
+#: shortcodes/page-builders/all-setting-fields.php:85
+#: shortcodes/page-builders/all-setting-fields.php:125
+#: shortcodes/page-builders/all-setting-fields.php:135
+#: shortcodes/page-builders/all-setting-fields.php:146
+#: shortcodes/page-builders/all-setting-fields.php:274
+#: shortcodes/page-builders/all-setting-fields.php:306
+#: shortcodes/page-builders/all-setting-fields.php:324
+#: shortcodes/page-builders/all-setting-fields.php:335
+#: shortcodes/page-builders/all-setting-fields.php:551
+#: shortcodes/page-builders/all-setting-fields.php:561
+#: shortcodes/page-builders/all-setting-fields.php:570
+#: shortcodes/page-builders/all-setting-fields.php:676
+#: shortcodes/page-builders/all-setting-fields.php:687
+#: shortcodes/page-builders/all-setting-fields.php:750
+msgid "Disable"
+msgstr "Deaktivieren"
+
+#: inc/admin/property-location-map.php:23
+msgid "Checking this will disable map for this listing"
+msgstr ""
+"Bei Aktivieren der Checkbox wird die Karte für diese Immobilie ausgeblendet"
+
+#: inc/admin/register-property.php:6 inc/admin/register-property.php:10
+#: inc/admin/register-property.php:22 inc/menu/page-agents.php:118
+msgid "Properties"
+msgstr "Immobilien"
+
+#: inc/admin/register-property.php:11
+msgid "Property"
+msgstr "Immobilie"
+
+#: inc/admin/register-property.php:12
+msgctxt "real-estate-manager"
+msgid "Add New Property"
+msgstr "Neue Immobilie hinzufügen"
+
+#: inc/admin/register-property.php:13
+msgid "Add New Property"
+msgstr "Neue Immobilie hinzufügen"
+
+#: inc/admin/register-property.php:15
+msgid "New Property"
+msgstr "Neue Immobilie"
+
+#: inc/admin/register-property.php:17
+#: shortcodes/page-builders/vc-settings.php:108
+msgid "Search Property"
+msgstr "Immobilie suchen"
+
+#: inc/admin/register-property.php:18
+msgid "No Property found"
+msgstr "Keine Immobilie gefunden"
+
+#: inc/admin/register-property.php:19
+msgid "No Property found in Trash"
+msgstr "Im Papierkorb sind keine Immobilien"
+
+#: inc/admin/register-property.php:20
+msgid "Parent Property:"
+msgstr "Übergeordnete Immobilie:"
+
+#: inc/admin/register-property.php:72
+msgctxt "Property Tags"
+msgid "Property Tags"
+msgstr "Suche Immobilien-Tags"
+
+#: inc/admin/register-property.php:73
+msgctxt "Tags"
+msgid "Tag"
+msgstr "Schlagwort"
+
+#: inc/admin/register-property.php:74
+msgid "Search Property Tags"
+msgstr "Suche Immobilien-Tags"
+
+#: inc/admin/register-property.php:75
+msgid "Popular Tags"
+msgstr "Beliebte Schlagwörter"
+
+#: inc/admin/register-property.php:76
+msgid "All Tags"
+msgstr "Alle Schlagwörter"
+
+#: inc/admin/register-property.php:77 inc/admin/register-property.php:78
+msgid "Parent Tag"
+msgstr "Übergeordnetes Schlagwort"
+
+#: inc/admin/register-property.php:79
+msgid "Edit Tag"
+msgstr "Schlagwort bearbeiten"
+
+#: inc/admin/register-property.php:80
+msgid "Update Tag"
+msgstr "Schlagwort aktualisieren"
+
+#: inc/admin/register-property.php:81
+msgid "Add New Tag"
+msgstr "Neues Schlagwort hinzufügen"
+
+#: inc/admin/register-property.php:82
+msgid "New Tag Name"
+msgstr "Neuer Schlagwortname"
+
+#: inc/admin/register-property.php:83
+msgid "Add or remove Tags"
+msgstr "Hinzufügen oder Entfernen von Schlagworten"
+
+#: inc/admin/register-property.php:84
+msgid "Choose from most used tags"
+msgstr "Wählen Sie aus den meist verwendeten Schlagworte"
+
+#: inc/admin/register-property.php:85
+msgid " Tags"
+msgstr " Schlagworte"
+
+#: inc/admin/single-property-fields.php:14
+msgid "Check if property have this option"
+msgstr "Prüfen Sie ob die Immobilie diese Ausstattung besitzt"
+
+#: inc/ajax/search-property-ajax.php:37
+#: shortcodes/search-property-inline.php:111 shortcodes/search-property.php:115
+msgid "Loading..."
+msgstr "Laden..."
+
+#: inc/ajax/search-property-ajax.php:40
+#, fuzzy
+#| msgid "Loader Color"
+msgid "Load More"
+msgstr "Ladeanzeiger - Farbe"
+
+#: inc/ajax/search-property-ajax.php:46 shortcodes/search-results-simple.php:77
+msgid "Sorry! No Properties Found. Try Searching Again."
+msgstr ""
+"Entschuldigung! Es wurden keine Immobilien gefunden. Versuchen Sie es erneut."
+
+#: inc/arrays/agent-fields.php:7 inc/menu/page-agents.php:74
+#: inc/menu/page-agents.php:116
+msgid "First Name"
+msgstr "Vorname"
+
+#: inc/arrays/agent-fields.php:17 inc/menu/page-agents.php:75
+#: inc/menu/page-agents.php:117
+msgid "Last Name"
+msgstr "Nachname"
+
+#: inc/arrays/agent-fields.php:26 inc/menu/page-agents.php:72
+#: inc/menu/page-agents.php:114 shortcodes/edit-agent.php:27
+msgid "Username"
+msgstr "Benutzername"
+
+#: inc/arrays/agent-fields.php:43 shortcodes/login.php:12
+msgid "Password"
+msgstr "Passwort"
+
+#: inc/arrays/agent-fields.php:52
+msgid "Pepeat Password"
+msgstr "Passwort wiederholen"
+
+#: inc/arrays/agent-fields.php:61
+msgid "Biographical Info"
+msgstr "Biografische Informationen"
+
+#: inc/arrays/agent-fields.php:70
+msgid "Picture of Agent"
+msgstr "Anbieterbild"
+
+#: inc/arrays/agent-fields.php:71
+msgid "Upload an additional image for your profile"
+msgstr "Laden Sie ein weiteres Bild für Ihr Benutzerprofil hoch"
+
+#: inc/arrays/agent-fields.php:80
+msgid "Profile Url"
+msgstr "Profil-URL"
+
+#: inc/arrays/agent-fields.php:81
+msgid "Provide url for agent profile"
+msgstr "Geben Sie einen Link zum Anbieter Bild an"
+
+#: inc/arrays/agent-fields.php:89
+msgid "Phone Number"
+msgstr "Telefonnummer"
+
+#: inc/arrays/agent-fields.php:97
+msgid "Facebook Profile"
+msgstr "Facebook Profil"
+
+#: inc/arrays/agent-fields.php:105
+msgid "Twitter Profile"
+msgstr "Twitter Profil"
+
+#: inc/arrays/agent-fields.php:113
+msgid "Google+ Profile"
+msgstr "Google+ Profil"
+
+#: inc/arrays/agent-fields.php:121
+msgid "LinkedIn Profile"
+msgstr "LinkedIn Profil"
+
+#: inc/arrays/agent-fields.php:129
+msgid "Facebook Page"
+msgstr "Facebook-Seite"
+
+#: inc/arrays/agent-fields.php:137
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/arrays/agent-fields.php:145
+msgid "YouTube"
+msgstr "YouTube"
+
+#: inc/arrays/agent-fields.php:152
+msgid "User Tagline"
+msgstr "Benutzer Schlagwortleiste"
+
+#: inc/arrays/agent-fields.php:153
+msgid "Will display under username"
+msgstr "Wird unter dem Benutzernamen angezeigt"
+
+#: inc/arrays/agent-fields.php:160
+msgid "Skills Level"
+msgstr "Fähigkeiten-Level"
+
+#: inc/arrays/agent-fields.php:161
+msgid "Skill name with value on each line, eg: Properties Sold, 185"
+msgstr ""
+"Name der Fähigkeit mit dem gewünschten Wert pro Zeile, zB: Immobilien "
+"verkauft, 85"
+
+#: inc/arrays/agent-fields.php:167
+msgid "Contact Form Shortcode"
+msgstr "Kontaktformular-Kurzcode"
+
+#: inc/arrays/agent-fields.php:168
+msgid "Leave blank for default contact form"
+msgstr "Leer lassen für Standard-Kontaktformular"
+
+#: inc/arrays/property-fields.php:9
+msgid "Regular Price of Property"
+msgstr "Regulärer Preis der Immobilie"
+
+#: inc/arrays/property-fields.php:18
+msgid "Before Price"
+msgstr "Text vor dem Preis"
+
+#: inc/arrays/property-fields.php:19
+msgid "Text to display before price, Eg: Starting From"
+msgstr "Text der vor dem Preis angezeigt werden soll, zB: jetzt ab"
+
+#: inc/arrays/property-fields.php:28
+msgid "After Price"
+msgstr "Text nach dem Preis"
+
+#: inc/arrays/property-fields.php:29
+msgid "Text to display after price, Eg: / Month"
+msgstr "Text der nach dem Preis angezeigt werden soll. Z.B.: / Monat"
+
+#: inc/arrays/property-fields.php:38
+msgid "Sale Price"
+msgstr "Verkaufspreis"
+
+#: inc/arrays/property-fields.php:39
+msgid "Sale Price of Property"
+msgstr "Verkaufspreis der Immobilie"
+
+#: inc/arrays/property-fields.php:48
+msgid "Latitude"
+msgstr "Breitengrad"
+
+#: inc/arrays/property-fields.php:49
+msgid "Latitude of property, will use for map"
+msgstr "Breitengrad der Immobilie, wird für Karte verwendet"
+
+#: inc/arrays/property-fields.php:58
+msgid "Longitude"
+msgstr "Längengrad"
+
+#: inc/arrays/property-fields.php:59
+msgid "Longitude of property, will use for map"
+msgstr "Längengrad der Immobilie, wird für Karte verwendet"
+
+#: inc/arrays/property-fields.php:68
+#: inc/menu/custom-fields/custom-fields-page.php:12
+msgid "Video URL"
+msgstr "Video-URL"
+
+#: inc/arrays/property-fields.php:69
+msgid "Provide video URL"
+msgstr "Geben Sie eine Video-URL an"
+
+#: inc/arrays/property-fields.php:78
+msgid "File Attachments"
+msgstr "Dateianhänge"
+
+#: inc/arrays/property-fields.php:79
+msgid "One file ID per line"
+msgstr "Eine Datei-ID pro Zeile"
+
+#: inc/arrays/property-fields.php:89
+msgid "Property Type"
+msgstr "Art der Immobilie"
+
+#: inc/arrays/property-fields.php:90
+msgid "Choose type of property"
+msgstr "Wählen Sie den Typ der Immobilie. Sie können Ihre Eigenen hinzufügen"
+
+#: inc/arrays/property-fields.php:102
+msgid "Choose purpose of property"
+msgstr "Wählen Sie den Zweck der Immobilie"
+
+#: inc/arrays/property-fields.php:113
+msgid "Choose status of property"
+msgstr "Wählen Sie den Status der Immobilie"
+
+#: inc/arrays/property-fields.php:123 templates/compare-box.php:20
+msgid "Bedrooms"
+msgstr "Schlafzimmer"
+
+#: inc/arrays/property-fields.php:124
+msgid "Number of bedrooms"
+msgstr "Anzahl der Schlafzimmer"
+
+#: inc/arrays/property-fields.php:134 templates/compare-box.php:21
+msgid "Bathrooms"
+msgstr "Badezimmer"
+
+#: inc/arrays/property-fields.php:135
+msgid "Number of bathrooms"
+msgstr "Anzahl der Bäder"
+
+#: inc/arrays/property-fields.php:146
+msgid "Size - "
+msgstr "Grösse - "
+
+#: inc/arrays/property-fields.php:156
+msgid "Address"
+msgstr "Adresse"
+
+#: inc/arrays/property-fields.php:157
+msgid ""
+"If latitude and longitude fields are blank, this address will be used for "
+"rendering map"
+msgstr ""
+"Wenn die Felder für den Breiten- und Längengrad leer sind, wird diese "
+"Adresse für das Rendern auf der Karte verwendet"
+
+#: inc/arrays/property-fields.php:167 inc/arrays/property-fields.php:168
+msgid "State"
+msgstr "Bundesland"
+
+#: inc/arrays/property-fields.php:178
+msgid "Zip Code"
+msgstr "PLZ"
+
+#: inc/arrays/property-fields.php:179
+msgid "Zipcode"
+msgstr "PLZ"
+
+#: inc/arrays/property-fields.php:189 inc/arrays/property-fields.php:190
+msgid "City"
+msgstr "Stadt"
+
+#: inc/arrays/property-fields.php:200 inc/arrays/property-fields.php:201
+msgid "Country"
+msgstr "Land"
+
+#: inc/arrays/property-fields.php:211
+msgid "Rooms"
+msgstr "Zimmer"
+
+#: inc/arrays/property-fields.php:212
+msgid "Number of rooms"
+msgstr "Anzahl der Zimmer"
+
+#: inc/arrays/property-fields.php:222
+msgid "Featured Property"
+msgstr "Hervorgehobene Immobilie"
+
+#: inc/arrays/property-fields.php:223
+msgid "Make it featured"
+msgstr "Hervorheben"
+
+#: inc/menu/admin-settings-arr.php:5
+msgid "Style"
+msgstr "Stil"
+
+#: inc/menu/admin-settings-arr.php:11
+msgid "Currency Options"
+msgstr "Währungsoptionen"
+
+#: inc/menu/admin-settings-arr.php:20
+msgid "Currency"
+msgstr "Währung"
+
+#: inc/menu/admin-settings-arr.php:21
+msgid "Currency Symbol for Properties"
+msgstr "Währungssymbol für Immobilien"
+
+#: inc/menu/admin-settings-arr.php:28
+msgid "Currency Position"
+msgstr "Position der Währung"
+
+#: inc/menu/admin-settings-arr.php:30
+msgid "Left"
+msgstr "Links"
+
+#: inc/menu/admin-settings-arr.php:31
+msgid "Right"
+msgstr "Rechts"
+
+#: inc/menu/admin-settings-arr.php:32
+msgid "Left with Space"
+msgstr "Links mit Leerzeichen"
+
+#: inc/menu/admin-settings-arr.php:33
+msgid "Right with Space"
+msgstr "Rechts mit Leerzeichen"
+
+#: inc/menu/admin-settings-arr.php:35
+msgid "Position of the Currency Symbol"
+msgstr "Die Position des Währungssymbols"
+
+#: inc/menu/admin-settings-arr.php:41
+msgid "Thousand Separator"
+msgstr "Tausender-Trennzeichen"
+
+#: inc/menu/admin-settings-arr.php:42
+msgid "Thousand separator of display price"
+msgstr "Tausendertrennzeichen des Anzeigepreises"
+
+#: inc/menu/admin-settings-arr.php:49
+msgid "Decimal Separator"
+msgstr "Dezimaltrennzeichen"
+
+#: inc/menu/admin-settings-arr.php:50
+msgid "Decimal separator of display price"
+msgstr "Dezimaltrennzeichen des Anzeigepreises"
+
+#: inc/menu/admin-settings-arr.php:57
+msgid "Number of Decimals"
+msgstr "Nachkommastellen"
+
+#: inc/menu/admin-settings-arr.php:58
+msgid "Number of decimal points shown in display price"
+msgstr "Anzahl der Dezimalpunkte im Anzeigepreis"
+
+#: inc/menu/admin-settings-arr.php:66
+msgid "Property Settings"
+msgstr "Immobilien Einstellungen"
+
+#: inc/menu/admin-settings-arr.php:75
+msgid "Area Unit"
+msgstr "Flächen-Einheit"
+
+#: inc/menu/admin-settings-arr.php:76
+msgid "Provide unit of area Eg: Square Feet"
+msgstr "Flächeneinheit angeben z. B .: Quadratmeter"
+
+#: inc/menu/admin-settings-arr.php:82
+msgid "Excerpt Length"
+msgstr "Länge des Textauszugs"
+
+#: inc/menu/admin-settings-arr.php:83
+msgid "Number of words to be displayed from the property excerpt. Eg: 15"
+msgstr ""
+"Anzahl der Wörter, die aus der Objektbeschreibung angezeigt werden sollen. Z."
+"B.: 15"
+
+#: inc/menu/admin-settings-arr.php:89
+msgid "Property Features"
+msgstr "Ausstattung der Immobilie"
+
+#: inc/menu/admin-settings-arr.php:90
+msgid ""
+"One per line. This will add checkboxes to your property edit page for you to "
+"select. Leave blank to use default"
+msgstr ""
+"Eine pro Zeile. Dadurch werden Ihrer Immobilien-Bearbeitungsseite Checkboxen "
+"hinzugefügt, die Sie auswählen können. Leer lassen, um Standard zu verwenden"
+
+#: inc/menu/admin-settings-arr.php:96
+msgid "Property Types"
+msgstr "Immobilienarten"
+
+#: inc/menu/admin-settings-arr.php:97
+msgid ""
+"One per line. This will add property types to select from when entering "
+"properties. Leave blank to use default"
+msgstr ""
+"Eine pro Zeile. Dadurch werden Immobilientypen hinzugefügt, aus denen Sie "
+"bei der Eingabe neuer Immobilien auswählen können. Leer lassen, um Standard "
+"zu verwenden"
+
+#: inc/menu/admin-settings-arr.php:103
+msgid "Property Purposes"
+msgstr "Immobilienzwecke"
+
+#: inc/menu/admin-settings-arr.php:104
+msgid ""
+"One per line. This will add property purposes to select from when entering "
+"properties. Leave blank to use default"
+msgstr ""
+"Eine pro Zeile. Dadurch werden Immobilienzwecke hinzugefügt, aus denen Sie "
+"bei der Eingabe neuer Immobilien auswählen können. Leer lassen, um Standard "
+"zu verwenden"
+
+#: inc/menu/admin-settings-arr.php:110
+msgid "Property Statuses"
+msgstr "Immobilienstatus"
+
+#: inc/menu/admin-settings-arr.php:111
+msgid ""
+"One per line. This will add property status to select from when entering "
+"properties. Leave blank to use default"
+msgstr ""
+"Eine pro Zeile. Dadurch werden Immobilienstatus hinzugefügt, aus denen Sie "
+"bei der Eingabe neuer Immobilien auswählen können. Leer lassen, um Standard "
+"zu verwenden"
+
+#: inc/menu/admin-settings-arr.php:117
+msgid "Properties Per Page"
+msgstr "Anzahl der Immobilien pro Seite"
+
+#: inc/menu/admin-settings-arr.php:118
+msgid "Number of properties you want to display on archive pages. (tags etc)"
+msgstr ""
+"Anzahl der Immobilien die auf Archivseiten angezeigt werden sollen. "
+"(Schlagwörter, etc.)"
+
+#: inc/menu/admin-settings-arr.php:125
+msgid "It will enable the special fields for energy efficiency"
+msgstr "Aktiviert die Sonderfelder für Informationen der Energiefizienz"
+
+#: inc/menu/admin-settings-arr.php:128 inc/menu/admin-settings-arr.php:197
+#: inc/menu/admin-settings-arr.php:218 inc/menu/admin-settings-arr.php:252
+#: inc/menu/admin-settings-arr.php:272 inc/menu/admin-settings-arr.php:282
+#: inc/menu/admin-settings-arr.php:325 inc/menu/admin-settings-arr.php:336
+#: inc/menu/admin-settings-arr.php:445 inc/menu/admin-settings-arr.php:510
+#: inc/menu/admin-settings-arr.php:561 inc/menu/admin-settings-arr.php:1142
+#: inc/menu/admin-settings-arr.php:1152 inc/menu/admin-settings-arr.php:1171
+#: inc/menu/admin-settings-arr.php:1191 inc/menu/agent/fields/checkbox.php:29
+#: inc/menu/agent/fields/email.php:29 inc/menu/agent/fields/image.php:29
+#: inc/menu/agent/fields/number.php:29 inc/menu/agent/fields/password.php:29
+#: inc/menu/agent/fields/select.php:45 inc/menu/agent/fields/text.php:29
+#: inc/menu/agent/fields/textarea.php:29
+#: inc/menu/custom-fields/fields/select.php:76
+#: inc/menu/custom-fields/fields/text.php:61
+#: inc/menu/custom-fields/fields/text.php:70
+#: inc/menu/custom-fields/fields/text.php:78
+#: inc/menu/render-admin-settings.php:235
+#: shortcodes/page-builders/all-setting-fields.php:69
+#: shortcodes/page-builders/all-setting-fields.php:86
+#: shortcodes/page-builders/all-setting-fields.php:126
+#: shortcodes/page-builders/all-setting-fields.php:136
+#: shortcodes/page-builders/all-setting-fields.php:145
+#: shortcodes/page-builders/all-setting-fields.php:275
+#: shortcodes/page-builders/all-setting-fields.php:307
+#: shortcodes/page-builders/all-setting-fields.php:325
+#: shortcodes/page-builders/all-setting-fields.php:336
+#: shortcodes/page-builders/all-setting-fields.php:550
+#: shortcodes/page-builders/all-setting-fields.php:560
+#: shortcodes/page-builders/all-setting-fields.php:571
+#: shortcodes/page-builders/all-setting-fields.php:677
+#: shortcodes/page-builders/all-setting-fields.php:686
+#: shortcodes/page-builders/all-setting-fields.php:751
+msgid "Enable"
+msgstr "Aktivieren"
+
+#: inc/menu/admin-settings-arr.php:137
+msgid "Templates Settings"
+msgstr "Vorlagen-Einstellungen"
+
+#: inc/menu/admin-settings-arr.php:145
+msgid "Property Page Template"
+msgstr "Vorlage der Immobiliendetailseite"
+
+#: inc/menu/admin-settings-arr.php:146
+msgid "Choose single property display layout"
+msgstr "Wählen Sie ein Layout für die Anzeige aus"
+
+#: inc/menu/admin-settings-arr.php:148 inc/menu/admin-settings-arr.php:242
+#: inc/menu/admin-settings-arr.php:354 inc/menu/render-admin-settings.php:103
+msgid "Default"
+msgstr "Standard"
+
+#: inc/menu/admin-settings-arr.php:149
+msgid "Full Width"
+msgstr "Gesamtbreite"
+
+#: inc/menu/admin-settings-arr.php:150
+msgid "Left Sidebar"
+msgstr "Linke Seitenleiste"
+
+#: inc/menu/admin-settings-arr.php:151 inc/menu/admin-settings-arr.php:161
+#: inc/menu/admin-settings-arr.php:171
+msgid "From Theme"
+msgstr "Aus der Vorlage"
+
+#: inc/menu/admin-settings-arr.php:157
+msgid "Archive Page Template"
+msgstr "Archiv-Seitenvorlage"
+
+#: inc/menu/admin-settings-arr.php:158
+msgid "Choose tags and archive properties display layout"
+msgstr "Wählen Sie ein Immobilienlayout für Tags und Archivseiten aus"
+
+#: inc/menu/admin-settings-arr.php:160 inc/menu/admin-settings-arr.php:170
+msgid "From Plugin"
+msgstr "Vom Plugin"
+
+#: inc/menu/admin-settings-arr.php:167
+msgid "Agent Page Template"
+msgstr "Anbieter-Seitenvorlage"
+
+#: inc/menu/admin-settings-arr.php:168
+msgid "Choose agent page display layout"
+msgstr "Wählen Sie das Layout der Anbieterseite aus"
+
+#: inc/menu/admin-settings-arr.php:177
+msgid "Enable Agent Template"
+msgstr "Anbieter-Seitenvorlage aktivieren"
+
+#: inc/menu/admin-settings-arr.php:179
+msgid "All Users"
+msgstr "Alle Nutzer"
+
+#: inc/menu/admin-settings-arr.php:180
+msgid "Only Property Agents"
+msgstr "Nur Makler"
+
+#: inc/menu/admin-settings-arr.php:182
+msgid "Agent Page Template must be set to From Plugin"
+msgstr "Die Vorlage für den Makler auf \"Vom Plugin\" gesetzt werden"
+
+#: inc/menu/admin-settings-arr.php:187
+msgid "Container Maximum Width"
+msgstr "Maximale Breite des Containers"
+
+#: inc/menu/admin-settings-arr.php:188
+msgid "Provide container max width in px, eg: 1140px"
+msgstr "Geben Sie die maximale Breite des Containers in px an, zB: 1140px"
+
+#: inc/menu/admin-settings-arr.php:194
+msgid "Agent Page Sidebar Card"
+msgstr "Anbieterseite Sidebar-Karte"
+
+#: inc/menu/admin-settings-arr.php:195
+msgid ""
+"Enable or disable default agent card and contact form on single agent page"
+msgstr ""
+"Aktivieren oder deaktivieren Sie die Standard-Agent-Karte und das "
+"Kontaktformular auf der Seite des einzelnen Agenten"
+
+#: inc/menu/admin-settings-arr.php:204
+msgid "Agent Card Style"
+msgstr "Anbieter Profil"
+
+#: inc/menu/admin-settings-arr.php:205
+msgid "Choose agent profile card"
+msgstr "Wählen Sie die Makler-Karte aus"
+
+#: inc/menu/admin-settings-arr.php:207 inc/menu/admin-settings-arr.php:1070
+msgid "Style 1"
+msgstr "Stil 1"
+
+#: inc/menu/admin-settings-arr.php:208 inc/menu/admin-settings-arr.php:1071
+msgid "Style 2"
+msgstr "Stil 2"
+
+#: inc/menu/admin-settings-arr.php:209
+msgid "Style 3"
+msgstr "Stil 3"
+
+#: inc/menu/admin-settings-arr.php:215
+msgid "Agent Page Contact Form"
+msgstr "Anbieter Kontaktformular"
+
+#: inc/menu/admin-settings-arr.php:216
+msgid "Enable or disable contact form on agent page"
+msgstr ""
+"Aktivieren oder Deaktivieren des Kontaktformulars auf der Anbieterseite"
+
+#: inc/menu/admin-settings-arr.php:225
+msgid "Agent Page Sidebar"
+msgstr "Seitenleiste der Anbieterseite"
+
+#: inc/menu/admin-settings-arr.php:226
+msgid "Choose sidebar for agent details page"
+msgstr "Wählen Sie die Seitenleiste für die Anbieter Detailseite"
+
+#: inc/menu/admin-settings-arr.php:231
+msgid "Property Edit Page"
+msgstr "Immobilie Bearbeitungsseite"
+
+#: inc/menu/admin-settings-arr.php:232
+msgid "Paste shortcode on selected page"
+msgstr ""
+"Fügen Sie den Shortcode [rem_edit_property] auf der ausgewählten Seite ein"
+
+#: inc/menu/admin-settings-arr.php:237
+#, fuzzy
+#| msgid "Property Page Base"
+msgid "Property Base Page"
+msgstr "Basis der Immobilienseite"
+
+#: inc/menu/admin-settings-arr.php:238
+msgid "If you choose custom, create a page having slug"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:240
+msgid ""
+"and it will be used as the property base page. After changing this, go to "
+"Settings -> Permalinks and click save changes button."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:243
+#, fuzzy
+#| msgid "Custom Icons"
+msgid "Custom"
+msgstr "Eigene Icons"
+
+#: inc/menu/admin-settings-arr.php:249
+msgid "Fields Help Text"
+msgstr "Hilfetext des Eingabefeldes"
+
+#: inc/menu/admin-settings-arr.php:250
+msgid ""
+"Enable or disable help icon with fields when creating/editing properties."
+msgstr ""
+"Hilfesymbol mit Feldern beim Erstellen / Bearbeiten von Eigenschaften "
+"aktivieren oder deaktivieren."
+
+#: inc/menu/admin-settings-arr.php:261
+msgid "Single Property Page"
+msgstr "Einzelseite der Immobilie"
+
+#: inc/menu/admin-settings-arr.php:269
+msgid "Map"
+msgstr "Karte"
+
+#: inc/menu/admin-settings-arr.php:270
+msgid "Show or hide property map on single property page"
+msgstr "Wählen Sie die Seitenleiste für Einzelseite der Immobilie"
+
+#: inc/menu/admin-settings-arr.php:279
+msgid "Property Page Sidebar Card"
+msgstr "Immobilienseite Sidebar-Karte"
+
+#: inc/menu/admin-settings-arr.php:280
+msgid ""
+"Enable or disable default agent card and contact form on single property page"
+msgstr ""
+"Aktivieren oder deaktivieren Sie die Standard-Anbieter-Karte und das "
+"Kontaktformular auf Immobilienseite"
+
+#: inc/menu/admin-settings-arr.php:289
+msgid "Property Page Sidebar"
+msgstr "Immobilienseite Seitenleiste"
+
+#: inc/menu/admin-settings-arr.php:290
+msgid "Choose sidebar for single property page"
+msgstr "Wählen Sie die Seitenleiste für eine einzelne Immobilienseite"
+
+#: inc/menu/admin-settings-arr.php:295
+msgid "Gallery Slider Width"
+msgstr "Galerie Sliderbreite"
+
+#: inc/menu/admin-settings-arr.php:296
+msgid "Slider width with unit. Eg: "
+msgstr "Sliderbreite mit Einheit. Z.B: "
+
+#: inc/menu/admin-settings-arr.php:302
+msgid "Gallery Slider Height"
+msgstr "Galerie Slider Höhe"
+
+#: inc/menu/admin-settings-arr.php:303
+msgid "Slider height with unit. Eg: "
+msgstr "Slider Höhe mit Einheit. ZB: "
+
+#: inc/menu/admin-settings-arr.php:309
+msgid "Gallery Slider Fit"
+msgstr "Gallery Slider einpassen"
+
+#: inc/menu/admin-settings-arr.php:310
+msgid "How to fit an image into slider"
+msgstr "Wie wollen Sie Bilder in den Slider einpassen"
+
+#: inc/menu/admin-settings-arr.php:312
+msgid "Cover"
+msgstr "Cover"
+
+#: inc/menu/admin-settings-arr.php:313
+msgid "Contain"
+msgstr "Contain"
+
+#: inc/menu/admin-settings-arr.php:314
+msgid "Scale Down"
+msgstr "Herunterskalieren"
+
+#: inc/menu/admin-settings-arr.php:315
+msgid "None"
+msgstr "Keine"
+
+#: inc/menu/admin-settings-arr.php:322
+msgid "Gallery Featured Image"
+msgstr "Titelbild der Galerie"
+
+#: inc/menu/admin-settings-arr.php:323
+msgid "Enable to display featured image in slider"
+msgstr "Aktivieren um Bild im Slider anzuzeigen"
+
+#: inc/menu/admin-settings-arr.php:333
+msgid "Display Property ID"
+msgstr "Immobilien-Id anzeigen"
+
+#: inc/menu/admin-settings-arr.php:334
+msgid "Enable to display property id on frontend"
+msgstr "Aktivieren um die Immobilien-ID im Frontend anzuzeigen"
+
+#: inc/menu/admin-settings-arr.php:344
+#, fuzzy
+#| msgid "Gallery Images"
+msgid "Gallery Images Limit"
+msgstr "Galerie Bilder"
+
+#: inc/menu/admin-settings-arr.php:345
+msgid "Provide maximum number of gallery images a property can have"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:351
+msgid "Load Video As"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:352
+msgid ""
+"How you want to display video player? Please select iframe for cookieless "
+"URLs"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:355
+msgid "iFrame"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:362
+msgid "Date Field Format"
+msgstr "Format des Datumsfeldes"
+
+#: inc/menu/admin-settings-arr.php:363
+msgid "Provide date format if you are using date field. Eg: "
+msgstr ""
+"Geben Sie das Datumsformat an, wenn Sie das Datumsfeld verwenden. Z.B: "
+
+#: inc/menu/admin-settings-arr.php:369
+msgid "Property Settings Tabs"
+msgstr "Tabs für die Einstellungen der Immobilien"
+
+#: inc/menu/admin-settings-arr.php:370
+msgid ""
+"Provide additional panel headings for single property pages and admin "
+"settings, each per line"
+msgstr ""
+"Geben Sie zusätzliche Überschriften für einzelne Objektseiten und "
+"Administrator Einstellungen für jede Zeile an"
+
+#: inc/menu/admin-settings-arr.php:377
+msgid "Listings"
+msgstr "Auflistungen"
+
+#: inc/menu/admin-settings-arr.php:385
+msgid "Property Archive Listing Style"
+msgstr "Stil der Archive der Immobilienlisten"
+
+#: inc/menu/admin-settings-arr.php:386
+msgid "Listing style for default properties page"
+msgstr "Standard Stil der Auflistung von Immobilien"
+
+#: inc/menu/admin-settings-arr.php:392
+msgid "Archive Listing Columns"
+msgstr "Spalten der Auflistungen in den Archiven"
+
+#: inc/menu/admin-settings-arr.php:393 inc/menu/admin-settings-arr.php:493
+msgid "Choose columns in a row for box styles"
+msgstr "Wählen Sie Spalten in einer Reihe für Box-Stile"
+
+#: inc/menu/admin-settings-arr.php:395 inc/menu/admin-settings-arr.php:495
+msgid "1"
+msgstr "1"
+
+#: inc/menu/admin-settings-arr.php:396 inc/menu/admin-settings-arr.php:496
+msgid "2"
+msgstr "2"
+
+#: inc/menu/admin-settings-arr.php:397 inc/menu/admin-settings-arr.php:497
+msgid "3"
+msgstr "3"
+
+#: inc/menu/admin-settings-arr.php:398 inc/menu/admin-settings-arr.php:498
+msgid "4"
+msgstr "4"
+
+#: inc/menu/admin-settings-arr.php:399 inc/menu/admin-settings-arr.php:499
+msgid "5"
+msgstr "5"
+
+#: inc/menu/admin-settings-arr.php:405
+#, fuzzy
+#| msgid "Email Address"
+msgid "Customize Address"
+msgstr "E-Mailadresse"
+
+#: inc/menu/admin-settings-arr.php:406
+#, fuzzy
+#| msgid ""
+#| "Provide field names each per line to display on top bar of inline "
+#| "property listing style"
+msgid ""
+"Provide field names each per line to display them in the place of address on "
+"listing boxes."
+msgstr ""
+"Geben Sie jeweils Feldnamen pro Zeile an, die in der oberen Leiste des "
+"Inline-Eigenschaftenlistenstils angezeigt werden"
+
+#: inc/menu/admin-settings-arr.php:411
+msgid "Listing Features Type"
+msgstr "Auflisten des Feature-Typs"
+
+#: inc/menu/admin-settings-arr.php:412
+msgid "Features are displayed on property listings"
+msgstr "Ausstattungen werden in Immobilienlisten angezeigt"
+
+#: inc/menu/admin-settings-arr.php:414
+msgid "Icons and Data"
+msgstr "Icons und Daten"
+
+#: inc/menu/admin-settings-arr.php:415
+msgid "Labels and Data"
+msgstr "Etiketten und Daten"
+
+#: inc/menu/admin-settings-arr.php:416
+msgid "Icons, Labels and Data"
+msgstr "Icons, Etiketten und Daten"
+
+#: inc/menu/admin-settings-arr.php:422
+#, fuzzy
+#| msgid "Custom Icons"
+msgid "Customize Icons Data"
+msgstr "Eigene Icons"
+
+#: inc/menu/admin-settings-arr.php:423
+#, fuzzy
+#| msgid ""
+#| "Display custom property features. (Label,Field Name,Font Awesome Class) "
+#| "each per line. Example:"
+msgid ""
+"Displays custom property features. (Label,Field Name,Font Awesome Class) "
+"each per line. Eg:"
+msgstr ""
+"Zeigen Sie benutzerdefinierte Objekt-Eigenschaften an. (Label, Feldname, "
+"Font Awesome Class) jeweils pro Zeile. Beispiel:"
+
+#: inc/menu/admin-settings-arr.php:429
+msgid "Featured Image Size"
+msgstr "Größe des hervorgehobenen Bildes"
+
+#: inc/menu/admin-settings-arr.php:430
+msgid "Choose size of featured image to use"
+msgstr "Wählen Sie die Größe des hervorgehobenen Bildes aus"
+
+#: inc/menu/admin-settings-arr.php:436
+#, fuzzy
+#| msgid "Featured Image Size"
+msgid "Featured Image Placeholder"
+msgstr "Größe des hervorgehobenen Bildes"
+
+#: inc/menu/admin-settings-arr.php:437
+msgid "This image will be used for the listings without a featured image"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:442 templates/compare-box.php:30
+#, fuzzy
+#| msgid "Listings"
+msgid "Compare Listings"
+msgstr "Auflistungen"
+
+#: inc/menu/admin-settings-arr.php:443
+msgid "Choose either to enable or disable the compare listings feature"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:452
+#, fuzzy
+#| msgid "DropDown Field"
+msgid "Comparison Fields"
+msgstr "Dropdownfeld"
+
+#: inc/menu/admin-settings-arr.php:453
+#, fuzzy
+#| msgid ""
+#| "Provide field names each per line to display on top bar of inline "
+#| "property listing style"
+msgid ""
+"Provide label and field key each per line to display in the compare screen. "
+"Eg:"
+msgstr ""
+"Geben Sie jeweils Feldnamen pro Zeile an, die in der oberen Leiste des "
+"Inline-Eigenschaftenlistenstils angezeigt werden"
+
+#: inc/menu/admin-settings-arr.php:460
+msgid "Search Settings"
+msgstr "Such-Einstellungen"
+
+#: inc/menu/admin-settings-arr.php:468
+#: shortcodes/page-builders/all-setting-fields.php:241
+msgid "Total Properties"
+msgstr "Gesamtanzahl Objekte"
+
+#: inc/menu/admin-settings-arr.php:469
+msgid "Number of properties you want to display on search results"
+msgstr ""
+"Anzahl der Immobilien die in Suchergebnissen und Archivseiten angezeigt "
+"werden sollen"
+
+#: inc/menu/admin-settings-arr.php:474
+msgid "Search Price Range Selector"
+msgstr "Preisbereichauswahl in der Suche"
+
+#: inc/menu/admin-settings-arr.php:475
+msgid "Choose price ranges input option for searching"
+msgstr "Wählen Sie wie die Auswahl des Preisbereiches aussehen soll"
+
+#: inc/menu/admin-settings-arr.php:477 inc/menu/admin-settings-arr.php:601
+msgid "Price Slider"
+msgstr "Preisschieber"
+
+#: inc/menu/admin-settings-arr.php:478
+msgid "Min Max Fields"
+msgstr "Minimal und maximal Felder"
+
+#: inc/menu/admin-settings-arr.php:484
+msgid "Search Results Style"
+msgstr "Stil der Suchergebnisse"
+
+#: inc/menu/admin-settings-arr.php:485
+msgid "Choose style for search results"
+msgstr "Wählen Sie Stil für Suchergebnisse"
+
+#: inc/menu/admin-settings-arr.php:492
+msgid "Search Results Columns"
+msgstr "Spalten in den Suchergebnissen"
+
+#: inc/menu/admin-settings-arr.php:507
+#: shortcodes/page-builders/all-setting-fields.php:82
+msgid "Not Available Properties"
+msgstr "Nicht verfügbare Immobilien"
+
+#: inc/menu/admin-settings-arr.php:508
+msgid ""
+"Choose either to display Not Available properties in search results or not"
+msgstr ""
+"Wählen Sie ob Sie nicht verfügbare Immobilien anzeigen wollen oder nicht"
+
+#: inc/menu/admin-settings-arr.php:518
+msgid "Search Area Options"
+msgstr "Suchbereich-Optionen"
+
+#: inc/menu/admin-settings-arr.php:519
+msgid ""
+"Provide area range each per line, to display dropdown of area ranges instead "
+"of input field when searching."
+msgstr ""
+"Geben Sie für jede Zeile einen Bereich an, um bei der Suche Dropdown-"
+"Bereichsfelder  anstelle von Eingabefeldern anzuzeigen."
+
+#: inc/menu/admin-settings-arr.php:525
+msgid "Search Bedrooms Options"
+msgstr "Schlafzimmer Suchoptionen"
+
+#: inc/menu/admin-settings-arr.php:526
+msgid ""
+"Provide bedrooms range each per line, to display dropdown of bedroom ranges "
+"instead of input field when searching."
+msgstr ""
+"Geben Sie die Schlafzimmer für jede Zeile an, um die Dropdown-Liste der "
+"Schlafzimmerbereiche anstelle des Eingabefelds anzuzeigen."
+
+#: inc/menu/admin-settings-arr.php:532
+msgid "Search Bathrooms Options"
+msgstr "Optionen der Badezimmersuche"
+
+#: inc/menu/admin-settings-arr.php:533
+msgid ""
+"Provide bathrooms range each per line, to display dropdown of bathroom "
+"ranges instead of input field when searching."
+msgstr ""
+"Geben Sie die Badräumer für jede Zeile an, um die Dropdown-Liste der Badraum "
+"Bereiche anstelle des Eingabefelds anzuzeigen."
+
+#: inc/menu/admin-settings-arr.php:539
+msgid "Search Results Link Target"
+msgstr "Linkziel der Suchergebnisse"
+
+#: inc/menu/admin-settings-arr.php:540
+msgid ""
+"How you want to open the listings when user clicks on the search results."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:542
+msgid "New Tab"
+msgstr "Neuer Tab"
+
+#: inc/menu/admin-settings-arr.php:543
+msgid "Same Tab"
+msgstr "Selber Tab"
+
+#: inc/menu/admin-settings-arr.php:550
+msgid "Simple Search Method"
+msgstr "Einfache Suchmethode"
+
+#: inc/menu/admin-settings-arr.php:551
+msgid "Provide text,field_name,is_number,value each per line (all lowercase)"
+msgstr ""
+"Geben Sie text, field_name, is_number, Wert pro Zeile (alle Kleinbuchstaben) "
+"ein"
+
+#: inc/menu/admin-settings-arr.php:551 inc/menu/admin-settings-arr.php:970
+msgid "Help"
+msgstr "Hilfe"
+
+#: inc/menu/admin-settings-arr.php:557
+msgid "Prefill Search Fields"
+msgstr "Suchfelder Vor-Ausfüllen"
+
+#: inc/menu/admin-settings-arr.php:558
+msgid ""
+"Enable it to display all the available values of fields in a dropdown on the "
+"search form to choose."
+msgstr ""
+"Aktivieren Sie diese Option, um alle verfügbaren Werte von Feldern in einer "
+"Dropdown-Liste im Suchformular anzuzeigen."
+
+#: inc/menu/admin-settings-arr.php:567
+#, fuzzy
+#| msgid "Thousand Separator"
+msgid "Range Slider Thousand Separator"
+msgstr "Tausender-Trennzeichen"
+
+#: inc/menu/admin-settings-arr.php:568
+msgid "Thousand separator for the range selectors on search page"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:575
+#, fuzzy
+#| msgid "Decimal Separator"
+msgid "Range Slider Decimal Separator"
+msgstr "Dezimaltrennzeichen"
+
+#: inc/menu/admin-settings-arr.php:576
+msgid "Decimal separator for the range selectors on search page"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:583
+#, fuzzy
+#| msgid "Number of Decimals"
+msgid "Range Slider Number of Decimals"
+msgstr "Nachkommastellen"
+
+#: inc/menu/admin-settings-arr.php:584
+#, fuzzy
+#| msgid "Number of decimal points shown in display price"
+msgid "Number of decimal points for the range selectors"
+msgstr "Anzahl der Dezimalpunkte im Anzeigepreis"
+
+#: inc/menu/admin-settings-arr.php:591
+msgid "Range Slider Checkbox label"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:592
+msgid ""
+"It will appear with the checkbox to turn range on/off. Your can also use "
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:609
+msgid "Minimum Price"
+msgstr "Minimaler Preis"
+
+#: inc/menu/admin-settings-arr.php:610
+msgid "Minimum price for price slider"
+msgstr "Mindestpreis für Preisschieber"
+
+#: inc/menu/admin-settings-arr.php:616
+msgid "Maximum Price"
+msgstr "Maximaler Preis"
+
+#: inc/menu/admin-settings-arr.php:617
+msgid "Maximum price for price slider"
+msgstr "Höchstpreis für Preisschieber"
+
+#: inc/menu/admin-settings-arr.php:623
+msgid "Step"
+msgstr "Schritt"
+
+#: inc/menu/admin-settings-arr.php:624
+msgid "Step or interval for price slider"
+msgstr "Schritt oder Intervall für Preisschieber"
+
+#: inc/menu/admin-settings-arr.php:630
+msgid "Default Minimum Price"
+msgstr "Standard Mindestpreis"
+
+#: inc/menu/admin-settings-arr.php:631
+msgid "Default Minimum price for price slider"
+msgstr "Default Minimaler Preis für Preisschieber"
+
+#: inc/menu/admin-settings-arr.php:637
+msgid "Default Maximum Price"
+msgstr "Standard-Höchstpreis"
+
+#: inc/menu/admin-settings-arr.php:638
+msgid "Default Maximum price for price slider"
+msgstr "Standard Maximaler Preis für Preisschieber"
+
+#: inc/menu/admin-settings-arr.php:647
+msgid "Email Messages"
+msgstr "E-Mail Nachricht"
+
+#: inc/menu/admin-settings-arr.php:655
+msgid "Agent Registered"
+msgstr "Anbieter registriert"
+
+#: inc/menu/admin-settings-arr.php:656
+msgid "This message will sent to "
+msgstr "Diese Nachricht wird gesendet an "
+
+#: inc/menu/admin-settings-arr.php:656
+msgid ""
+" when new agent is registered. You can use %username% and %email% for details"
+msgstr ""
+" wenn ein neuer Anbieter registriert ist. Sie können %username% und %email% "
+"für Details verwenden"
+
+#: inc/menu/admin-settings-arr.php:662
+msgid "Agent Pending"
+msgstr "Anbieter ausstehend"
+
+#: inc/menu/admin-settings-arr.php:663
+msgid ""
+"Email Message for agent when new agent is registered but status is pending. "
+"You can use %username% and %email% for details"
+msgstr ""
+"E-Mail-Nachricht für Agent, wenn neuer Agent registriert ist, aber Status "
+"steht noch aus. Sie können %username% und %email% für Details verwenden"
+
+#: inc/menu/admin-settings-arr.php:669
+msgid "Agent Approved"
+msgstr "Anbieter angenommen"
+
+#: inc/menu/admin-settings-arr.php:670
+msgid ""
+"Email Message for agent when registered agent is approved. You can use "
+"%username% and %email% for details"
+msgstr ""
+"E-Mail-Nachricht für Agent, wenn registrierter Agent genehmigt ist. Sie "
+"können %username% und %email% für Details verwenden"
+
+#: inc/menu/admin-settings-arr.php:676
+msgid "Agent Rejected"
+msgstr "Anbieter abgelehnt"
+
+#: inc/menu/admin-settings-arr.php:677
+msgid ""
+"Email Message for agent when registered agent is rejected. You can use "
+"%username% and %email% for details"
+msgstr ""
+"E-Mail-Nachricht für Agent, wenn registrierter Agent abgelehnt wird. Sie "
+"können %username% und %email% für Details verwenden"
+
+#: inc/menu/admin-settings-arr.php:683
+msgid "Property Submission"
+msgstr "Einreichung von Immobilien"
+
+#: inc/menu/admin-settings-arr.php:684
+msgid "This message will be sent to "
+msgstr "Diese Nachricht wird gesendet an "
+
+#: inc/menu/admin-settings-arr.php:684
+msgid ""
+" when new property is submitted. You can use variables %username% "
+"%approve_url% and %email% for details"
+msgstr ""
+" sobald ein neuer Agent registriert ist. Sie können %username% und %email% "
+"für Details verwenden"
+
+#: inc/menu/admin-settings-arr.php:690
+msgid "Property Submission Message for Agent"
+msgstr "Nachricht an den Anbieter nach Eintragen eine Immobilie"
+
+#: inc/menu/admin-settings-arr.php:691
+msgid "This message will be sent to agent when new property is submitted."
+msgstr ""
+"Diese Nachricht wird an den Anbieter gesendet, sobald eine neue Immobilie "
+"gesendet wird."
+
+#: inc/menu/admin-settings-arr.php:697
+msgid "Property Approved Message for Agent"
+msgstr "Nachricht für den Anbieter sobald eine Immobilie genehmigt wurde"
+
+#: inc/menu/admin-settings-arr.php:698
+msgid "This message will be sent to agent when new property is approved."
+msgstr ""
+"Diese Nachricht wird an den Agenten gesendet, sobald eine Immobilie "
+"genehmigt wird."
+
+#: inc/menu/admin-settings-arr.php:706
+msgid "Agent Contact Form"
+msgstr "Kontaktformular für den Anbieter"
+
+#: inc/menu/admin-settings-arr.php:714
+msgid "Email Subject"
+msgstr "Betreff der E-Mail"
+
+#: inc/menu/admin-settings-arr.php:715
+msgid ""
+"Provide email subject here if someone contacts through single property page. "
+"You can also use these special tags."
+msgstr ""
+"Geben Sie hier den Betreff der E-Mail an, wenn jemand über eine einzelne "
+"Eigenschaftsseite Kontakt aufnimmt. Sie können diese speziellen Tags auch "
+"verwenden."
+
+#: inc/menu/admin-settings-arr.php:721
+msgid "Email Format"
+msgstr "Format der E-Mail"
+
+#: inc/menu/admin-settings-arr.php:722
+msgid "Provide email markup here. You can also use these special tags."
+msgstr ""
+"Geben Sie hier das E-Mail-Markup ein. Sie können diese speziellen Tags auch "
+"verwenden."
+
+#: inc/menu/admin-settings-arr.php:728
+msgid "Agent Contact Email Addresses"
+msgstr "Kontakt E-Mailadresse des Anbieters"
+
+#: inc/menu/admin-settings-arr.php:729
+msgid ""
+"Provide Additional Email addresses each per line to cc mail when visitor "
+"fills the contact agent form."
+msgstr ""
+"Geben Sie zusätzliche E-Mail-Adressen pro Zeile an CC-Mail an, wenn der "
+"Besucher das Kontaktformular ausfüllt."
+
+#: inc/menu/admin-settings-arr.php:736
+msgid "GDPR Message"
+msgstr "GDRP Nachricht"
+
+#: inc/menu/admin-settings-arr.php:737
+msgid ""
+"Provide the message to display with the contact form with a required "
+"checkbox."
+msgstr ""
+"Geben Sie die Nachricht an, die mit dem Kontaktformular mit einem "
+"erforderlichen Kontrollkästchen angezeigt werden soll."
+
+#: inc/menu/admin-settings-arr.php:744
+msgid "reCAPTCHA V2"
+msgstr "ReCAPTCHA V2"
+
+#: inc/menu/admin-settings-arr.php:752
+msgid "Site key"
+msgstr "Site key"
+
+#: inc/menu/admin-settings-arr.php:753
+msgid "Provide Google reCAPTCHA V2 Site Key. You can create Site key "
+msgstr ""
+"Stellen Sie den Google reCAPTCHA V2-Seiten-Schlüssel bereit. Sie können den "
+"Seiten-Schlüssel erstellen "
+
+#: inc/menu/admin-settings-arr.php:758
+msgid "Secret key"
+msgstr "Geheimer Schlüssel"
+
+#: inc/menu/admin-settings-arr.php:759
+msgid "Provide Google reCAPTCHA V2 Secret Key. You can create Secret key "
+msgstr ""
+"Stellen Sie den geheimen Schlüssel von Google reCAPTCHA V2 bereit. Sie "
+"können einen geheimen Schlüssel erstellen "
+
+#: inc/menu/admin-settings-arr.php:764
+msgid "Agent Registration"
+msgstr "Anbieter-Registrierung"
+
+#: inc/menu/admin-settings-arr.php:765
+msgid "Check to enable captcha on new agent registration."
+msgstr ""
+"Aktivieren Sie diese Option, um das Captcha bei der Registrierung eines "
+"neuen Anbieters zu aktivieren."
+
+#: inc/menu/admin-settings-arr.php:770
+msgid "Contact Agent"
+msgstr "Anbieter-Kontakt"
+
+#: inc/menu/admin-settings-arr.php:771
+msgid "Check to enable captcha on agent contact form."
+msgstr ""
+"Aktivieren Sie diese Option, um das Captcha im Kontaktformular des Anbieters "
+"zu aktivieren."
+
+#: inc/menu/admin-settings-arr.php:776 inc/menu/admin-settings-arr.php:1131
+#: shortcodes/page-builders/vc-settings.php:20
+msgid "Login Agent"
+msgstr "Anbieter einloggen"
+
+#: inc/menu/admin-settings-arr.php:777
+msgid "Check to enable captcha on agent login form."
+msgstr ""
+"Aktivieren Sie diese Option, um das Captcha im Login-Formular des Anbieters "
+"zu aktivieren."
+
+#: inc/menu/admin-settings-arr.php:786
+msgid "Labels and Headings"
+msgstr "Etiketten und Überschriften"
+
+#: inc/menu/admin-settings-arr.php:794
+msgid "Features Heading"
+msgstr "Objektausstattung Überschrift"
+
+#: inc/menu/admin-settings-arr.php:795
+msgid "Provide heading text for property features on property pages"
+msgstr ""
+"Geben Sie Überschrift Text für Objekteigenschaften auf Immobilien-Seiten an"
+
+#: inc/menu/admin-settings-arr.php:801
+msgid "Maps Heading"
+msgstr "Karten-Überschrift"
+
+#: inc/menu/admin-settings-arr.php:802
+msgid "Provide heading text for maps on property pages"
+msgstr "Geben Sie die Überschrift für die Karten auf Immobilienseiten ein"
+
+#: inc/menu/admin-settings-arr.php:808
+msgid "Tags Heading"
+msgstr "Schlagwort Überschrift"
+
+#: inc/menu/admin-settings-arr.php:809
+msgid "Provide heading text for tags on property pages"
+msgstr "Geben Sie den Überschrifttext für Tags auf Objektseiten ein"
+
+#: inc/menu/admin-settings-arr.php:815
+msgid "Tags Heading for Archive Pages"
+msgstr "Schlagwort-Überschrift für Archivseiten"
+
+#: inc/menu/admin-settings-arr.php:816
+msgid "You can use %tag% for tag name"
+msgstr "Sie können%tag% für den Schlagwort-Namen verwenden"
+
+#: inc/menu/admin-settings-arr.php:822
+msgid "Heading for Properties Page"
+msgstr "Schlagwort-Überschrift für Archivseiten"
+
+#: inc/menu/admin-settings-arr.php:823
+msgid "Provide heading for properties archive"
+msgstr "Geben Sie die Überschrift für Immobilienarchive ein"
+
+#: inc/menu/admin-settings-arr.php:829
+#, fuzzy
+#| msgid "Search Results Page"
+msgid "Search Results Heading"
+msgstr "Ergebnisseite der Suche"
+
+#: inc/menu/admin-settings-arr.php:831
+msgid ""
+"Provide text to display above the AJAX search results, you can use the "
+"variable"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:837
+msgid "No Results Found Message"
+msgstr "Nachricht für nicht gefundene Resultate"
+
+#: inc/menu/admin-settings-arr.php:838
+msgid "Provide custom message when no properties found in search results"
+msgstr ""
+"Geben Sie eine angepasste Meldung aus wenn in der Immobiliensuche nichts "
+"gefunden wurde"
+
+#: inc/menu/admin-settings-arr.php:844
+msgid "Images Upload Instructions"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:845
+msgid ""
+"This text will be displayed right below the upload gallery images button."
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:853
+msgid "Maps Settings"
+msgstr "Karteneinstellungen"
+
+#: inc/menu/admin-settings-arr.php:861
+msgid "Use Map From"
+msgstr "Benutze Karte von"
+
+#: inc/menu/admin-settings-arr.php:863
+msgid "Leaflet"
+msgstr "Leaflet"
+
+#: inc/menu/admin-settings-arr.php:864
+msgid "Google Maps"
+msgstr "Google Maps"
+
+#: inc/menu/admin-settings-arr.php:866
+msgid "Choose map provider"
+msgstr "Wählen Sie den Kartenanbieter"
+
+#: inc/menu/admin-settings-arr.php:872
+msgid "Google Maps API Key"
+msgstr "Google Maps API Key"
+
+#: inc/menu/admin-settings-arr.php:873
+msgid "Provide Google Maps API key here. You can create API key "
+msgstr ""
+"Geben Sie den Google Maps API-Schlüssel hier ein. Sie können einen API-"
+"Schlüssel erstellen "
+
+#: inc/menu/admin-settings-arr.php:879
+msgid "Map Type"
+msgstr "Kartentyp"
+
+#: inc/menu/admin-settings-arr.php:881
+msgid "Road Map"
+msgstr "Straßenkarte"
+
+#: inc/menu/admin-settings-arr.php:882
+msgid "Google Earth"
+msgstr "Google Earth"
+
+#: inc/menu/admin-settings-arr.php:883
+msgid "Hybrid"
+msgstr "Hybrid"
+
+#: inc/menu/admin-settings-arr.php:884
+msgid "Terrain"
+msgstr "Gelände"
+
+#: inc/menu/admin-settings-arr.php:886
+msgid "Choose default map type here"
+msgstr "Wählen Sie hier den Standardkarten-Typ"
+
+#: inc/menu/admin-settings-arr.php:892
+#: shortcodes/page-builders/all-setting-fields.php:725
+msgid "Map Zoom Level"
+msgstr "Vergrösserungsfaktor der Karte"
+
+#: inc/menu/admin-settings-arr.php:893
+msgid "Provide Zoom level between 0 and 21+ for single property map"
+msgstr ""
+"Stellen Sie Zoom-Level zwischen 0 und 21+ für die Immobiliendetailansicht ein"
+
+#: inc/menu/admin-settings-arr.php:899
+msgid "Drag Icon URL"
+msgstr "Url des Icon für die Positionsbestimmung"
+
+#: inc/menu/admin-settings-arr.php:900
+msgid ""
+"Upload custom icon for dragging on map while creating new property. "
+"Recommended size: 72x60"
+msgstr ""
+"Laden Sie das benutzerdefinierte Symbol für das Ziehen auf der Karte, "
+"während Sie eine neue Immobilie einstellen. Empfohlene Größe: 72x60"
+
+#: inc/menu/admin-settings-arr.php:906
+msgid "Location Icon URL"
+msgstr "Url des Icons für die Anzeige des Immobilienstandortes"
+
+#: inc/menu/admin-settings-arr.php:907
+msgid ""
+"Upload custom icon for location on map when visiting property page. "
+"Recommended size: 72x60"
+msgstr ""
+"Laden Sie das benutzerdefinierte Symbol für den Standort auf der Karte, wenn "
+"Sie die Eigenschaftenseite besuchen. Empfohlene Größe: 72x60"
+
+#: inc/menu/admin-settings-arr.php:913
+msgid "Property Icon URL"
+msgstr "Url des Icons für den Standort der Immobilie"
+
+#: inc/menu/admin-settings-arr.php:914
+msgid "Upload custom icon for property location marker on large map."
+msgstr ""
+"Laden Sie ein benutzerdefiniertes Symbol für die Standortmarkierung auf "
+"einer großen Karte hoch."
+
+#: inc/menu/admin-settings-arr.php:920
+msgid "Icons Size"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:921
+msgid "Provide custom icons size. Default is "
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:927
+msgid "Icons Anchor"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:928
+msgid "Provide custom anchor point for the icons. Default is "
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:934
+msgid "Property Icon URL (Hover)"
+msgstr "Immobilie-Icon URL (Hover)"
+
+#: inc/menu/admin-settings-arr.php:935
+msgid ""
+"Upload custom icon for property location marker on large map for hover state."
+msgstr ""
+"Laden Sie ein benutzerdefiniertes Symbol für die Positionsmarkierung der "
+"Eigenschaft auf einer großen Karte für den Hover-Status hoch."
+
+#: inc/menu/admin-settings-arr.php:941
+msgid "Circle Icon URL"
+msgstr "Icon für die Anzeige eines Kreises auf der Karte"
+
+#: inc/menu/admin-settings-arr.php:942
+msgid "Upload custom icon for circle counter marker on large map."
+msgstr ""
+"Laden Sie ein benutzerdefiniertes Symbol für die Kreismarkierung auf einer "
+"großen Karte hoch."
+
+#: inc/menu/admin-settings-arr.php:948
+msgid "My Location Icon URL"
+msgstr "Url des Icon für den Standort des Nutzers"
+
+#: inc/menu/admin-settings-arr.php:949
+msgid "Upload custom icon for my location marker on large map."
+msgstr ""
+"Laden Sie ein benutzerdefiniertes Symbol für meine Standortmarkierung auf "
+"einer großen Karte hoch."
+
+#: inc/menu/admin-settings-arr.php:955
+#: shortcodes/page-builders/all-setting-fields.php:713
+msgid "Default Latitude"
+msgstr "Standard Latitude"
+
+#: inc/menu/admin-settings-arr.php:956
+msgid "Provide latitude for default map location on create property page"
+msgstr ""
+"Geben Sie den Breitengrad für den Standardkartenstandort auf der Objekt "
+"erstellen Seite an"
+
+#: inc/menu/admin-settings-arr.php:962
+#: shortcodes/page-builders/all-setting-fields.php:719
+msgid "Default Longitude"
+msgstr "Standard Längengrad"
+
+#: inc/menu/admin-settings-arr.php:963
+msgid "Provide longitude for default map location on create property page"
+msgstr ""
+"Geben Sie den Längengrad für den Standard Kartenstandort auf der Objekt "
+"erstellen Seite an"
+
+#: inc/menu/admin-settings-arr.php:969
+msgid "Map Styles Object"
+msgstr "Stil der Karte für Objekte"
+
+#: inc/menu/admin-settings-arr.php:970
+msgid "Provide map styles here."
+msgstr "Wählen Sie den Stil für die Karte aus."
+
+#: inc/menu/admin-settings-arr.php:976
+msgid "Map Style"
+msgstr "Karten Stil"
+
+#: inc/menu/admin-settings-arr.php:978
+msgid "Choose style for leaflet map. "
+msgstr "Wählen Sie Stil für Suchergebnisse "
+
+#: inc/menu/admin-settings-arr.php:978 shortcodes/create-property.php:106
+msgid "Preview"
+msgstr "Vorschau"
+
+#: inc/menu/admin-settings-arr.php:987
+msgid "Colors and CSS"
+msgstr "Farben und CSS"
+
+#: inc/menu/admin-settings-arr.php:995
+msgid "Headings Underline"
+msgstr "Überschriften unterstreichen"
+
+#: inc/menu/admin-settings-arr.php:997
+msgid "Choose bottom border color for headings area"
+msgstr "Wählen Sie untere Randfarbe für Überschriftenbereich"
+
+#: inc/menu/admin-settings-arr.php:1003
+msgid "Headings Underline Active"
+msgstr "Überschriften unterstreichen aktiv"
+
+#: inc/menu/admin-settings-arr.php:1005
+msgid "Choose bottom border color for headings active area"
+msgstr "Wähle die untere Randfarbe für den aktiven Bereich"
+
+#: inc/menu/admin-settings-arr.php:1011
+msgid "Buttons Background"
+msgstr "Schaltflächen Hintergrund"
+
+#: inc/menu/admin-settings-arr.php:1013
+msgid "Choose background color for buttons"
+msgstr "Wählen Sie Hintergrundfarbe für Schaltflächen"
+
+#: inc/menu/admin-settings-arr.php:1019
+msgid "Buttons Text"
+msgstr "Schaltflächen Text"
+
+#: inc/menu/admin-settings-arr.php:1021 inc/menu/admin-settings-arr.php:1037
+msgid "Choose text color for buttons"
+msgstr "Wähle Textfarbe für Schaltflächen"
+
+#: inc/menu/admin-settings-arr.php:1027
+msgid "Buttons Background - Hover"
+msgstr "Buttons Hintergrund - Hover"
+
+#: inc/menu/admin-settings-arr.php:1029
+msgid "Choose background color for buttons on hover state"
+msgstr "Wähle Hintergrundfarbe für Schaltflächen im Hover-Zustand"
+
+#: inc/menu/admin-settings-arr.php:1035
+msgid "Buttons Text - Hover"
+msgstr "Buttons Text - Hover"
+
+#: inc/menu/admin-settings-arr.php:1043
+msgid "Theme Main Color"
+msgstr "Theme Hauptfarbe"
+
+#: inc/menu/admin-settings-arr.php:1045
+msgid "Choose main theme color for templates"
+msgstr "Wählen Sie die Hauptthema Farbe für Vorlagen"
+
+#: inc/menu/admin-settings-arr.php:1051
+msgid "Custom CSS Code"
+msgstr "Benutzerdefinierter CSS-Code"
+
+#: inc/menu/admin-settings-arr.php:1053
+msgid "Paste your custom css code here, you can prefix with"
+msgstr "Fügen Sie hier Ihren benutzerdefinierten CSS-Code ein"
+
+#: inc/menu/admin-settings-arr.php:1061
+msgid "Listing Ribbons"
+msgstr "Auflistung Menüleiste"
+
+#: inc/menu/admin-settings-arr.php:1068
+msgid "Ribbon Style"
+msgstr "Stil des Markierungsbandes"
+
+#: inc/menu/admin-settings-arr.php:1073
+msgid "Choose ribbon style"
+msgstr "Wählen Sie den Stil des Markierbandes"
+
+#: inc/menu/admin-settings-arr.php:1078
+msgid "Sale Ribbon Text"
+msgstr "Verkauf-Ribbon-Text"
+
+#: inc/menu/admin-settings-arr.php:1079
+msgid ""
+"It displays when sale price of property is set, leave blank to disable it"
+msgstr ""
+"Es wird angezeigt, wenn der Verkaufspreis der Immobilie festgelegt ist, "
+"lassen Sie das Feld leer, um es zu deaktivieren"
+
+#: inc/menu/admin-settings-arr.php:1084
+msgid "Rented Properties"
+msgstr "Vermietete Immobilien"
+
+#: inc/menu/admin-settings-arr.php:1085
+msgid ""
+"It displays when property purpose is set to rent, leave blank to disable it"
+msgstr ""
+"Es wird angezeigt, wenn der Immobilienzweck auf \"Mieten\" eingestellt ist. "
+"Lassen Sie das Feld leer, um es zu deaktivieren"
+
+#: inc/menu/admin-settings-arr.php:1090
+msgid "For Sale Properties"
+msgstr "Verkaufs-Immobilien"
+
+#: inc/menu/admin-settings-arr.php:1091
+msgid ""
+"It displays when property purpose is set to sell, leave blank to disable it"
+msgstr ""
+"Es wird angezeigt, wenn der Immobilienzweck auf \"Verkaufen\" eingestellt "
+"ist. Lassen Sie das Feld leer, um es zu deaktivieren"
+
+#: inc/menu/admin-settings-arr.php:1096
+msgid "Sold Properties"
+msgstr "Verkaufte Immobilien"
+
+#: inc/menu/admin-settings-arr.php:1097
+msgid ""
+"It displays when property status is set to sold, leave blank to disable it"
+msgstr ""
+"Es wird angezeigt, wenn der Immobilienstatus auf \"Verkauft\" eingestellt "
+"ist. Lassen Sie das Feld leer, um es zu deaktivieren"
+
+#: inc/menu/admin-settings-arr.php:1102
+msgid "Featured Properties"
+msgstr "Hervorgehobene Objekte"
+
+#: inc/menu/admin-settings-arr.php:1103
+msgid ""
+"It displays when featured option is set to yes, leave blank to disable it"
+msgstr ""
+"Wird angezeigt, wenn die Option \"Hervorgehoben\" auf \"Ja\" gesetzt ist, "
+"lassen Sie das Feld leer, um es zu deaktivieren"
+
+#: inc/menu/admin-settings-arr.php:1108
+msgid "Custom Ribbon"
+msgstr "Benutzerdefiniertes Band"
+
+#: inc/menu/admin-settings-arr.php:1109
+msgid "Provide key with value. Eg:"
+msgstr "Geben Sie einen Schlüssel mit einem Wert an. Z.B.:"
+
+#: inc/menu/admin-settings-arr.php:1114
+msgid "Custom Ribbon Text"
+msgstr "Benutzerdefinierte Menüleiste"
+
+#: inc/menu/admin-settings-arr.php:1115
+msgid ""
+"Provide text to display for custom ribbon. You can also provide field name "
+"for dynamic label."
+msgstr ""
+"Geben Sie den Text ein, der für das benutzerdefinierte Markierungsband "
+"angezeigt werden soll. Sie können auch einen Feldnamen für die dynamische "
+"Bezeichnung angeben."
+
+#: inc/menu/admin-settings-arr.php:1121
+msgid "Page Builders"
+msgstr "Seitengestalter"
+
+#: inc/menu/admin-settings-arr.php:1129
+msgid "Gutenberg Blocks"
+msgstr "Gutenberg Blöcke"
+
+#: inc/menu/admin-settings-arr.php:1132
+#: shortcodes/page-builders/divi-settings.php:67
+#: shortcodes/page-builders/vc-settings.php:4
+msgid "Register Agent"
+msgstr "Anbieter registrieren"
+
+#: inc/menu/admin-settings-arr.php:1133
+msgid "Simple Search"
+msgstr "Einfache Suche"
+
+#: inc/menu/admin-settings-arr.php:1135
+msgid "Enable or disable Gutenberg Blocks here. More are coming..."
+msgstr ""
+"Aktivieren, oder deaktiveren Sie die Gutenberg-Blöcke hier. Mehr kommen "
+"bald.."
+
+#: inc/menu/admin-settings-arr.php:1140
+msgid "WPBakery Page Builder Addons"
+msgstr "WPBakery Seitengestalter Addons"
+
+#: inc/menu/admin-settings-arr.php:1145
+msgid "Enable or disable WPBakery Page Builder addons here."
+msgstr ""
+"Aktivieren oder deaktivieren Sie Addons für den WPBakery Seitengestalter "
+"hier."
+
+#: inc/menu/admin-settings-arr.php:1150
+msgid "Divi Modules"
+msgstr "Divi Module"
+
+#: inc/menu/admin-settings-arr.php:1155
+msgid "Enable or disable Divi modules here."
+msgstr "Aktivieren oder Deaktivieren Divi-Module hier."
+
+#: inc/menu/admin-settings-arr.php:1161
+msgid "Advanced Settings"
+msgstr "Erweitere Einstellungen"
+
+#: inc/menu/admin-settings-arr.php:1169
+msgid "Bootstrap CSS"
+msgstr "Bootstrap CSS"
+
+#: inc/menu/admin-settings-arr.php:1174
+msgid "Disable it, if your theme loads its own bootstrap 3 styles"
+msgstr "Deaktivieren Sie es, wenn Ihr Design eigene Bootstrap-3-Stile lädt"
+
+#: inc/menu/admin-settings-arr.php:1179
+msgid "Disable Map Script"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1184
+msgid "If you want to load map scripts from your theme, choose Yes"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1189
+msgid "Font Awesome"
+msgstr "Font Awesome"
+
+#: inc/menu/admin-settings-arr.php:1194
+msgid "Disable it, if your theme loads its own font awesome icons"
+msgstr "Deaktivieren Sie es, wenn Ihr Thema eigene font-awesome Symbole lädt"
+
+#: inc/menu/admin-settings-arr.php:1199
+msgid "Property Submission Mode"
+msgstr "Immobilien Eintragsmodus"
+
+#: inc/menu/admin-settings-arr.php:1201
+msgid "Publish Right Away"
+msgstr "Direkt veröffentlichen"
+
+#: inc/menu/admin-settings-arr.php:1202
+msgid "Approve by Administrator"
+msgstr "Genehmigung durch Administrator"
+
+#: inc/menu/admin-settings-arr.php:1204
+msgid "Set permission for agents for creating new property"
+msgstr ""
+"Legen Sie die Berechtigung für Anbieter zum Erstellen neuer Objekte fest"
+
+#: inc/menu/admin-settings-arr.php:1210
+msgid "Redirect After Creating Property"
+msgstr "Weiterlatung nach Immobilien Eintragung"
+
+#: inc/menu/admin-settings-arr.php:1211
+msgid "Provide redirect url after creating property from frontend"
+msgstr ""
+"Geben Sie die Weiterleitungs-URL an, nachdem Sie eine Immobile vom Frontend "
+"erstellt haben"
+
+#: inc/menu/admin-settings-arr.php:1216
+msgid "Redirect After Editing Property"
+msgstr "Weiterleitung nach Immobilien Bearbeitung"
+
+#: inc/menu/admin-settings-arr.php:1217
+msgid "Provide redirect url after editing property from frontend"
+msgstr ""
+"Stellen Sie die Weiterleitungs-URL nach dem Bearbeiten der Immobilievom "
+"Frontend zur Verfügung"
+
+#: inc/menu/admin-settings-arr.php:1223
+msgid "Delete Permanently"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1224
+msgid "Move to Trash"
+msgstr ""
+
+#: inc/menu/admin-settings-arr.php:1226
+#, fuzzy
+#| msgid "Property Description"
+msgid "Property Deletion"
+msgstr "Immobilien Beschreibung"
+
+#: inc/menu/admin-settings-arr.php:1227
+#, fuzzy
+#| msgid "What to do with gallery images after deleting property."
+msgid "What to do when an agent deletes a property."
+msgstr "Was soll mit den Bildern nach dem Löschen von Immobilien geschehen?"
+
+#: inc/menu/admin-settings-arr.php:1233
+msgid "Keep"
+msgstr "Behalten"
+
+#: inc/menu/admin-settings-arr.php:1234 inc/menu/agent/fields/checkbox.php:57
+#: inc/menu/agent/fields/email.php:80 inc/menu/agent/fields/image.php:80
+#: inc/menu/agent/fields/number.php:80 inc/menu/agent/fields/password.php:80
+#: inc/menu/agent/fields/select.php:90 inc/menu/agent/fields/text.php:80
+#: inc/menu/agent/fields/textarea.php:80
+#: inc/menu/custom-fields/fields/select.php:86
+#: inc/menu/custom-fields/fields/text.php:90
+#: shortcodes/manage-properties.php:111 shortcodes/my-properties.php:98
+msgid "Delete"
+msgstr "Löschen"
+
+#: inc/menu/admin-settings-arr.php:1236
+msgid "Attachments Deletion"
+msgstr "Löschen von Anhängen"
+
+#: inc/menu/admin-settings-arr.php:1237
+msgid "What to do with gallery images after deleting property."
+msgstr "Was soll mit den Bildern nach dem Löschen von Immobilien geschehen?"
+
+#: inc/menu/admin-settings-arr.php:1242
+msgid "Agents Approval"
+msgstr "Anbieter genehmigen"
+
+#: inc/menu/admin-settings-arr.php:1244
+msgid "Manual"
+msgstr "Manuell"
+
+#: inc/menu/admin-settings-arr.php:1245
+msgid "Automatic"
+msgstr "Automatisch"
+
+#: inc/menu/admin-settings-arr.php:1247
+msgid "We recommend you to use manual method"
+msgstr "Wir empfehlen die manuelle Methode zu nutzen"
+
+#: inc/menu/agent-profile-fields.php:3
+msgid "Agent Details"
+msgstr "Anbieter Details"
+
+#: inc/menu/agent-profile-fields.php:25
+msgid "Upload Image"
+msgstr "Bild hochladen"
+
+#: inc/menu/agent/custom-fields-page.php:2
+msgid "Agent Registration Fields"
+msgstr "Eingabefelder der Anbieterregistrierung"
+
+#: inc/menu/agent/custom-fields-page.php:41
+#: inc/menu/custom-fields/custom-fields-page.php:68
+msgid "Please Drag and Drop the fields in above area from left panel"
+msgstr "Bitte ziehen Sie die Felder im obigen Bereich aus dem linken Bereich"
+
+#: inc/menu/agent/custom-fields-page.php:47
+#: inc/menu/custom-fields/custom-fields-page.php:76
+msgid "Reset Fields"
+msgstr "Setze Felder zurück"
+
+#: inc/menu/agent/custom-fields-page.php:48
+#: inc/menu/custom-fields/custom-fields-page.php:77
+#: inc/menu/page-settings.php:43
+msgid "Save Settings"
+msgstr "Einstellungen speichern"
+
+#: inc/menu/agent/fields/checkbox.php:2
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#: inc/menu/agent/fields/checkbox.php:8 inc/menu/agent/fields/email.php:8
+#: inc/menu/agent/fields/image.php:8 inc/menu/agent/fields/number.php:8
+#: inc/menu/agent/fields/password.php:8 inc/menu/agent/fields/select.php:8
+#: inc/menu/agent/fields/text.php:8 inc/menu/agent/fields/textarea.php:8
+#: inc/menu/custom-fields/fields/select.php:8
+#: inc/menu/custom-fields/fields/text.php:8
+#: shortcodes/page-builders/all-setting-fields.php:441
+msgid "Label"
+msgstr "Label"
+
+#: inc/menu/agent/fields/checkbox.php:14 inc/menu/agent/fields/email.php:14
+#: inc/menu/agent/fields/image.php:14 inc/menu/agent/fields/number.php:14
+#: inc/menu/agent/fields/password.php:14 inc/menu/agent/fields/select.php:14
+#: inc/menu/agent/fields/text.php:14 inc/menu/agent/fields/textarea.php:14
+#: inc/menu/custom-fields/fields/select.php:15
+#: inc/menu/custom-fields/fields/text.php:15
+msgid "Data Name (lowercase without spaces)"
+msgstr "Datenname (Kleinbuchstaben ohne Leerzeichen)"
+
+#: inc/menu/agent/fields/checkbox.php:20 inc/menu/agent/fields/email.php:20
+#: inc/menu/agent/fields/image.php:20 inc/menu/agent/fields/number.php:20
+#: inc/menu/agent/fields/password.php:20 inc/menu/agent/fields/select.php:36
+#: inc/menu/agent/fields/text.php:20 inc/menu/agent/fields/textarea.php:20
+#: inc/menu/custom-fields/fields/select.php:42
+#: inc/menu/custom-fields/fields/text.php:27
+msgid "Help Text"
+msgstr "Hilfetext"
+
+#: inc/menu/agent/fields/checkbox.php:34 inc/menu/agent/fields/email.php:34
+#: inc/menu/agent/fields/image.php:34 inc/menu/agent/fields/number.php:34
+#: inc/menu/agent/fields/password.php:34 inc/menu/agent/fields/select.php:50
+#: inc/menu/agent/fields/text.php:34 inc/menu/agent/fields/textarea.php:34
+msgid "Display on"
+msgstr "Anzeigen auf"
+
+#: inc/menu/agent/fields/checkbox.php:38 inc/menu/agent/fields/email.php:38
+#: inc/menu/agent/fields/image.php:38 inc/menu/agent/fields/number.php:38
+#: inc/menu/agent/fields/password.php:38 inc/menu/agent/fields/select.php:54
+#: inc/menu/agent/fields/text.php:38 inc/menu/agent/fields/textarea.php:38
+msgid "Registration Form"
+msgstr "Registrierungsformular"
+
+#: inc/menu/agent/fields/checkbox.php:43 inc/menu/agent/fields/email.php:66
+#: inc/menu/agent/fields/image.php:66 inc/menu/agent/fields/number.php:66
+#: inc/menu/agent/fields/password.php:66 inc/menu/agent/fields/text.php:66
+#: inc/menu/agent/fields/textarea.php:66
+msgid "Tab"
+msgstr "Tab"
+
+#: inc/menu/agent/fields/email.php:2
+msgid "Email Field"
+msgstr "Email-Feld"
+
+#: inc/menu/agent/fields/email.php:42 inc/menu/agent/fields/image.php:42
+#: inc/menu/agent/fields/number.php:42 inc/menu/agent/fields/password.php:42
+#: inc/menu/agent/fields/select.php:58 inc/menu/agent/fields/text.php:42
+#: inc/menu/agent/fields/textarea.php:42
+msgid "Admin Profile Edit"
+msgstr "Anbieterprofil bearbeiten"
+
+#: inc/menu/agent/fields/email.php:47 inc/menu/agent/fields/image.php:47
+#: inc/menu/agent/fields/number.php:47 inc/menu/agent/fields/password.php:47
+#: inc/menu/agent/fields/select.php:63 inc/menu/agent/fields/text.php:47
+#: inc/menu/agent/fields/textarea.php:47
+msgid "Frontend Edit"
+msgstr "Frontend bearbeiten"
+
+#: inc/menu/agent/fields/email.php:51 inc/menu/agent/fields/image.php:51
+#: inc/menu/agent/fields/number.php:51 inc/menu/agent/fields/password.php:51
+#: inc/menu/agent/fields/select.php:67 inc/menu/agent/fields/text.php:51
+#: inc/menu/agent/fields/textarea.php:51
+msgid "Agent Card Icons"
+msgstr "Icons der Anbieter Karte"
+
+#: inc/menu/agent/fields/email.php:55 inc/menu/agent/fields/image.php:55
+#: inc/menu/agent/fields/number.php:55 inc/menu/agent/fields/password.php:55
+#: inc/menu/agent/fields/select.php:71 inc/menu/agent/fields/text.php:55
+#: inc/menu/agent/fields/textarea.php:55
+msgid "Agent Page"
+msgstr "Seite des Anbieters"
+
+#: inc/menu/agent/fields/email.php:60 inc/menu/agent/fields/image.php:60
+#: inc/menu/agent/fields/number.php:60 inc/menu/agent/fields/password.php:60
+#: inc/menu/agent/fields/text.php:60 inc/menu/agent/fields/textarea.php:60
+msgid "Icon Class (If Agent Card Icons is selected)"
+msgstr "Klasse des Icons (falls Icons der Anbieter Karte gewählt wurde)"
+
+#: inc/menu/agent/fields/image.php:2
+msgid "Image Field"
+msgstr "Bildfeld"
+
+#: inc/menu/agent/fields/number.php:2
+#: inc/menu/custom-fields/custom-fields-page.php:7
+msgid "Number Field"
+msgstr "Zahlenfeld"
+
+#: inc/menu/agent/fields/password.php:2
+msgid "Password Field"
+msgstr "Passwortfeld"
+
+#: inc/menu/agent/fields/select.php:2
+msgid "Select Box"
+msgstr "Auswahlbox"
+
+#: inc/menu/agent/fields/select.php:20
+#: inc/menu/custom-fields/fields/select.php:21
+msgid "Default Selected"
+msgstr "Standard ausgewählt"
+
+#: inc/menu/agent/fields/select.php:26
+#: inc/menu/custom-fields/fields/select.php:27
+msgid "Options (each per line)"
+msgstr "Optionen (jeweils pro Zeile)"
+
+#: inc/menu/agent/fields/select.php:76
+#: inc/menu/custom-fields/fields/select.php:48
+#: inc/menu/custom-fields/fields/text.php:33
+msgid "Admin Settings Tab"
+msgstr "Administrationseinstellungen"
+
+#: inc/menu/agent/fields/text.php:2
+#: inc/menu/custom-fields/custom-fields-page.php:6
+msgid "Text Field"
+msgstr "Textfeld"
+
+#: inc/menu/agent/fields/textarea.php:2
+msgid "Textarea Field"
+msgstr "Textbereichsfeld"
+
+#: inc/menu/custom-fields/custom-fields-page.php:2
+msgid "Custom Fields Builder"
+msgstr "Gestalter für angepasste Eingabefelder"
+
+#: inc/menu/custom-fields/custom-fields-page.php:8
+msgid "DropDown Field"
+msgstr "Dropdownfeld"
+
+#: inc/menu/custom-fields/custom-fields-page.php:9
+#, fuzzy
+#| msgid "Default Selected"
+msgid "Multi Select Field"
+msgstr "Standard ausgewählt"
+
+#: inc/menu/custom-fields/custom-fields-page.php:10
+msgid "Date Field"
+msgstr "Datumsfeld"
+
+#: inc/menu/custom-fields/custom-fields-page.php:11
+msgid "Multiple Files Upload"
+msgstr "Mutiple Dateien hochladen"
+
+#: inc/menu/custom-fields/custom-fields-page.php:13
+msgid "Text Area"
+msgstr "Textbereichsfeld"
+
+#: inc/menu/custom-fields/custom-fields-page.php:14
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: inc/menu/custom-fields/custom-fields-page.php:70
+msgid ""
+"If Data Name contains the whole word \"area\", the chosen area unit will be "
+"shown after the value."
+msgstr ""
+"Wenn der Datenname das gesamte Wort \"Bereich\" enthält, wird die "
+"ausgewählte Bereichseinheit nach dem Wert angezeigt."
+
+#: inc/menu/custom-fields/fields/select.php:62
+#: inc/menu/custom-fields/fields/text.php:47 shortcodes/edit-property.php:134
+msgid "Accessibility"
+msgstr "Zugänglichkeit"
+
+#: inc/menu/custom-fields/fields/text.php:21
+msgid "Default Value"
+msgstr "Standardwert"
+
+#: inc/menu/custom-fields/fields/text.php:67
+#, fuzzy
+#| msgid "Displays search results if searched from widget"
+msgid "Display as range slider on search form"
+msgstr "Zeigt Suchergebnisse an, wenn sie vom Widget aus gesucht werden"
+
+#: inc/menu/custom-fields/fields/text.php:75
+msgid "Make range slider checkbox checked by default"
+msgstr ""
+
+#: inc/menu/page-agents.php:65
+msgid "Pending Agents"
+msgstr "Anstehende Anbieter"
+
+#: inc/menu/page-agents.php:76
+msgid "Date of Registration"
+msgstr "Datum der Registrierung"
+
+#: inc/menu/page-agents.php:77
+msgid "Action"
+msgstr "Aktion"
+
+#: inc/menu/page-agents.php:89
+msgid "Deny"
+msgstr "Verweigern"
+
+#: inc/menu/page-agents.php:90
+msgid "Approve"
+msgstr "Genehmigen"
+
+#: inc/menu/page-agents.php:99
+msgid "You dont have any pending agents."
+msgstr "Sie haben keine ausstehenden Anbieter."
+
+#: inc/menu/page-agents.php:107
+msgid "Registered Agents"
+msgstr "Registrierte Anbieter"
+
+#: inc/menu/page-agents.php:119
+msgid "Profile"
+msgstr "Profil"
+
+#: inc/menu/page-agents.php:132
+msgid "View Profile"
+msgstr "Profil anzeigen"
+
+#: inc/menu/page-agents.php:141
+msgid "You dont have any registered agents."
+msgstr "Sie haben keine registrierten Anbieter."
+
+#: inc/menu/page-agents.php:147
+msgid "Register New Agent"
+msgstr "Neuen Anbieter registrieren"
+
+#: inc/menu/page-settings.php:3
+msgid "Real Estate Manager - Settings"
+msgstr "Real Estate Manager - Einstellungen"
+
+#: inc/menu/page-settings.php:5
+msgid "Not Registered!"
+msgstr "Nicht registriert!"
+
+#: inc/menu/page-settings.php:6
+msgid "Register"
+msgstr "Registrieren"
+
+#: inc/menu/page-settings.php:8
+msgid "Registered!"
+msgstr "Anbieter registriert!"
+
+#: inc/menu/page-settings.php:9
+msgid "De-register"
+msgstr "Konto löschen"
+
+#: inc/menu/page-settings.php:42
+msgid "Please Wait..."
+msgstr "Bitte warten..."
+
+#: inc/menu/render-admin-settings.php:50
+msgid "We noticed you are using custom fields, so please set above options"
+msgstr ""
+"Wir haben gesehen das Sie angepasste Felder benutzen. Aktivieren Sie bitte "
+"die obigen Optionen"
+
+#: inc/menu/render-admin-settings.php:180
+#: inc/menu/render-admin-settings.php:181
+msgid "Choose a currency&hellip;"
+msgstr "Wählen Sie eine Währung aus&hellip;"
+
+#: inc/menu/render-admin-settings.php:217
+msgid "Image"
+msgstr "Bild"
+
+#: inc/menu/render-admin-settings.php:218
+msgid "Select"
+msgstr "Wähle"
+
+#: inc/menu/render-admin-settings.php:219
+msgid "Media"
+msgstr "Medien"
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:54
+msgid "View details"
+msgstr "Details betrachten"
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:77
+#, php-format
+msgid "More information about %s"
+msgstr "Weitere Informationen über %s"
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr "Auf Aktualisierungen prüfen"
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:213
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr "Das %s Update ist auf dem aktuellsten Stand."
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:215
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr "Es gibt eine neue Version für das Plugin %s."
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:217
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr "Es war nicht möglich Updates für %s zu finden."
+
+#: inc/plugin-update-checker/Puc/v4p6/Plugin/Ui.php:223
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr "Unbekannter Status bei der Überprüfung des Status \"%s\""
+
+#: inc/plugin-update-checker/Puc/v4p6/Vcs/PluginUpdateChecker.php:98
+msgid "There is no changelog available."
+msgstr "Es gibt keinen Log über die Änderungen."
+
+#: inc/sidebar-agent-contact.php:19
+msgid "Your Name"
+msgstr "Dein Name"
+
+#: inc/sidebar-agent-contact.php:22
+msgid "Your Email"
+msgstr "Deine E-Mail"
+
+#: inc/sidebar-agent-contact.php:25
+msgid "Phone"
+msgstr "Telefon"
+
+#: inc/sidebar-agent-contact.php:28
+msgid "Message"
+msgstr "Nachricht"
+
+#: inc/sidebar-agent-contact.php:31
+msgid "Send Message"
+msgstr "Nachricht senden"
+
+#: shortcodes/agent-profile.php:92
+#: shortcodes/page-builders/divi-settings.php:201
+#: shortcodes/page-builders/vc-settings.php:68 templates/agent.php:89
+msgid "My Properties"
+msgstr "Meine Immobilien"
+
+#: shortcodes/carousel/carousel.php:13
+msgid "No Properties Found!"
+msgstr "Keine Immobilien gefunden!"
+
+#: shortcodes/create-property.php:9 shortcodes/edit-property.php:14
+msgid "Basic Information"
+msgstr "Grundinformation"
+
+#: shortcodes/create-property.php:13 shortcodes/edit-property.php:18
+#: shortcodes/page-builders/all-setting-fields.php:31
+msgid "Property Title"
+msgstr "Immobile Titel"
+
+#: shortcodes/create-property.php:16
+msgid "Property Description"
+msgstr "Immobilien Beschreibung"
+
+#: shortcodes/create-property.php:28 shortcodes/edit-property.php:33
+msgid "Images"
+msgstr "Bilder"
+
+#: shortcodes/create-property.php:33 shortcodes/edit-property.php:38
+msgid "Click here to Upload Images"
+msgstr "Klicken Sie hier, um Bilder hochzuladen"
+
+#: shortcodes/create-property.php:85 shortcodes/edit-property.php:107
+msgid "Each tag separated by comma"
+msgstr "Jedes Schlagwort getrennt durch Komma"
+
+#: shortcodes/create-property.php:93 shortcodes/edit-property.php:119
+msgid "Place on Map"
+msgstr "Platz auf der Karte"
+
+#: shortcodes/create-property.php:105
+#: shortcodes/page-builders/vc-settings.php:28
+msgid "Create Property"
+msgstr "Immobilie erstellen"
+
+#: shortcodes/create-property.php:112
+msgid "Please wait..."
+msgstr "Bitte warten..."
+
+#: shortcodes/edit-agent.php:44 shortcodes/edit-property.php:142
+msgid "Save Changes"
+msgstr "Speichern"
+
+#: shortcodes/edit-agent.php:47
+msgid "Saving Changes..."
+msgstr "Ãnderungen werden gespeichert..."
+
+#: shortcodes/edit-property.php:135
+msgid "Draft"
+msgstr "Vorlage"
+
+#: shortcodes/edit-property.php:136 shortcodes/manage-properties.php:29
+msgid "Publish"
+msgstr "Veröffentlichen"
+
+#: shortcodes/edit-property.php:149
+msgid "Please wait! your porperty is being modified..."
+msgstr "Bitte warten! Ihre Immobilie wird geändert ..."
+
+#: shortcodes/login.php:8
+msgid "Username or email"
+msgstr "Benutzername oder E-Mail-Adresse"
+
+#: shortcodes/login.php:22
+msgid "Keep me signed in"
+msgstr "Ich möchte angemeldet bleiben"
+
+#: shortcodes/login.php:23 shortcodes/page-builders/all-setting-fields.php:933
+msgid "Login"
+msgstr "Anmeldung"
+
+#: shortcodes/manage-properties.php:9 shortcodes/my-properties.php:8
+msgid "Display All"
+msgstr "Alle anzeigen"
+
+#: shortcodes/manage-properties.php:10 shortcodes/my-properties.php:9
+msgid "Only Published"
+msgstr "Nur veröffentlichte"
+
+#: shortcodes/manage-properties.php:11 shortcodes/my-properties.php:10
+msgid "Only Pending"
+msgstr "Nur ausstehende"
+
+#: shortcodes/manage-properties.php:12 shortcodes/my-properties.php:11
+msgid "Only Draft"
+msgstr "Nur Vorlagen"
+
+#: shortcodes/manage-properties.php:30
+msgid "Unpublish"
+msgstr "Veröffentlichung aufheben"
+
+#: shortcodes/manage-properties.php:41 shortcodes/my-properties.php:35
+msgid "Thumbnail"
+msgstr "Miniaturansicht"
+
+#: shortcodes/manage-properties.php:42
+#: shortcodes/page-builders/all-setting-fields.php:29
+msgid "ID"
+msgstr "ID"
+
+#: shortcodes/manage-properties.php:45 shortcodes/my-properties.php:38
+msgid "Added"
+msgstr "Hinzugefügt"
+
+#: shortcodes/manage-properties.php:49 shortcodes/my-properties.php:41
+msgid "Actions"
+msgstr "Aktionen"
+
+#: shortcodes/manage-properties.php:107 shortcodes/my-properties.php:94
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: shortcodes/map/map.php:106 shortcodes/map/nearby.php:98
+msgid "Found"
+msgstr "Gefunden"
+
+#: shortcodes/map/map.php:107
+msgid "You are here"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:16
+#: shortcodes/page-builders/all-setting-fields.php:920
+msgid "Designates the ascending or descending order of the below option."
+msgstr ""
+"Bestimmt die aufsteigende oder absteigende Reihenfolge der folgenden Option."
+
+#: shortcodes/page-builders/all-setting-fields.php:26
+msgid "Choose option to sort properties by"
+msgstr "Wählen Sie die bevorzugte Sortierreihenfolge der Immobilien fest nach"
+
+#: shortcodes/page-builders/all-setting-fields.php:32
+msgid "Property Price"
+msgstr "Objektpreis"
+
+#: shortcodes/page-builders/all-setting-fields.php:33
+#: shortcodes/page-builders/all-setting-fields.php:228
+#: shortcodes/page-builders/all-setting-fields.php:593
+msgid "Random"
+msgstr "Zufällig"
+
+#: shortcodes/page-builders/all-setting-fields.php:39
+msgid "Order by custom meta"
+msgstr "Sortieren nach angepasstem Meta"
+
+#: shortcodes/page-builders/all-setting-fields.php:40
+msgid "Provide custom field key to sort by custom field. Eg: property_status"
+msgstr ""
+"Geben Sie einen benutzerdefinierten Feldschlüssel ein, um nach "
+"benutzerdefiniertem Feld zu sortieren. ZB: property_status"
+
+#: shortcodes/page-builders/all-setting-fields.php:45
+#: shortcodes/page-builders/all-setting-fields.php:234
+msgid "Property Style"
+msgstr "Objekt Stil"
+
+#: shortcodes/page-builders/all-setting-fields.php:46
+#: shortcodes/page-builders/all-setting-fields.php:235
+msgid "Choose properties display style"
+msgstr "Wählen Sie den Anzeigestil für Eigenschaften"
+
+#: shortcodes/page-builders/all-setting-fields.php:52
+#: shortcodes/page-builders/all-setting-fields.php:485
+#: shortcodes/page-builders/all-setting-fields.php:906
+msgid "Columns"
+msgstr "Spalten"
+
+#: shortcodes/page-builders/all-setting-fields.php:53
+msgid "Number of properties in a row"
+msgstr "Anzahl der Immobilien in einer Zeile"
+
+#: shortcodes/page-builders/all-setting-fields.php:55
+#: shortcodes/page-builders/all-setting-fields.php:909
+msgid "1 Columns"
+msgstr "1 Spalte"
+
+#: shortcodes/page-builders/all-setting-fields.php:56
+#: shortcodes/page-builders/all-setting-fields.php:488
+#: shortcodes/page-builders/all-setting-fields.php:910
+msgid "2 Columns"
+msgstr "2 Spalten"
+
+#: shortcodes/page-builders/all-setting-fields.php:57
+#: shortcodes/page-builders/all-setting-fields.php:489
+#: shortcodes/page-builders/all-setting-fields.php:911
+msgid "3 Columns"
+msgstr "3 Spalten"
+
+#: shortcodes/page-builders/all-setting-fields.php:58
+#: shortcodes/page-builders/all-setting-fields.php:490
+#: shortcodes/page-builders/all-setting-fields.php:912
+msgid "4 Columns"
+msgstr "4 Spalten"
+
+#: shortcodes/page-builders/all-setting-fields.php:59
+#: shortcodes/page-builders/all-setting-fields.php:491
+#: shortcodes/page-builders/all-setting-fields.php:913
+msgid "5 Columns"
+msgstr "5 Spalten"
+
+#: shortcodes/page-builders/all-setting-fields.php:65
+msgid "Top Bar"
+msgstr "Obere Leiste"
+
+#: shortcodes/page-builders/all-setting-fields.php:66
+msgid "Top bar to sort or change layout"
+msgstr "Obere Leiste zum Sortieren oder Ändern des Layouts"
+
+#: shortcodes/page-builders/all-setting-fields.php:75
+msgid "Default Grid Style"
+msgstr "Standard Gitter-Typ"
+
+#: shortcodes/page-builders/all-setting-fields.php:76
+msgid "Default style of grid for top bar."
+msgstr "Standardgitterstil für die obere Leiste."
+
+#: shortcodes/page-builders/all-setting-fields.php:83
+msgid "Display properties having status Not Available or not"
+msgstr "Immobilien anzeigen die als nicht verfügbar markiert wurden"
+
+#: shortcodes/page-builders/all-setting-fields.php:93
+msgid ""
+"Provide total number of properties to show, after that pagination will "
+"display"
+msgstr ""
+"Geben Sie die Gesamtzahl der anzuzeigenden Eigenschaften an, nachdem die "
+"Paginierung angezeigt wird"
+
+#: shortcodes/page-builders/all-setting-fields.php:98
+msgid "Tags Specific"
+msgstr "Schlagwörter spezifisch"
+
+#: shortcodes/page-builders/all-setting-fields.php:99
+msgid "Comma separated list of tags to filter properties"
+msgstr "Durch Kommas getrennte Liste von Tags zum Filtern von Eigenschaften"
+
+#: shortcodes/page-builders/all-setting-fields.php:104
+msgid "Features Specific"
+msgstr "Objektausstattungs spezifisch"
+
+#: shortcodes/page-builders/all-setting-fields.php:105
+msgid "Comma separated list of features to filter properties"
+msgstr "Kommagetrennte Liste von Features zum Filtern von Eigenschaften"
+
+#: shortcodes/page-builders/all-setting-fields.php:110
+msgid "Agent Specific"
+msgstr "Anbieter spezifisch"
+
+#: shortcodes/page-builders/all-setting-fields.php:111
+#: shortcodes/page-builders/all-setting-fields.php:266
+msgid "Agent ID or comma separated IDs to display their properties"
+msgstr ""
+"Anbieter-ID oder durch Komma getrennte IDs, um ihre Immobilien anzuzeigen"
+
+#: shortcodes/page-builders/all-setting-fields.php:116
+#: shortcodes/page-builders/all-setting-fields.php:247
+#: shortcodes/page-builders/all-setting-fields.php:663
+msgid "Filter Properties by Meta"
+msgstr "Filtereigenschaften nach Meta"
+
+#: shortcodes/page-builders/all-setting-fields.php:117
+#: shortcodes/page-builders/all-setting-fields.php:248
+#: shortcodes/page-builders/all-setting-fields.php:664
+msgid ""
+"Provide meta key and value on each line to filter. Eg: property_status|normal"
+msgstr ""
+"Geben Sie in jeder zu filternden Zeile einen Metaschlüssel und einen Wert "
+"ein. z.B: Eigenschaftsstatus | normal"
+
+#: shortcodes/page-builders/all-setting-fields.php:122
+#: shortcodes/page-builders/all-setting-fields.php:271
+#: shortcodes/page-builders/all-setting-fields.php:747
+msgid "Prefer Nearest Properties"
+msgstr "Bevorzugen Sie die nächsten Immobilien"
+
+#: shortcodes/page-builders/all-setting-fields.php:123
+msgid ""
+"It will enable Geo Location to track visitor location and will display "
+"properties near them"
+msgstr ""
+"Dadurch kann Geo Location den Standort des Besuchers verfolgen und Objekte "
+"in der Nähe anzeigen"
+
+#: shortcodes/page-builders/all-setting-fields.php:132
+msgid "Justified Grid (Masonry)"
+msgstr "Justified Grid (Masonry)"
+
+#: shortcodes/page-builders/all-setting-fields.php:133
+msgid "It will enable masonry grid for properties"
+msgstr "Es wird eine Liste von Objekte zeigen"
+
+#: shortcodes/page-builders/all-setting-fields.php:142
+msgid "Pagination"
+msgstr "Seitennummerierung"
+
+#: shortcodes/page-builders/all-setting-fields.php:143
+msgid "Enable or Disable Pagination"
+msgstr "Aktivieren oder Deaktivieren der Seitennummerierung"
+
+#: shortcodes/page-builders/all-setting-fields.php:156
+#: shortcodes/page-builders/all-setting-fields.php:363
+msgid "Redirect"
+msgstr "Umleitung"
+
+#: shortcodes/page-builders/all-setting-fields.php:157
+msgid "Provide URL to redirect after successful registration"
+msgstr ""
+"Geben Sie die URL für die Weiterleitung nach erfolgreicher Registrierung ein"
+
+#: shortcodes/page-builders/all-setting-fields.php:162
+#, fuzzy
+#| msgid "Required"
+msgid "Required Text"
+msgstr "Benötigt"
+
+#: shortcodes/page-builders/all-setting-fields.php:163
+msgid "Provide terms and conditions"
+msgstr ""
+
+#: shortcodes/page-builders/all-setting-fields.php:168
+#: shortcodes/page-builders/all-setting-fields.php:369
+msgid "Content for Logged In Users"
+msgstr "Dieser Inhalt ist nur für eingeloggte Nutzer"
+
+#: shortcodes/page-builders/all-setting-fields.php:169
+#: shortcodes/page-builders/all-setting-fields.php:370
+msgid "Provide contents for already logged in users"
+msgstr "Geben Sie den Inhalt für bereits eingeloggte Nutzer an"
+
+#: shortcodes/page-builders/all-setting-fields.php:178
+msgid "Placeholder"
+msgstr "Platzhalter"
+
+#: shortcodes/page-builders/all-setting-fields.php:179
+msgid "Placeholder for search field"
+msgstr "Platzhalter für Suchfelder"
+
+#: shortcodes/page-builders/all-setting-fields.php:184
+msgid "Field Width"
+msgstr "Eingabefeldbreite"
+
+#: shortcodes/page-builders/all-setting-fields.php:185
+msgid "Width with units. Eg: 450px"
+msgstr "Breite mit Einheit. Z.B.: 450px"
+
+#: shortcodes/page-builders/all-setting-fields.php:190
+msgid "Border Color"
+msgstr "Randfarbe"
+
+#: shortcodes/page-builders/all-setting-fields.php:191
+msgid "Choose color for border"
+msgstr "Wählen Sie die Farbe für die Randlinie"
+
+#: shortcodes/page-builders/all-setting-fields.php:196
+msgid "Results Page URL"
+msgstr "Url der Suchergebnisseite"
+
+#: shortcodes/page-builders/all-setting-fields.php:197
+msgid "Provide URL for the search results page"
+msgstr "Geben Sie die URL für Seite der Suchergebnisse an"
+
+#: shortcodes/page-builders/all-setting-fields.php:202
+msgid "Search Icon"
+msgstr "Icon für die Suche"
+
+#: shortcodes/page-builders/all-setting-fields.php:203
+msgid "Provide fontawesome icon with markup."
+msgstr "Bestimmen Sie ein FontAwesome-Icon mit Code."
+
+#: shortcodes/page-builders/all-setting-fields.php:213
+#: shortcodes/page-builders/all-setting-fields.php:625
+msgid "Choose order to display properties"
+msgstr "Wählen Sie die Reihenfolge aus, um Eigenschaften anzuzeigen"
+
+#: shortcodes/page-builders/all-setting-fields.php:223
+#: shortcodes/page-builders/all-setting-fields.php:639
+msgid "Choose order by to display properties"
+msgstr "Wählen Sie Reihenfolge, um Eigenschaften anzuzeigen"
+
+#: shortcodes/page-builders/all-setting-fields.php:227
+#: shortcodes/page-builders/all-setting-fields.php:592
+#: shortcodes/page-builders/all-setting-fields.php:643
+msgid "Property Name"
+msgstr "Immobilien Name"
+
+#: shortcodes/page-builders/all-setting-fields.php:242
+msgid "Provide total number of properties to show"
+msgstr "Geben Sie die Gesamtzahl der anzuzeigenden Immobilien an"
+
+#: shortcodes/page-builders/all-setting-fields.php:254
+msgid "Provide tags each per line to display specific properties"
+msgstr ""
+"Geben Sie pro Zeile jeweils Tags an, um bestimmte Eigenschaften anzuzeigen"
+
+#: shortcodes/page-builders/all-setting-fields.php:259
+#: shortcodes/page-builders/all-setting-fields.php:614
+msgid "Property IDs"
+msgstr "Immobilien-IDs"
+
+#: shortcodes/page-builders/all-setting-fields.php:260
+msgid "Provide IDs if you want to display specific properties, each per line"
+msgstr ""
+"Geben Sie IDs an, wenn Sie bestimmte Eigenschaften pro Zeile anzeigen möchten"
+
+#: shortcodes/page-builders/all-setting-fields.php:272
+#: shortcodes/page-builders/all-setting-fields.php:748
+msgid ""
+"It will enable Geo Location Trackor to track visitors location and will "
+"display properties near them"
+msgstr ""
+"Dadurch kann der Geolocation Tracker den Standort des Besuchers verfolgen "
+"und Eigenschaften in seiner Nähe anzeigen"
+
+#: shortcodes/page-builders/all-setting-fields.php:282
+msgid "Properties in Row"
+msgstr "Immobilien je Zeile"
+
+#: shortcodes/page-builders/all-setting-fields.php:283
+msgid "Provide number of properties you want to show at a time"
+msgstr ""
+"Geben Sie die Anzahl der Objekte an, die Sie gleichzeitig anzeigen möchten"
+
+#: shortcodes/page-builders/all-setting-fields.php:289
+msgid "Properties to Scroll"
+msgstr "Zu scrollende Immobilien"
+
+#: shortcodes/page-builders/all-setting-fields.php:290
+msgid "Provide number of properties you want to scroll at a time"
+msgstr ""
+"Geben Sie die Anzahl der Objekte an, die Sie gleichzeitig blättern möchten"
+
+#: shortcodes/page-builders/all-setting-fields.php:296
+msgid "Speed"
+msgstr "Geschwindigkeit"
+
+#: shortcodes/page-builders/all-setting-fields.php:297
+msgid "Speed in ms Eg: 2000"
+msgstr "Geschwindigkeit in ms zB: 2000"
+
+#: shortcodes/page-builders/all-setting-fields.php:303
+msgid "Auto Play"
+msgstr "Automatische Wiedergabe"
+
+#: shortcodes/page-builders/all-setting-fields.php:304
+msgid "Enable to display auto rotation of properties"
+msgstr ""
+"Aktivieren Sie diese Option, um die automatische Drehung von Eigenschaften "
+"anzuzeigen"
+
+#: shortcodes/page-builders/all-setting-fields.php:314
+msgid "Auto Play Speed"
+msgstr "Automatische Wiedergabegeschwindigkeit"
+
+#: shortcodes/page-builders/all-setting-fields.php:315
+msgid "Auto play speed in ms Eg: 2000"
+msgstr "Automatische Wiedergabegeschwindigkeit in ms Beispiel: 2000"
+
+#: shortcodes/page-builders/all-setting-fields.php:321
+msgid "Arrows"
+msgstr "Pfeile"
+
+#: shortcodes/page-builders/all-setting-fields.php:322
+msgid "Enable to display arrows for navigation"
+msgstr "Aktivieren Sie diese Option, um Pfeile für die Navigation anzuzeigen"
+
+#: shortcodes/page-builders/all-setting-fields.php:332
+msgid "Dots"
+msgstr "Punkte"
+
+#: shortcodes/page-builders/all-setting-fields.php:333
+msgid "Enable to display bottom dots for navigation"
+msgstr "Aktivieren, um untere Punkte für die Navigation anzuzeigen"
+
+#: shortcodes/page-builders/all-setting-fields.php:347
+#: shortcodes/page-builders/all-setting-fields.php:379
+#: shortcodes/page-builders/all-setting-fields.php:389
+#: shortcodes/page-builders/all-setting-fields.php:409
+#: shortcodes/page-builders/all-setting-fields.php:419
+#: shortcodes/page-builders/all-setting-fields.php:468
+msgid "Content for Non Logged In Users"
+msgstr "Inhalt für nicht angemeldete Benutzer"
+
+#: shortcodes/page-builders/all-setting-fields.php:348
+msgid "Provide contents for non logged in users"
+msgstr "Geben Sie den Inhalte für nicht eingeloggte Nutzer an"
+
+#: shortcodes/page-builders/all-setting-fields.php:357
+msgid "Heading"
+msgstr "Überschrift"
+
+#: shortcodes/page-builders/all-setting-fields.php:358
+msgid "Heading will appear above the login form"
+msgstr "Überschrift wird über dem Anmeldeformular angezeigt"
+
+#: shortcodes/page-builders/all-setting-fields.php:364
+msgid "Provide URL to redirect after successful login"
+msgstr ""
+"Geben Sie eine URL zu Weiterleitung nach dem erfolgreichen Einloggen an"
+
+#: shortcodes/page-builders/all-setting-fields.php:380
+#: shortcodes/page-builders/all-setting-fields.php:390
+msgid "Provide contents to display if user is not logged in"
+msgstr "Geben Sie einen Inhalt an für Nutzer die noch nicht eingeloggt sind"
+
+#: shortcodes/page-builders/all-setting-fields.php:400
+msgid "Provide property id here"
+msgstr "Geben Sie hier eine Immobilien-ID an"
+
+#: shortcodes/page-builders/all-setting-fields.php:410
+#: shortcodes/page-builders/all-setting-fields.php:420
+#: shortcodes/page-builders/all-setting-fields.php:469
+msgid "Provide content to display if user is not logged in"
+msgstr ""
+"Stellen Sie Inhalte bereit, die angezeigt werden sollen, wenn der Benutzer "
+"nicht angemeldet ist"
+
+#: shortcodes/page-builders/all-setting-fields.php:429
+msgid "Redirect URL"
+msgstr "Weiterleitungs-Url"
+
+#: shortcodes/page-builders/all-setting-fields.php:430
+msgid "Provide URL to redirect after logout"
+msgstr "Geben Sie die Weiterleitungs-Url nach dem Ausloggen an"
+
+#: shortcodes/page-builders/all-setting-fields.php:435
+msgid "CSS Button"
+msgstr "CSS Knopf"
+
+#: shortcodes/page-builders/all-setting-fields.php:436
+msgid "Provide css classes for button"
+msgstr "Geben Sie eine CSS-Klasse für den Knopf an"
+
+#: shortcodes/page-builders/all-setting-fields.php:442
+msgid "Provide button label"
+msgstr "Geben Sie einen Text für den Knopf an"
+
+#: shortcodes/page-builders/all-setting-fields.php:452
+msgid "Choose agent to display his/her profile."
+msgstr "Wählen Sie einen Anbieter um sein/ihr Profil anzuzeigen."
+
+#: shortcodes/page-builders/all-setting-fields.php:462
+msgid "Role"
+msgstr "Rolle"
+
+#: shortcodes/page-builders/all-setting-fields.php:463
+msgid "Provide role name who can manage properties from this page."
+msgstr ""
+"Geben Sie den Rollennamen an, der die Eigenschaften auf dieser Seite "
+"verwalten kann."
+
+#: shortcodes/page-builders/all-setting-fields.php:478
+msgid "Check Fields to Display"
+msgstr "Aktivieren Sie die anzuzeigenden Felder"
+
+#: shortcodes/page-builders/all-setting-fields.php:479
+msgid "Check the required fields for search menu"
+msgstr "Überprüfen Sie die erforderlichen Felder für das Suchmenü"
+
+#: shortcodes/page-builders/all-setting-fields.php:486
+msgid "Choose number of fields in each row"
+msgstr "Wählen Sie die Anzahl der Felder in jeder Zeile"
+
+#: shortcodes/page-builders/all-setting-fields.php:492
+msgid "6 Columns"
+msgstr "6 Spalten"
+
+#: shortcodes/page-builders/all-setting-fields.php:493
+msgid "1 Column"
+msgstr "1 Spalte"
+
+#: shortcodes/page-builders/all-setting-fields.php:499
+msgid "Search Button Title"
+msgstr "Titel der Suchschaltfläche"
+
+#: shortcodes/page-builders/all-setting-fields.php:500
+msgid "Provide text for search button"
+msgstr "Geben Sie Text für die Suchschaltfläche ein"
+
+#: shortcodes/page-builders/all-setting-fields.php:505
+msgid "Filter Button Title"
+msgstr "Titel der Filterschaltfläche"
+
+#: shortcodes/page-builders/all-setting-fields.php:506
+msgid "Provide text for more filter button"
+msgstr "Geben Sie Text für weitere Filterschaltflächen ein"
+
+#: shortcodes/page-builders/all-setting-fields.php:511
+msgid "Results Page"
+msgstr "Ergebnisse Seite"
+
+#: shortcodes/page-builders/all-setting-fields.php:512
+msgid ""
+"Provide url, it will disable AJAX search and will open up that page to "
+"display results. Make sure to paste shortcode [rem_search_results] on "
+"provided page to display results."
+msgstr ""
+"URL angeben, es deaktiviert die AJAX-Suche und öffnet diese Seite, um "
+"Ergebnisse anzuzeigen. Stellen Sie sicher, dass Sie den Shortcode [rem "
+"search_results] auf der angegebenen Seite einfügen, um die Ergebnisse "
+"anzuzeigen."
+
+#: shortcodes/page-builders/all-setting-fields.php:517
+msgid "Result Selector"
+msgstr "Ergebnisauswahl"
+
+#: shortcodes/page-builders/all-setting-fields.php:518
+msgid ""
+"HTML selector if you want to display results in some other place on current "
+"page"
+msgstr ""
+"HTML-Selektor, wenn Sie Ergebnisse an einer anderen Stelle auf der aktuellen "
+"Seite anzeigen möchten"
+
+#: shortcodes/page-builders/all-setting-fields.php:523
+msgid "Fixed Fields"
+msgstr "Feste Felder"
+
+#: shortcodes/page-builders/all-setting-fields.php:524
+msgid "Provide data for fixed fields on each line. Eg: property_status|normal"
+msgstr ""
+"Geben Sie Daten für feste Felder in jeder Zeile an. ZB: Objekstatus | normal"
+
+#: shortcodes/page-builders/all-setting-fields.php:529
+msgid "Hard Coded Contents"
+msgstr "Hartcodierte Inhalte"
+
+#: shortcodes/page-builders/all-setting-fields.php:530
+msgid "You can paste shortcode here to list some default properties"
+msgstr ""
+"Sie können den Shortcode hier einfügen, um einige Standardeigenschaften "
+"aufzulisten"
+
+#: shortcodes/page-builders/all-setting-fields.php:535
+#: shortcodes/page-builders/all-setting-fields.php:932
+msgid "Agent ID"
+msgstr "Makler ID"
+
+#: shortcodes/page-builders/all-setting-fields.php:536
+msgid "Agent ID or comma separated IDs for agent specific search"
+msgstr ""
+"Anbieter-ID oder durch Komma getrennte IDs für die Anbieter spezifische Suche"
+
+#: shortcodes/page-builders/all-setting-fields.php:541
+msgid "More Filters Column Classes"
+msgstr "Weitere Filter für Spaltenklassen"
+
+#: shortcodes/page-builders/all-setting-fields.php:542
+msgid "CSS classes for more filters (features)."
+msgstr "CSS-Klassen für weitere Filter (Ausstattung)"
+
+#: shortcodes/page-builders/all-setting-fields.php:547
+msgid "Auto Complete"
+msgstr "Auto-Vervollständigung"
+
+#: shortcodes/page-builders/all-setting-fields.php:548
+msgid "Enable or Disable auto suggestions"
+msgstr "Automatische Vorschläge aktivieren / deaktivieren"
+
+#: shortcodes/page-builders/all-setting-fields.php:557
+msgid "Auto Scroll"
+msgstr "Auto-Rollen"
+
+#: shortcodes/page-builders/all-setting-fields.php:558
+msgid "Enable or Disable auto scroll to results"
+msgstr "Automatisches Rollen zu den Ergebnissen aktivieren / deaktivieren"
+
+#: shortcodes/page-builders/all-setting-fields.php:567
+#: shortcodes/page-builders/all-setting-fields.php:965
+msgid "Masonry"
+msgstr "Masonry"
+
+#: shortcodes/page-builders/all-setting-fields.php:568
+#, fuzzy
+#| msgid "Enable or Disable auto scroll to results"
+msgid "Enable for justified layout of results"
+msgstr "Automatisches Rollen zu den Ergebnissen aktivieren / deaktivieren"
+
+#: shortcodes/page-builders/all-setting-fields.php:578
+msgid "Choose order to display results"
+msgstr "Wählen Sie die Reihenfolge aus, um Ergebnisse anzuzeigen"
+
+#: shortcodes/page-builders/all-setting-fields.php:588
+msgid "Choose order by to display results"
+msgstr "Wählen Sie die Reihenfolge aus, um Ergebnisse anzuzeigen"
+
+#: shortcodes/page-builders/all-setting-fields.php:604
+msgid "Display By"
+msgstr "Anzeigen nach"
+
+#: shortcodes/page-builders/all-setting-fields.php:605
+msgid "How you want to display properties on map"
+msgstr "Wie möchten Sie Immobilien auf der Karte anzeigen?"
+
+#: shortcodes/page-builders/all-setting-fields.php:607
+msgid "Properties by IDs"
+msgstr "Immobilien nach ID"
+
+#: shortcodes/page-builders/all-setting-fields.php:608
+msgid "Use Property Query"
+msgstr "Verwenden Sie die Immobilien Abfrage"
+
+#: shortcodes/page-builders/all-setting-fields.php:615
+msgid "Property ID each per line to display on map"
+msgstr "Property ID pro Zeile für die Anzeige auf der Karte"
+
+#: shortcodes/page-builders/all-setting-fields.php:654
+msgid "Provide total number of properties to show. -1 for all"
+msgstr ""
+"Geben Sie die Gesamtzahl der anzuzeigenden Eigenschaften an. -1 für alle"
+
+#: shortcodes/page-builders/all-setting-fields.php:673
+msgid "Property Type Filtering"
+msgstr "Immobilientyp Filterung"
+
+#: shortcodes/page-builders/all-setting-fields.php:674
+msgid "Enable to display property type buttons below maps to filter"
+msgstr "Aktivieren, um Filter unter Immobilientyp Schaltflächen anzuzeigen"
+
+#: shortcodes/page-builders/all-setting-fields.php:683
+#, fuzzy
+#| msgid "Auto Complete"
+msgid "Auto Center"
+msgstr "Auto-Vervollständigung"
+
+#: shortcodes/page-builders/all-setting-fields.php:684
+#, fuzzy
+#| msgid "Enable to display auto rotation of properties"
+msgid "Enable to auto set map on the selected properties"
+msgstr ""
+"Aktivieren Sie diese Option, um die automatische Drehung von Eigenschaften "
+"anzuzeigen"
+
+#: shortcodes/page-builders/all-setting-fields.php:693
+msgid "Filter Key"
+msgstr "Filter-Schlüssel"
+
+#: shortcodes/page-builders/all-setting-fields.php:694
+msgid "Field key to use for filter menu"
+msgstr "Feldschlüssel der in Filtermenüs benutzt werden soll"
+
+#: shortcodes/page-builders/all-setting-fields.php:703
+msgid "Filter Options"
+msgstr "Filtermöglichkeiten"
+
+#: shortcodes/page-builders/all-setting-fields.php:704
+msgid "Provide comma-separated values to display on filter menu"
+msgstr ""
+"Geben Sie durch Kommas getrennte Werte an, die im Filtermenü angezeigt "
+"werden sollen"
+
+#: shortcodes/page-builders/all-setting-fields.php:714
+msgid "Provide default latitude if you are using Leaflet Map"
+msgstr ""
+"Geben Sie den Standardspielraum an, wenn Sie die Leaflet Karte verwenden"
+
+#: shortcodes/page-builders/all-setting-fields.php:720
+msgid "Provide default longitude if you are using Leaflet Map"
+msgstr ""
+"Geben Sie den Standard-Längengrad an, wenn Sie die Leaflet Karte  verwenden"
+
+#: shortcodes/page-builders/all-setting-fields.php:726
+msgid "Provide zoom level if you are using Leaflet Map"
+msgstr "Geben Sie die Zoomstufe an, wenn Sie die Leaflet Map verwenden"
+
+#: shortcodes/page-builders/all-setting-fields.php:731
+msgid "Map ID"
+msgstr "Karten ID"
+
+#: shortcodes/page-builders/all-setting-fields.php:732
+msgid "Lowercase without spaces id for using multiple maps on the same page."
+msgstr ""
+"Kleinbuchstaben ohne Leerzeichen für die Verwendung mehrerer Karten auf "
+"derselben Seite."
+
+#: shortcodes/page-builders/all-setting-fields.php:737
+msgid "Filter by Tags"
+msgstr "Filter nach Schlagworten"
+
+#: shortcodes/page-builders/all-setting-fields.php:738
+msgid "Provide single tag on each line to filter."
+msgstr "Geben Sie für jede zu filternde Zeile ein einzelnes Tag an."
+
+#: shortcodes/page-builders/all-setting-fields.php:757
+msgid "Map Height"
+msgstr "Karten Höhe"
+
+#: shortcodes/page-builders/all-setting-fields.php:758
+msgid "Provide map height Eg: 550px"
+msgstr "Geben Sie die Kartenhöhe an. Beispiel: 550px"
+
+#: shortcodes/page-builders/all-setting-fields.php:764
+msgid "Provide agent id for specific listings"
+msgstr "Geben Sie die Anbieter-ID für bestimmte Einträge an"
+
+#: shortcodes/page-builders/all-setting-fields.php:769
+msgid "Loading Heading"
+msgstr "Überschrift wird geladen"
+
+#: shortcodes/page-builders/all-setting-fields.php:770
+msgid "Provide map loading text heading"
+msgstr "Geben Sie die Überschrift für das Laden der Karte an"
+
+#: shortcodes/page-builders/all-setting-fields.php:776
+msgid "Loading Description"
+msgstr "Lade Beschreibung"
+
+#: shortcodes/page-builders/all-setting-fields.php:777
+msgid "Provide map loading text description"
+msgstr "Geben Sie eine Beschreibung zum Laden der Karte an"
+
+#: shortcodes/page-builders/all-setting-fields.php:783
+msgid "Buttons Background Color"
+msgstr "Button Hintergrundfarbe"
+
+#: shortcodes/page-builders/all-setting-fields.php:784
+msgid "Choose background color for map buttons"
+msgstr "Wählen Sie die Hintergrundfarbe für die Kartenschaltflächen"
+
+#: shortcodes/page-builders/all-setting-fields.php:785
+#: shortcodes/page-builders/all-setting-fields.php:792
+#: shortcodes/page-builders/all-setting-fields.php:799
+#: shortcodes/page-builders/all-setting-fields.php:806
+#: shortcodes/page-builders/all-setting-fields.php:813
+#: shortcodes/page-builders/all-setting-fields.php:820
+msgid "Colors"
+msgstr "Farben"
+
+#: shortcodes/page-builders/all-setting-fields.php:790
+msgid "Buttons Text Color"
+msgstr "Textfarbe der Schaltfläche"
+
+#: shortcodes/page-builders/all-setting-fields.php:791
+msgid "Choose text color for map buttons"
+msgstr "Wählen Sie eine Textfarbe für die Kartenschaltflächen"
+
+#: shortcodes/page-builders/all-setting-fields.php:797
+msgid "Buttons Background Color - Hover"
+msgstr "Ãndern Sie die Hintergrundfarbe für Button"
+
+#: shortcodes/page-builders/all-setting-fields.php:798
+msgid "Choose hover background color for map buttons"
+msgstr "Wählen Sie Hover-Hintergrundfarbe für Map-Schaltflächen"
+
+#: shortcodes/page-builders/all-setting-fields.php:804
+msgid "Buttons Text Color - Hover"
+msgstr "Schaltflächen Textfarbe - Hover"
+
+#: shortcodes/page-builders/all-setting-fields.php:805
+msgid "Choose text hover color for map buttons"
+msgstr "Wählen Sie eine Hoverfarbe für die Kartenschaltflächen"
+
+#: shortcodes/page-builders/all-setting-fields.php:811
+msgid "Loader Color"
+msgstr "Ladeanzeiger - Farbe"
+
+#: shortcodes/page-builders/all-setting-fields.php:812
+msgid "Choose color for maps loader box"
+msgstr "Wählen Sie die Farbe für die Kartenlade-Box"
+
+#: shortcodes/page-builders/all-setting-fields.php:818
+#, fuzzy
+#| msgid "Buttons Background"
+msgid "Type Filtering Background"
+msgstr "Schaltflächen Hintergrund"
+
+#: shortcodes/page-builders/all-setting-fields.php:819
+#, fuzzy
+#| msgid "Choose background color for buttons on hover state"
+msgid "Choose background color for filtering overlay"
+msgstr "Wähle Hintergrundfarbe für Schaltflächen im Hover-Zustand"
+
+#: shortcodes/page-builders/all-setting-fields.php:826
+msgid "Water Color"
+msgstr "Wasser Farbe"
+
+#: shortcodes/page-builders/all-setting-fields.php:827
+msgid "Choose water color in map"
+msgstr "Wählen Sie die Wasserfarbe in der Karte"
+
+#: shortcodes/page-builders/all-setting-fields.php:828
+#: shortcodes/page-builders/all-setting-fields.php:835
+#: shortcodes/page-builders/all-setting-fields.php:842
+#: shortcodes/page-builders/all-setting-fields.php:849
+#: shortcodes/page-builders/all-setting-fields.php:856
+#: shortcodes/page-builders/all-setting-fields.php:863
+msgid "Map Colors"
+msgstr "Karten Farben"
+
+#: shortcodes/page-builders/all-setting-fields.php:833
+msgid "Fill Color"
+msgstr "Füllfarbe"
+
+#: shortcodes/page-builders/all-setting-fields.php:834
+msgid "Choose natural fill color in map"
+msgstr "Wählen Sie die natürliche Füllfarbe in der Karte"
+
+#: shortcodes/page-builders/all-setting-fields.php:840
+msgid "Points of Interest Color"
+msgstr "Sehenswürdigkeiten Farbe"
+
+#: shortcodes/page-builders/all-setting-fields.php:841
+msgid "Choose poi color in map"
+msgstr "Wählen Sie Poi Farbe in der Karte"
+
+#: shortcodes/page-builders/all-setting-fields.php:847
+msgid "Points of Interest Hue Color"
+msgstr "Sehenswürdigkeiten Farbton Farbe"
+
+#: shortcodes/page-builders/all-setting-fields.php:848
+msgid "Choose poi hue color in map"
+msgstr "Wählen Sie eine Farbe in der Karte"
+
+#: shortcodes/page-builders/all-setting-fields.php:854
+msgid "Road Lightness"
+msgstr "Straßen Helligkeit"
+
+#: shortcodes/page-builders/all-setting-fields.php:855
+msgid "Choose road lightness in map, Default: 100"
+msgstr "WÃ¤hlen Sie Straßenhelligkeit in der Karte, Standard: 100"
+
+#: shortcodes/page-builders/all-setting-fields.php:861
+msgid "Lines Lightness"
+msgstr "Linien Leichtigkeit"
+
+#: shortcodes/page-builders/all-setting-fields.php:862
+msgid "Choose line lightness in map, Default: 700"
+msgstr "Wählen Sie Linienhelligkeit in der Karte, Standard: 700"
+
+#: shortcodes/page-builders/all-setting-fields.php:868
+msgid "Field Name for Icons"
+msgstr "Feldname für Icons"
+
+#: shortcodes/page-builders/all-setting-fields.php:869
+msgid "Provide field data name to filter icons by. Eg: property_type"
+msgstr ""
+"Geben Sie den Namen der Felddaten an, nach denen die Symbole gefiltert "
+"werden sollen. ZB: Immobilientyp"
+
+#: shortcodes/page-builders/all-setting-fields.php:870
+#: shortcodes/page-builders/all-setting-fields.php:877
+#: shortcodes/page-builders/all-setting-fields.php:884
+#: shortcodes/page-builders/all-setting-fields.php:891
+msgid "Custom Icons"
+msgstr "Eigene Icons"
+
+#: shortcodes/page-builders/all-setting-fields.php:875
+msgid "Icon URLs"
+msgstr "Icon URL"
+
+#: shortcodes/page-builders/all-setting-fields.php:876
+msgid ""
+"Provide meta value, static and hover icon urls seaprated with pipe sign. Eg: "
+"house|some_image.png|some_image_hover.png"
+msgstr ""
+"Stellen Sie Meta-Wert-, statische und Hover-Icon-URLs bereit, die mit dem "
+"Pipe-Zeichen verknüpft sind. ZB: Haus | some_image.png | some_image_hover.png"
+
+#: shortcodes/page-builders/all-setting-fields.php:882
+msgid "My Location Icon Url"
+msgstr "Mein Standort Icon URL"
+
+#: shortcodes/page-builders/all-setting-fields.php:883
+msgid "Provide icon url for my location pin"
+msgstr "Geben Sie die Symbol-URL für mein Standort-PIN ein"
+
+#: shortcodes/page-builders/all-setting-fields.php:889
+msgid "Circle Icon Url"
+msgstr "Kreis Icon URL"
+
+#: shortcodes/page-builders/all-setting-fields.php:890
+msgid "Provide icon url for multiple properties. Size 55x55"
+msgstr "Stellen Sie die Symbol-URL für mehrere Objekte bereit. Größe 55x55"
+
+#: shortcodes/page-builders/all-setting-fields.php:900
+msgid "Agent IDs"
+msgstr "Makler IDs"
+
+#: shortcodes/page-builders/all-setting-fields.php:901
+msgid "Comma-separated ids of the agents for a specific listing"
+msgstr "Kommagetrennte IDs der Agenten für eine bestimmte Auflistung"
+
+#: shortcodes/page-builders/all-setting-fields.php:907
+msgid "Number of columns in a row"
+msgstr "Spaltenzahl in der Reihe"
+
+#: shortcodes/page-builders/all-setting-fields.php:930
+msgid "Choose option to sort agents by"
+msgstr "Wählen Sie eine Option zur Sortierung von Anbieter nach"
+
+#: shortcodes/page-builders/all-setting-fields.php:934
+msgid "Nice Name"
+msgstr "Spitzname"
+
+#: shortcodes/page-builders/all-setting-fields.php:935
+msgid "Email Address"
+msgstr "E-Mailadresse"
+
+#: shortcodes/page-builders/all-setting-fields.php:936
+msgid "URL"
+msgstr "URL"
+
+#: shortcodes/page-builders/all-setting-fields.php:937
+msgid "Registered"
+msgstr "Registriert"
+
+#: shortcodes/page-builders/all-setting-fields.php:938
+msgid "Display Name"
+msgstr "Anzeigename"
+
+#: shortcodes/page-builders/all-setting-fields.php:939
+msgid "Properties Count"
+msgstr "Anzahl der Immobilien"
+
+#: shortcodes/page-builders/all-setting-fields.php:940
+msgid "IDs Provided Above"
+msgstr "Zuvor bereitgestellte IDs"
+
+#: shortcodes/page-builders/all-setting-fields.php:941
+msgid "Meta Value"
+msgstr "Meta Wert"
+
+#: shortcodes/page-builders/all-setting-fields.php:947
+msgid "Custom Meta Key"
+msgstr "Angepasster Meta Schlüssel"
+
+#: shortcodes/page-builders/all-setting-fields.php:948
+msgid "Provide field name here for specific agent listing."
+msgstr "Geben Sie hier den Feldnamen für eine bestimmte Anbieterliste ein."
+
+#: shortcodes/page-builders/all-setting-fields.php:953
+msgid "Custom Meta Value"
+msgstr "Angepasster Meta Wert"
+
+#: shortcodes/page-builders/all-setting-fields.php:954
+msgid "Provide field value here for specific agent listing."
+msgstr "Geben Sie hier den Feldwert für eine bestimmte Anbieterliste ein."
+
+#: shortcodes/page-builders/all-setting-fields.php:959
+msgid "Total Agents"
+msgstr "Total Anbieter"
+
+#: shortcodes/page-builders/all-setting-fields.php:960
+msgid "Number of agents to display."
+msgstr "Anzahl der anzuzeigenden Anbieter."
+
+#: shortcodes/page-builders/all-setting-fields.php:966
+msgid "Justified Layout"
+msgstr "Berechtigtes Layout"
+
+#: shortcodes/page-builders/all-setting-fields.php:968
+msgid "enable"
+msgstr "aktivieren"
+
+#: shortcodes/page-builders/all-setting-fields.php:969
+msgid "disable"
+msgstr "deaktivieren"
+
+#: shortcodes/page-builders/divi-settings.php:48
+#: shortcodes/page-builders/vc-settings.php:60
+msgid "List Properties"
+msgstr "Immobilien auflisten"
+
+#: shortcodes/page-builders/divi-settings.php:86
+msgid "Edit Agent Form"
+msgstr "Anbieterprofil bearbeiten"
+
+#: shortcodes/page-builders/divi-settings.php:105
+msgid "Login Agent Form"
+msgstr "Anmeldeformular Anbieter"
+
+#: shortcodes/page-builders/divi-settings.php:124
+msgid "Create Property Form"
+msgstr "Immobilienanmeldeformular erstellen"
+
+#: shortcodes/page-builders/divi-settings.php:143
+#: shortcodes/page-builders/vc-settings.php:36
+msgid "List Agents"
+msgstr "Anbieter-Liste"
+
+#: shortcodes/page-builders/divi-settings.php:182
+#: shortcodes/page-builders/vc-settings.php:52
+msgid "Single Property"
+msgstr "Objekt"
+
+#: shortcodes/page-builders/divi-settings.php:220
+#: shortcodes/page-builders/vc-settings.php:76
+msgid "Agent Profile"
+msgstr "Anbieter Profil"
+
+#: shortcodes/page-builders/divi-settings.php:239
+#: shortcodes/page-builders/vc-settings.php:84
+msgid "My Profile"
+msgstr "Mein Profil"
+
+#: shortcodes/page-builders/divi-settings.php:258
+#: shortcodes/page-builders/vc-settings.php:92
+msgid "Search Results"
+msgstr "Suchergebnisse"
+
+#: shortcodes/page-builders/divi-settings.php:276
+msgid "Large Map"
+msgstr "Große Karte"
+
+#: shortcodes/page-builders/divi-settings.php:295
+msgid "Search Property Form"
+msgstr "Immobiliensuchformular"
+
+#: shortcodes/page-builders/divi-settings.php:324
+msgid "Properties Slider"
+msgstr "Immobilien Diashow"
+
+#: shortcodes/page-builders/divi-settings.php:343
+msgid "Simple Search Properties"
+msgstr "Einfache Immobiliensuche"
+
+#: shortcodes/page-builders/divi-settings.php:361
+#: shortcodes/page-builders/vc-settings.php:140
+msgid "Manage Properties"
+msgstr "Immobilien verwalten"
+
+#: shortcodes/page-builders/divi-settings.php:379
+#: shortcodes/page-builders/vc-settings.php:132
+msgid "Logout Button"
+msgstr "Abmelde-Knopf"
+
+#: shortcodes/page-builders/vc-settings.php:8
+msgid "Renders a form to register new agent"
+msgstr "Rendert ein Formular, um einen neuen Agenten zu registrieren"
+
+#: shortcodes/page-builders/vc-settings.php:12
+msgid "Edit Agent Profile"
+msgstr "Anbieterprofil bearbeiten"
+
+#: shortcodes/page-builders/vc-settings.php:16
+msgid "Renders a form to edit logged in agent's profile"
+msgstr ""
+"Rendert ein Formular, um das Profil des angemeldeten Agenten zu bearbeiten"
+
+#: shortcodes/page-builders/vc-settings.php:24
+msgid "Renders an AJAX based login form"
+msgstr "Rendert ein AJAX-basiertes Anmeldeformular"
+
+#: shortcodes/page-builders/vc-settings.php:32
+msgid "Renders a form to create property"
+msgstr "Rendert ein Formular zum Erstellen einer Eigenschaft"
+
+#: shortcodes/page-builders/vc-settings.php:40
+msgid "Displays list of agents"
+msgstr "Anbieterliste anzeigen"
+
+#: shortcodes/page-builders/vc-settings.php:48
+msgid "Renders a form to edit property"
+msgstr "Rendert ein Formular zum Bearbeiten der Eigenschaft"
+
+#: shortcodes/page-builders/vc-settings.php:56
+msgid "Display a single property"
+msgstr "Einzelobjekt anzeigen"
+
+#: shortcodes/page-builders/vc-settings.php:64
+msgid "Displays properties according to the settings"
+msgstr "Zeigt Eigenschaften gemäß den Einstellungen an"
+
+#: shortcodes/page-builders/vc-settings.php:72
+msgid "Displays properties of current logged in agent"
+msgstr "Zeigt Eigenschaften des aktuell angemeldeten Anbieter an"
+
+#: shortcodes/page-builders/vc-settings.php:80
+msgid "Displays profile of specific agent"
+msgstr "Zeigt das Profil eines bestimmten Anbieters an"
+
+#: shortcodes/page-builders/vc-settings.php:88
+msgid "Displays profile of logged in agent"
+msgstr "Zeigt das Profil des angemeldeten Anbieters"
+
+#: shortcodes/page-builders/vc-settings.php:96
+msgid "Displays search results if searched from widget"
+msgstr "Zeigt Suchergebnisse an, wenn sie vom Widget aus gesucht werden"
+
+#: shortcodes/page-builders/vc-settings.php:100
+msgid "Properties Map"
+msgstr "Immobilien auf Karte"
+
+#: shortcodes/page-builders/vc-settings.php:104
+msgid "Displays properties on a large map"
+msgstr "Zeigt Eigenschaften auf einer großen Karte an"
+
+#: shortcodes/page-builders/vc-settings.php:112
+msgid "Renders a form to search properties via AJAX"
+msgstr "Rendert ein Formular, um Eigenschaften über AJAX zu durchsuchen"
+
+#: shortcodes/page-builders/vc-settings.php:116
+msgid "Carousel Slider"
+msgstr "Karussell-Slider"
+
+#: shortcodes/page-builders/vc-settings.php:120
+msgid "Renders responsive carousel of properties"
+msgstr "Rendert reagierendes Karussell von Eigenschaften"
+
+#: shortcodes/page-builders/vc-settings.php:124
+msgid "Inline Search Field"
+msgstr "Inline-Suchfeld"
+
+#: shortcodes/page-builders/vc-settings.php:128
+msgid "Renders simple search form"
+msgstr "Zeigt eine einfaches Suchformular"
+
+#: shortcodes/page-builders/vc-settings.php:136
+msgid "Displays a logout button"
+msgstr "Zeigt einen Knopf zum Ausloggen"
+
+#: shortcodes/page-builders/vc-settings.php:144
+msgid "Manage all properties (for admins)"
+msgstr "Alle Immobilien verwalten (für Administratoren)"
+
+#: shortcodes/register-agent.php:54
+msgid "Sign up"
+msgstr "Anmelden"
+
+#: templates/agent/style2.php:40
+msgid "More Info"
+msgstr "Weitere Informationen"
+
+#: templates/compare-box.php:31
+msgid "Close Compare Panel"
+msgstr ""
+
+#: templates/compare-box.php:32
+msgid "Open Compare Panel"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Real Estate Manager Pro"
+msgstr "Immobilienmanager Pro"
+
+#. Plugin URI of the plugin/theme
+msgid "https://webcodingplace.com/real-estate-manager-wordpress-plugin/"
+msgstr "https://webcodingplace.com/real-estate-manager-wordpress-plugin/"
+
+#. Description of the plugin/theme
+msgid "A complete solution for real estate management"
+msgstr "Eine Komplettlösung für das Immobilienmanagement"
+
+#. Author of the plugin/theme
+msgid "WebCodingPlace"
+msgstr "WebCodingPlace"
+
+#. Author URI of the plugin/theme
+msgid "https://webcodingplace.com/"
+msgstr "https://webcodingplace.com/"
+
+#~ msgid "Inline Property Bar Fields"
+#~ msgstr "Inline-Immobilienleiste Felder"
+
+#~ msgid "Custom Listing Features"
+#~ msgstr "Benutzerdefinierte Listungsfunktionen"
+
+#~ msgid ""
+#~ "Provide link target for results of search form. _blank to open in new tab"
+#~ msgstr ""
+#~ "Geben Sie ein Linkziel für die Ergebnisse des Suchformulars an. _blank, "
+#~ "um in einem neuen Tab zu öffnen"
+
+#~ msgid "If 404 Page is displaying"
+#~ msgstr "Wenn 404 Seite angezeigt wird"
+
+#~ msgid "Go to Settings -> Permalinks and click Save Changes button"
+#~ msgstr ""
+#~ "Gehen Sie zu Einstellungen -> Permalinks und klicken Sie auf Änderungen "
+#~ "speichern"
+
+#~ msgid "If Maps not displaying"
+#~ msgstr "Wenn Karten nicht angezeigt werden"
+
+#~ msgid ""
+#~ "Create a Google Maps API using google and paste it in Maps API field."
+#~ msgstr ""
+#~ "Erstellen Sie eine Google Maps-API mit Google und fügen Sie sie in das "
+#~ "Google Maps-API-Feld ein."
+
+#~ msgid "Change Property Page Design"
+#~ msgstr "Ãndern Sie das Design der Objektseite"
+
+#~ msgid "Copy the following file and paste it into your theme's root"
+#~ msgstr ""
+#~ "Kopiere die folgende Datei und füge sie in das Wurzelverzeichnis deines "
+#~ "Themes ein"
+
+#~ msgid "Now change its name to"
+#~ msgstr "Ãndern Sie nun den Namen"
+
+#~ msgid "Then change Property Page Template option to From Theme"
+#~ msgstr "Ãndern Sie dann Immobilien Seite Template-Option zu vom Theme"
+
+#~ msgid "Now you can make changes in this template file."
+#~ msgstr "Jetzt können Sie Ãnderungen an dieser Vorlagendatei vornehmen."
+
+#~ msgid "Need Help? Any Suggestions?"
+#~ msgstr "Brauche Hilfe? Irgendwelche Vorschläge?"
+
+#~ msgid "Please contact us"
+#~ msgstr "Bitte nehmen Sie Kontakt mit uns auf"
+
+#~ msgid "HERE"
+#~ msgstr "HIER"
+
+#~ msgid "for assistance."
+#~ msgstr "für Hilfe."
+
+#~ msgid "Background color for bottom buttons"
+#~ msgstr "Hintergrundfarbe für die unteren Schaltflächen"
+
+#~ msgid "Text color for bottom buttons"
+#~ msgstr "Textfarbe für die unteren Schaltflächen"
+
+#~ msgid "Background color for bottom buttons on hover"
+#~ msgstr "Hintergrundfarbe für die unteren Schaltflächen bei Hover"
+
+#~ msgid "Text color for bottom buttons on hover"
+#~ msgstr "Textfarbe für die unteren Schaltfächen bei Hover"
+
+#~ msgid "Buttons Background Color - Active"
+#~ msgstr "Schaltflächen Hintergrundfarbe - Aktiv"
+
+#~ msgid "Background color for bottom buttons on active"
+#~ msgstr "Hintergrundfarbe für die unteren Schaltflächen aktiv"
